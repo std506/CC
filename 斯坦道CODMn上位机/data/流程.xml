@@ -1,0 +1,2228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <Flow>
+    <name>试剂填充</name>
+    <id>172</id>
+    <flowId>1</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="8404992" dac="0" adc="4" time="2000">纯水</step>
+    <step port="81920" dac="0" adc="4" time="1500">试剂1</step>
+    <step port="147456" dac="2" adc="8" time="1500">试剂2</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="2000">纯水</step>
+    <step port="278528" dac="0" adc="4" time="1500">试剂3</step>
+    <step port="540672" dac="2" adc="8" time="1500">试剂4</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="2000">纯水</step>
+    <step port="1064960" dac="0" adc="4" time="1500">试剂5</step>
+    <step port="2113536" dac="2" adc="8" time="1500">试剂6</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="3500">纯水</step>
+    <step port="4210688" dac="0" adc="4" time="1500">试剂7</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="5000">纯水</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="5000">纯水</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+  </Flow>
+  <Flow>
+    <name>试剂填充</name>
+    <id>172</id>
+    <flowId>1</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="8404992" dac="0" adc="4" time="2000">纯水</step>
+    <step port="81920" dac="0" adc="4" time="1500">试剂1</step>
+    <step port="147456" dac="2" adc="8" time="1500">试剂2</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="2000">纯水</step>
+    <step port="278528" dac="0" adc="4" time="1500">试剂3</step>
+    <step port="540672" dac="2" adc="8" time="1500">试剂4</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="2000">纯水</step>
+    <step port="1064960" dac="0" adc="4" time="1500">试剂5</step>
+    <step port="2113536" dac="2" adc="8" time="1500">试剂6</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="3500">纯水</step>
+    <step port="4210688" dac="0" adc="4" time="1500">试剂7</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="5000">纯水</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="5000">纯水</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>1</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="8404992" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="8404992" dac="0" adc="0" time="2000">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>2</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="4210688" dac="0" adc="0" time="2000">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>0</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="1064960" dac="0" adc="0" time="2000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="2000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="1064960" dac="0" adc="0" time="2000">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>2</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="4210688" dac="0" adc="0" time="2000">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>3</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8405004" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="8405004" dac="0" adc="0" time="2000">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>0</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="1064960" dac="0" adc="0" time="2000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="2000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="1064960" dac="0" adc="0" time="200">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="4210688" dac="0" adc="0" time="1800">进纯水</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>1</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="8404992" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="8404992" dac="0" adc="0" time="200">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="4210688" dac="0" adc="0" time="1800">进纯水</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>3</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="300">排试剂</step>
+    <step port="8405004" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="8405004" dac="0" adc="0" time="200">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="4210688" dac="0" adc="0" time="1800">进纯水</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>4</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404996" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404996" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404996" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="8404996" dac="0" adc="0" time="2000">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>氨氮</name>
+    <id>92</id>
+    <flowId>4</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="81920" dac="0" adc="0" time="160">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="160">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="160">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="480">排试剂</step>
+    <step port="8404996" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404996" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404996" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排水样</step>
+    <step port="0" dac="1" adc="1" time="12">读取空白值</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进空气</step>
+    <step port="16809984" dac="0" adc="0" time="4000">排空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="81920" dac="0" adc="0" time="250">进NA</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="147456" dac="0" adc="0" time="250">进NB</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="278528" dac="0" adc="0" time="50">进NC</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="8404996" dac="0" adc="0" time="200">进水样</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="4210688" dac="0" adc="0" time="1800">进纯水</step>
+    <step port="16777216" dac="0" adc="0" time="5">停顿</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合1</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合2</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合3</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合4</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合5</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合6</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合7</step>
+    <step port="16793600" dac="0" adc="0" time="1800">混合8</step>
+    <step port="16809984" dac="0" adc="0" time="1800">混合9</step>
+    <step port="16793600" dac="0" adc="0" time="2200">混合10</step>
+    <step port="16777217" dac="0" adc="0" time="1">开恒温</step>
+    <step port="0" dac="0" adc="0" time="600">显色</step>
+    <step port="16777218" dac="0" adc="0" time="5">关恒温</step>
+    <step port="16809984" dac="0" adc="0" time="2950">排出</step>
+    <step port="0" dac="1" adc="1" time="12">读取比色值</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗1</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗2</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="4210688" dac="0" adc="0" time="3000">清洗3</step>
+    <step port="16809984" dac="0" adc="0" time="3000">排液</step>
+    <step port="2113536" dac="0" adc="0" time="300">进空气</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="98304" dac="0" adc="0" time="50">排A</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="163840" dac="0" adc="0" time="50">排B</step>
+    <step port="16777216" dac="0" adc="0" time="1">停顿</step>
+    <step port="294912" dac="0" adc="0" time="50">排C</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>2</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入</step>
+    <step port="67125248" dac="0" adc="0" time="4000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="4100">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2300">注出</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2800">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>2</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="67125248" dac="0" adc="0" time="1200">注入水样</step>
+    <step port="8404992" dac="0" adc="0" time="1200">注入纯水稀释2倍</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2400">注入</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2900">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="67125248" dac="0" adc="0" time="2000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="2000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>3</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入</step>
+    <step port="67125248" dac="0" adc="0" time="4000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="4100">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2300">注出</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2800">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>4</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入</step>
+    <step port="67125248" dac="0" adc="0" time="4000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="4100">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2300">注出</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2800">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>0</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入</step>
+    <step port="67125248" dac="0" adc="0" time="4000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="4100">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2300">注出</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2800">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>管路清洗</name>
+    <id>108</id>
+    <flowId>1</flowId>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="8404992" dac="0" adc="4" time="5000">进纯水</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="3000">进纯水</step>
+    <step port="134250496" dac="2" adc="8" time="3000">排液</step>
+    <step port="67125248" dac="0" adc="4" time="5000">抽空还原管</step>
+    <step port="134250496" dac="2" adc="8" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="3000">进纯水</step>
+    <step port="67141632" dac="2" adc="8" time="3000">注入还原管</step>
+    <step port="67125248" dac="0" adc="4" time="3000">抽出</step>
+    <step port="134250496" dac="2" adc="8" time="3000">排液</step>
+    <step port="8404992" dac="0" adc="4" time="3000">进纯水</step>
+    <step port="67141632" dac="2" adc="8" time="3000">注入还原管</step>
+    <step port="67125248" dac="0" adc="4" time="3000">抽出</step>
+    <step port="134250496" dac="2" adc="8" time="3000">排液</step>
+    <step port="1350893568" dac="0" adc="0" time="2">开阀</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排液</step>
+    <step port="8404992" dac="0" adc="0" time="3000">进纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3000">注入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="3000">排液</step>
+    <step port="8404992" dac="0" adc="0" time="3000">进纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3000">注入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="3000">排液</step>
+    <step port="8404992" dac="0" adc="0" time="3000">进纯水</step>
+    <step port="67141632" dac="0" adc="0" time="3000">注入还原管</step>
+    <step port="8404992" dac="0" adc="0" time="3000">进纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3000">注入消解管</step>
+    <step port="-1576402944" dac="0" adc="0" time="2">关阀</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>1</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入</step>
+    <step port="67125248" dac="0" adc="0" time="4000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="4100">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2300">注出</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2800">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>4</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="2113536" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="2113536" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="67125248" dac="0" adc="0" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排液</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="10">回推</step>
+    <step port="33587200" dac="0" adc="0" time="50">回推</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="2113536" dac="0" adc="0" time="1100">进水样</step>
+    <step port="8404992" dac="0" adc="0" time="1100">进纯水稀释2倍</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">加热消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">等待</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>1</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="67125248" dac="0" adc="0" time="480">注入水样</step>
+    <step port="8404992" dac="0" adc="0" time="1920">注入纯水稀释2倍</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2400">注入</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2900">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="67125248" dac="0" adc="0" time="2000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="2000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>3</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="67125248" dac="0" adc="0" time="480">注入水样</step>
+    <step port="8404992" dac="0" adc="0" time="1920">注入纯水稀释2倍</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2400">注入</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2900">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="67125248" dac="0" adc="0" time="2000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="2000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>4</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="67125248" dac="0" adc="0" time="480">注入水样</step>
+    <step port="8404992" dac="0" adc="0" time="1920">注入纯水稀释2倍</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2400">注入</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2900">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="67125248" dac="0" adc="0" time="2000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="2000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总磷</name>
+    <id>131</id>
+    <flowId>0</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="301989888" dac="0" adc="0" time="2">开电磁阀1</step>
+    <step port="1207959552" dac="0" adc="0" time="2">等待</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3500">将纯水样抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3500">排出纯水</step>
+    <step port="33570816" dac="0" adc="0" time="5000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="5000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3500">注入纯水</step>
+    <step port="33587200" dac="0" adc="0" time="3500">清洗消解管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关阀</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="67125248" dac="0" adc="0" time="480">注入水样</step>
+    <step port="8404992" dac="0" adc="0" time="1920">注入纯水稀释2倍</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="33554432" dac="2" adc="1" time="15">读空白</step>
+    <step port="67108864" dac="0" adc="0" time="1">等待</step>
+    <step port="134234112" dac="0" adc="0" time="2400">注入</step>
+    <step port="540672" dac="0" adc="0" time="200">进试剂</step>
+    <step port="1064960" dac="0" adc="0" time="100">注入PB</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2000">混合</step>
+    <step port="134250496" dac="0" adc="0" time="2000">混合</step>
+    <step port="134234112" dac="0" adc="0" time="2200">混合</step>
+    <step port="134250496" dac="2" adc="0" time="2900">排至比色池</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="8388608" dac="0" adc="0" time="120">等待</step>
+    <step port="33554432" dac="2" adc="1" time="15">读数</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排纯水</step>
+    <step port="67125248" dac="0" adc="0" time="2000">注入水样</step>
+    <step port="134250496" dac="0" adc="0" time="2000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="8404992" dac="0" adc="0" time="3000">注入</step>
+    <step port="134250496" dac="0" adc="0" time="3000">注出</step>
+    <step port="67125248" dac="0" adc="0" time="100">注入</step>
+    <step port="557056" dac="0" adc="0" time="50">注出</step>
+    <step port="1081344" dac="0" adc="0" time="50">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="50">注入</step>
+    <step port="134250496" dac="0" adc="0" time="2550">注出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">注入纯水</step>
+    <step port="278528" dac="0" adc="0" time="100">注入清洗液</step>
+    <step port="67141632" dac="0" adc="0" time="2300">清洗TN比色皿</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>1</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="16793600" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="16793600" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="67125248" dac="0" adc="0" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排液</step>
+    <step port="16793600" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="16793600" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推B</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="16793600" dac="0" adc="0" time="2200">进水样</step>
+    <step port="8388608" dac="0" adc="0" time="2">等待</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">加热消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">等待</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>1</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="16793600" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="16793600" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="67125248" dac="0" adc="0" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排液</step>
+    <step port="16793600" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="16793600" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推B</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="16793600" dac="0" adc="0" time="1100">进水样</step>
+    <step port="8404992" dac="0" adc="0" time="1100">进纯水稀释2倍</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">加热消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">等待</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>0</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="8404992" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="67125248" dac="8" adc="8" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="8" adc="8" time="2500">排液</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推B</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="4210688" dac="0" adc="0" time="2200">进水样</step>
+    <step port="8388608" dac="0" adc="0" time="2">等待</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">加热消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">等待</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>0</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="8404992" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="67125248" dac="8" adc="8" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="8" adc="8" time="2500">排液</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="4210688" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="4210688" dac="0" adc="0" time="2200">进水样</step>
+    <step port="8388608" dac="0" adc="0" time="2">等待</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">加热消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">等待</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>2</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="67108864" dac="0" adc="0" time="1">初始化</step>
+    <step port="8404992" dac="0" adc="0" time="5000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排出</step>
+    <step port="67125248" dac="8" adc="8" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="8" adc="8" time="2500">排液</step>
+    <step port="8404992" dac="0" adc="0" time="4000">润洗</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="4000">润洗2</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推B</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="8404992" dac="0" adc="0" time="2200">进水样</step>
+    <step port="8388608" dac="0" adc="0" time="2">等待</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">进纯水</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">进纯水</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">结束</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>2</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="67108864" dac="0" adc="0" time="1">初始化</step>
+    <step port="8404992" dac="0" adc="0" time="5000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="5000">进纯水</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排出</step>
+    <step port="67125248" dac="8" adc="8" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="8" adc="8" time="2500">排液</step>
+    <step port="8404992" dac="0" adc="0" time="4000">润洗</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="4000">润洗2</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="8404992" dac="0" adc="0" time="1100">进水样</step>
+    <step port="8404992" dac="0" adc="0" time="1100">进纯水稀释2倍</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">进纯水</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">进纯水</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">结束</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>3</flowId>
+    <rangeSelect>1</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="16793612" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="16793612" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="67125248" dac="0" adc="0" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排液</step>
+    <step port="16793612" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="16793612" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推B</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="16793612" dac="0" adc="0" time="1100">进水样</step>
+    <step port="8404992" dac="0" adc="0" time="1100">进纯水稀释2倍</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">加热消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">等待</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>3</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="16793612" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="16793612" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="67125248" dac="0" adc="0" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排液</step>
+    <step port="16793612" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="16793612" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="16793612" dac="0" adc="0" time="2200">进水样</step>
+    <step port="8388608" dac="0" adc="0" time="2">等待</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">加热消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">等待</step>
+  </Flow>
+  <Flow>
+    <name>总氮</name>
+    <id>76</id>
+    <flowId>4</flowId>
+    <rangeSelect>0</rangeSelect>
+    <a>0</a>
+    <b>1</b>
+    <c>0</c>
+    <step port="2113536" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="2113536" dac="0" adc="0" time="5000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排水样</step>
+    <step port="67125248" dac="0" adc="0" time="4000">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">纯水清洗比色皿1</step>
+    <step port="67141632" dac="0" adc="0" time="2000">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2000">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿2</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2500">纯水清洗比色皿3</step>
+    <step port="67141632" dac="0" adc="0" time="2500">注入</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽出</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2200">纯水进比色皿</step>
+    <step port="67141632" dac="0" adc="0" time="2200">注入</step>
+    <step port="67108864" dac="8" adc="8" time="3">读空白</step>
+    <step port="67125248" dac="0" adc="0" time="2500">抽空比色皿</step>
+    <step port="134250496" dac="0" adc="0" time="2500">排液</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="2113536" dac="0" adc="0" time="4000">进水样</step>
+    <step port="134250496" dac="0" adc="0" time="4000">排水样</step>
+    <step port="67108864" dac="0" adc="0" time="3">等待</step>
+    <step port="402980864" dac="0" adc="0" time="3">开电磁阀1</step>
+    <step port="1208287232" dac="0" adc="0" time="3">开电磁阀2</step>
+    <step port="134225920" dac="0" adc="0" time="3">复位</step>
+    <step port="33570816" dac="0" adc="0" time="5000">抽空消解管</step>
+    <step port="134250496" dac="0" adc="0" time="5000">排空</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管1</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管2</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="3500">进纯水清洗消解管3</step>
+    <step port="33587200" dac="0" adc="0" time="3500">排入消解管</step>
+    <step port="33570816" dac="0" adc="0" time="3800">抽回</step>
+    <step port="134250496" dac="0" adc="0" time="3800">排水样</step>
+    <step port="81920" dac="0" adc="0" time="20">加碱</step>
+    <step port="134250496" dac="0" adc="0" time="20">排出</step>
+    <step port="81920" dac="0" adc="0" time="50">加碱</step>
+    <step port="147456" dac="0" adc="0" time="300">加消解液</step>
+    <step port="33587200" dac="0" adc="0" time="350">排入消解池</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="98304" dac="0" adc="0" time="10">回推A</step>
+    <step port="163840" dac="0" adc="0" time="50">回推B</step>
+    <step port="33587200" dac="0" adc="0" time="940">排空管</step>
+    <step port="2113536" dac="0" adc="0" time="2200">进水样</step>
+    <step port="8388608" dac="0" adc="0" time="2">等待</step>
+    <step port="33587200" dac="0" adc="0" time="2200">排水样</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="8404992" dac="0" adc="0" time="2000">清洗</step>
+    <step port="134250496" dac="0" adc="0" time="2000">排出</step>
+    <step port="67125248" dac="0" adc="0" time="1000">进空气</step>
+    <step port="33587200" dac="0" adc="0" time="1000">排空管</step>
+    <step port="-1542848512" dac="0" adc="0" time="1">关闭电磁阀</step>
+    <step port="67108864" dac="4" adc="4" time="2100">加热消解</step>
+    <step port="0" dac="0" adc="2" time="400">降温</step>
+    <step port="335872000" dac="0" adc="0" time="3">开阀</step>
+    <step port="1140850688" dac="0" adc="0" time="3">开阀</step>
+    <step port="278528" dac="0" adc="0" time="50">加酸</step>
+    <step port="33570816" dac="0" adc="0" time="4000">进消解水样</step>
+    <step port="67108864" dac="0" adc="0" time="10">等待</step>
+    <step port="33587200" dac="0" adc="0" time="4050">混合</step>
+    <step port="33570816" dac="0" adc="0" time="4050">混合</step>
+    <step port="67141632" dac="0" adc="0" time="4050">进比色皿</step>
+    <step port="67108864" dac="0" adc="0" time="2">等待</step>
+    <step port="67108864" dac="8" adc="8" time="3">读数</step>
+    <step port="-1543503872" dac="0" adc="0" time="3">等待</step>
+  </Flow>
+</Project>
