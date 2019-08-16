@@ -85,7 +85,6 @@
 			<Item Name="database1查询.vi" Type="VI" URL="../通用VI/database1查询.vi"/>
 			<Item Name="非空数组的时间戳写入 (子VI).vi" Type="VI" URL="../子VI/非空数组的时间戳写入 (子VI).vi"/>
 			<Item Name="小时数组插时间戳和空值.vi" Type="VI" URL="../子VI/小时数组插时间戳和空值.vi"/>
-			<Item Name="数据表比对1表格对比.vi" Type="VI" URL="../VIs/数据表比对1表格对比.vi"/>
 			<Item Name="数据处理整合 (子VI).vi" Type="VI" URL="../子VI/数据处理整合 (子VI).vi"/>
 			<Item Name="数据编码整合输出.vi" Type="VI" URL="../子VI/数据编码整合输出.vi"/>
 			<Item Name="实时数据时间戳 (子VI).vi" Type="VI" URL="../子VI/实时数据时间戳 (子VI).vi"/>
@@ -105,7 +104,6 @@
 			<Item Name="发送数据记录到文档(子VI).vi" Type="VI" URL="../子VI/发送数据记录到文档(子VI).vi"/>
 			<Item Name="短日期时间转长日期格式.vi" Type="VI" URL="../VIs/短日期时间转长日期格式.vi"/>
 			<Item Name="读取数据处理 (子VI).vi" Type="VI" URL="../子VI/读取数据处理 (子VI).vi"/>
-			<Item Name="从数据库获取实时数据(子VI).vi" Type="VI" URL="../子VI/从数据库获取实时数据(子VI).vi"/>
 			<Item Name="加标回收数据处理整合 (子VI).vi" Type="VI" URL="../子VI/加标回收数据处理整合 (子VI).vi"/>
 			<Item Name="数据处理直接插入整合 (子VI).vi" Type="VI" URL="../子VI/数据处理直接插入整合 (子VI).vi"/>
 			<Item Name="获取环境参数 (子VI).vi" Type="VI" URL="../子VI/获取环境参数 (子VI).vi"/>
@@ -522,7 +520,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">236</Property>
+				<Property Name="Bld_version.build" Type="Int">238</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据发送系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统/平台数据发送系统.exe</Property>
@@ -659,7 +657,7 @@
 				<Property Name="Source[40].itemID" Type="Ref">/我的电脑/最新子程序/小时数组插时间戳和空值.vi</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/我的电脑/最新子程序/数据表比对1表格对比.vi</Property>
+				<Property Name="Source[41].itemID" Type="Ref"></Property>
 				<Property Name="Source[41].type" Type="Str">VI</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[42].itemID" Type="Ref">/我的电脑/全局变量/起始时间.vi</Property>
