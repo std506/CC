@@ -59,12 +59,6 @@
 			<Item Name="全局 环境参数.vi" Type="VI" URL="../全局/全局 环境参数.vi"/>
 			<Item Name="全局1.vi" Type="VI" URL="../全局/全局1.vi"/>
 			<Item Name="全局 时间2.vi" Type="VI" URL="../全局/全局 时间2.vi"/>
-			<Item Name="全局 table.vi" Type="VI" URL="../全局/全局 table.vi"/>
-			<Item Name="全局 氨氮.vi" Type="VI" URL="../全局/全局 氨氮.vi"/>
-			<Item Name="全局 CODMn.vi" Type="VI" URL="../全局/全局 CODMn.vi"/>
-			<Item Name="全局 多参数.vi" Type="VI" URL="../全局/全局 多参数.vi"/>
-			<Item Name="全局 总磷.vi" Type="VI" URL="../全局/全局 总磷.vi"/>
-			<Item Name="全局 总氮.vi" Type="VI" URL="../全局/全局 总氮.vi"/>
 			<Item Name="全局 反控命令枚举.vi" Type="VI" URL="../全局/全局 反控命令枚举.vi"/>
 			<Item Name="全局 实时数据参数.vi" Type="VI" URL="../全局/全局 实时数据参数.vi"/>
 			<Item Name="全局 数据数组大小.vi" Type="VI" URL="../全局/全局 数据数组大小.vi"/>
@@ -76,14 +70,15 @@
 			<Item Name="全局流量数据小时.vi" Type="VI" URL="../全局/全局流量数据小时.vi"/>
 			<Item Name="全局 提取仪器参数.vi" Type="VI" URL="../全局/全局 提取仪器参数.vi"/>
 			<Item Name="断电保存全局.vi" Type="VI" URL="../全局/断电保存全局.vi"/>
+			<Item Name="全局 所有参数.vi" Type="VI" URL="../全局/全局 所有参数.vi"/>
 		</Item>
 		<Item Name="日期字符串至时间格式转化" Type="Folder">
 			<Item Name="格式时间字符串.vi" Type="VI" URL="../VIs/格式时间字符串.vi"/>
 			<Item Name="日期时间字符串转换分钟数加一.vi" Type="VI" URL="../通用VI/日期时间字符串转换分钟数加一.vi"/>
+			<Item Name="日期字符串格式至时间格式转换(子VI).vi" Type="VI" URL="../通用VI/日期字符串格式至时间格式转换(子VI).vi"/>
 		</Item>
 		<Item Name="最新子程序" Type="Folder">
 			<Item Name="database1查询.vi" Type="VI" URL="../通用VI/database1查询.vi"/>
-			<Item Name="非空数组的时间戳写入 (子VI).vi" Type="VI" URL="../子VI/非空数组的时间戳写入 (子VI).vi"/>
 			<Item Name="小时数组插时间戳和空值.vi" Type="VI" URL="../子VI/小时数组插时间戳和空值.vi"/>
 			<Item Name="数据处理整合 (子VI).vi" Type="VI" URL="../子VI/数据处理整合 (子VI).vi"/>
 			<Item Name="数据编码整合输出.vi" Type="VI" URL="../子VI/数据编码整合输出.vi"/>
@@ -91,14 +86,11 @@
 			<Item Name="核查数据编码整合输出.vi" Type="VI" URL="../子VI/核查数据编码整合输出.vi"/>
 			<Item Name="数据写入临时表格.vi" Type="VI" URL="../子VI/数据写入临时表格.vi"/>
 			<Item Name="每个元素都写入临时表格 (子VI).vi" Type="VI" URL="../子VI/每个元素都写入临时表格 (子VI).vi"/>
-			<Item Name="读取临时表格数据.vi" Type="VI" URL="../子VI/读取临时表格数据.vi"/>
-			<Item Name="操作日志列队.vi" Type="VI" URL="../子VI/操作日志列队.vi"/>
 			<Item Name="日志信息主动发送(子VI).vi" Type="VI" URL="../子VI/日志信息主动发送(子VI).vi"/>
 			<Item Name="日志报警参数选择 (子VI).vi" Type="VI" URL="../子VI/日志报警参数选择 (子VI).vi"/>
 			<Item Name="选择操作日志还是报警信息 (子VI).vi" Type="VI" URL="../子VI/选择操作日志还是报警信息 (子VI).vi"/>
 			<Item Name="提取日志报警参数入列队 (子VI).vi" Type="VI" URL="../子VI/提取日志报警参数入列队 (子VI).vi"/>
 			<Item Name="实时数据查询用2小时间的数据.vi" Type="VI" URL="../子VI/实时数据查询用2小时间的数据.vi"/>
-			<Item Name="获取小时数据(子VI).vi" Type="VI" URL="../子VI/获取小时数据(子VI).vi"/>
 			<Item Name="当前时间格式显示 (子VI).vi" Type="VI" URL="../子VI/当前时间格式显示 (子VI).vi"/>
 			<Item Name="数组时间戳格式化(子VI).vi" Type="VI" URL="../VIs/数组时间戳格式化(子VI).vi"/>
 			<Item Name="发送数据记录到文档(子VI).vi" Type="VI" URL="../子VI/发送数据记录到文档(子VI).vi"/>
@@ -108,17 +100,20 @@
 			<Item Name="数据处理直接插入整合 (子VI).vi" Type="VI" URL="../子VI/数据处理直接插入整合 (子VI).vi"/>
 			<Item Name="获取环境参数 (子VI).vi" Type="VI" URL="../子VI/获取环境参数 (子VI).vi"/>
 			<Item Name="质控数据起始时间戳查询.vi" Type="VI" URL="../子VI/质控数据起始时间戳查询.vi"/>
+			<Item Name="数组插入组合.vi" Type="VI" URL="../子VI/数组插入组合.vi"/>
+			<Item Name="插值后的新数组.vi" Type="VI" URL="../子VI/插值后的新数组.vi"/>
+			<Item Name="获取报警信息 (子VI).vi" Type="VI" URL="../子VI/获取报警信息 (子VI).vi"/>
+			<Item Name="获取操作日志 (子VI).vi" Type="VI" URL="../子VI/获取操作日志 (子VI).vi"/>
+			<Item Name="实时数据参数入列队.vi" Type="VI" URL="../子VI/实时数据参数入列队.vi"/>
 		</Item>
 		<Item Name="subvi" Type="Folder">
 			<Item Name="CRC16.vi" Type="VI" URL="../VIs/CRC16.vi"/>
-			<Item Name="命令记录.vi" Type="VI" URL="../VIs/命令记录.vi"/>
 			<Item Name="污染物CP编码.vi" Type="VI" URL="../VIs/污染物CP编码.vi"/>
 			<Item Name="ANSI CRC16.vi" Type="VI" URL="../VIs/ANSI CRC16.vi"/>
 			<Item Name="数值字符串转十六进制字符.vi" Type="VI" URL="../VIs/数值字符串转十六进制字符.vi"/>
 			<Item Name="字符转十六进制字符串.vi" Type="VI" URL="../VIs/字符转十六进制字符串.vi"/>
 			<Item Name="字符串精度转换.vi" Type="VI" URL="../VIs/字符串精度转换.vi"/>
 			<Item Name="规范小时时间戳.vi" Type="VI" URL="../VIs/规范小时时间戳.vi"/>
-			<Item Name="规范分钟时间戳.vi" Type="VI" URL="../VIs/规范分钟时间戳.vi"/>
 			<Item Name="数据记录.vi" Type="VI" URL="../VIs/数据记录.vi"/>
 			<Item Name="SQL查询.vi" Type="VI" URL="../VIs/SQL/SQL查询.vi"/>
 			<Item Name="规范时间戳.vi" Type="VI" URL="../VIs/规范时间戳.vi"/>
@@ -477,12 +472,6 @@
 				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
 				<Item Name="Read Panel from INI__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Panel from INI__ogtk.vi"/>
 			</Item>
-			<Item Name="数组插入组合.vi" Type="VI" URL="../子VI/数组插入组合.vi"/>
-			<Item Name="全局 所有参数.vi" Type="VI" URL="../全局/全局 所有参数.vi"/>
-			<Item Name="插值后的新数组.vi" Type="VI" URL="../子VI/插值后的新数组.vi"/>
-			<Item Name="日期字符串格式至时间格式转换(子VI).vi" Type="VI" URL="../通用VI/日期字符串格式至时间格式转换(子VI).vi"/>
-			<Item Name="获取报警信息 (子VI).vi" Type="VI" URL="../子VI/获取报警信息 (子VI).vi"/>
-			<Item Name="获取操作日志 (子VI).vi" Type="VI" URL="../子VI/获取操作日志 (子VI).vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -492,7 +481,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="实时数据参数入列队.vi" Type="VI" URL="../子VI/实时数据参数入列队.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -520,7 +508,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">238</Property>
+				<Property Name="Bld_version.build" Type="Int">242</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据发送系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统/平台数据发送系统.exe</Property>
@@ -580,7 +568,7 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/我的电脑/subvi/规范分钟时间戳.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref"></Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/subvi/数据记录.vi</Property>
@@ -596,19 +584,19 @@
 				<Property Name="Source[24].itemID" Type="Ref">/我的电脑/全局变量/全局1.vi</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/我的电脑/全局变量/全局 table.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref"></Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/我的电脑/全局变量/全局 氨氮.vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref"></Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[27].itemID" Type="Ref">/我的电脑/subvi/SQL查询.vi</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/我的电脑/全局变量/全局 CODMn.vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref"></Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/我的电脑/全局变量/全局 多参数.vi</Property>
+				<Property Name="Source[29].itemID" Type="Ref"></Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -617,10 +605,10 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/我的电脑/全局变量/全局 总磷.vi</Property>
+				<Property Name="Source[30].itemID" Type="Ref"></Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/我的电脑/全局变量/全局 总氮.vi</Property>
+				<Property Name="Source[31].itemID" Type="Ref"></Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[32].itemID" Type="Ref">/我的电脑/全局变量/全局 反控命令枚举.vi</Property>
@@ -645,7 +633,7 @@
 				<Property Name="Source[38].itemID" Type="Ref">/我的电脑/最新子程序/database1查询.vi</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/我的电脑/最新子程序/非空数组的时间戳写入 (子VI).vi</Property>
+				<Property Name="Source[39].itemID" Type="Ref"></Property>
 				<Property Name="Source[39].type" Type="Str">VI</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
@@ -700,10 +688,10 @@
 				<Property Name="Source[52].itemID" Type="Ref">/我的电脑/最新子程序/每个元素都写入临时表格 (子VI).vi</Property>
 				<Property Name="Source[52].type" Type="Str">VI</Property>
 				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[53].itemID" Type="Ref">/我的电脑/最新子程序/读取临时表格数据.vi</Property>
+				<Property Name="Source[53].itemID" Type="Ref"></Property>
 				<Property Name="Source[53].type" Type="Str">VI</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[54].itemID" Type="Ref">/我的电脑/最新子程序/操作日志列队.vi</Property>
+				<Property Name="Source[54].itemID" Type="Ref"></Property>
 				<Property Name="Source[54].type" Type="Str">VI</Property>
 				<Property Name="Source[55].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[55].itemID" Type="Ref">/我的电脑/最新子程序/日志信息主动发送(子VI).vi</Property>
@@ -733,7 +721,7 @@
 				<Property Name="Source[59].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[59].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/subvi/命令记录.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[60].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[60].itemID" Type="Ref">/我的电脑/全局变量/全局 数据发送重叠.vi</Property>
