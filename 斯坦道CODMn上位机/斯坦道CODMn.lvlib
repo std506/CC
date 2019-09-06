@@ -37,9 +37,10 @@
 		<Item Name="COD主界面（列队使用）.vi" Type="VI" URL="../COD主界面（列队使用）.vi"/>
 	</Item>
 	<Item Name="键盘" Type="Folder">
-		<Item Name="日期键盘.vi" Type="VI" URL="../日期键盘.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../数字键盘.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../字符键盘.vi"/>
+		<Item Name="数字密码键盘.vi" Type="VI" URL="../数字密码键盘.vi"/>
+		<Item Name="日期键盘.vi" Type="VI" URL="../vis数据查询/SQL/日期键盘.vi"/>
 	</Item>
 	<Item Name="周期设置" Type="Folder"/>
 	<Item Name="流程" Type="Folder"/>
@@ -82,7 +83,11 @@
 		<Item Name="CODMn断电保存全局变量.vi" Type="VI" URL="../CODMn断电保存全局变量.vi"/>
 	</Item>
 	<Item Name="vis数据查询" Type="Folder">
+		<Item Name="读取数据库.vi" Type="VI" URL="../vis数据查询/SQL/读取数据库.vi"/>
 		<Item Name="数据查询_仪器数据.vi" Type="VI" URL="../vis数据查询/数据查询_仪器数据.vi"/>
+		<Item Name="Format table.vi" Type="VI" URL="../vis数据查询/SQL/Format table.vi"/>
+		<Item Name="数据查询筛选.vi" Type="VI" URL="../vis数据查询/数据查询筛选.vi"/>
+		<Item Name="Removable devices detection v8.5.vi" Type="VI" URL="../vis数据查询/SQL/Removable devices detection v8.5.vi"/>
 	</Item>
 	<Item Name="24H周期设置.xctl" Type="XControl" URL="../24H周期设置/24H周期设置.xctl"/>
 	<Item Name="database.lvlib" Type="Library" URL="../vis数据查询/数据库/database.lvlib"/>
