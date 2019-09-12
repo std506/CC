@@ -20,7 +20,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="前面板" Type="Folder">
-			<Item Name="main（新）.vi" Type="VI" URL="../MAIN/main（新）.vi"/>
+			<Item Name="数据采集传输系统.vi" Type="VI" URL="../MAIN/数据采集传输系统.vi"/>
 		</Item>
 		<Item Name="212" Type="Folder">
 			<Item Name="数据编码.vi" Type="VI" URL="../VIs/数据编码.vi"/>
@@ -508,7 +508,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">248</Property>
+				<Property Name="Bld_version.build" Type="Int">249</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据发送系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统/平台数据发送系统.exe</Property>
@@ -660,7 +660,7 @@
 				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[44].type" Type="Str">Container</Property>
 				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/我的电脑/前面板/main（新）.vi</Property>
+				<Property Name="Source[45].itemID" Type="Ref">/我的电脑/前面板/数据采集传输系统.vi</Property>
 				<Property Name="Source[45].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[45].type" Type="Str">VI</Property>
 				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
