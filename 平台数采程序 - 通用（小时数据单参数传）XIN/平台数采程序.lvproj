@@ -129,6 +129,7 @@
 			<Item Name="读取-删除文件.vi" Type="VI" URL="../通用VI/读取-删除文件.vi"/>
 			<Item Name="时间日期字符串至时间标识转换.vi" Type="VI" URL="../通用VI/时间日期字符串至时间标识转换.vi"/>
 			<Item Name="流量数据规范小时时间戳.vi" Type="VI" URL="../VIs/流量数据规范小时时间戳.vi"/>
+			<Item Name="数据全参数一起发送整点触发.vi" Type="VI" URL="../通用VI/数据全参数一起发送整点触发.vi"/>
 		</Item>
 		<Item Name="控件" Type="Folder">
 			<Item Name="导出.ctl" Type="VI" URL="../控件/导出.ctl"/>
@@ -508,7 +509,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">259</Property>
+				<Property Name="Bld_version.build" Type="Int">264</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据发送系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统/平台数据发送系统.exe</Property>
