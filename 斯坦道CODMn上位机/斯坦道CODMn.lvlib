@@ -8,8 +8,8 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="COD主界面（列队使用）.vi" Type="VI" URL="../CODMn/COD主界面（列队使用）.vi"/>
 		<Item Name="CODMn启动命令 (子VI).vi" Type="VI" URL="../CODMn/CODMn启动命令 (子VI).vi"/>
-		<Item Name="CODMn手动控制框.vi" Type="VI" URL="../CODMn/CODMn手动控制框.vi"/>
 		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../CODMn/CODMn停止命令 (子VI).vi"/>
+		<Item Name="CODMn手动控制框.vi" Type="VI" URL="../CODMn/CODMn手动控制框.vi"/>
 		<Item Name="COD定时启动对话框.vi" Type="VI" URL="../CODMn/COD定时启动对话框.vi"/>
 		<Item Name="波形存储(子VI).vi" Type="VI" URL="../CODMn/波形存储(子VI).vi"/>
 		<Item Name="单步启动选择对话框.vi" Type="VI" URL="../CODMn/单步启动选择对话框.vi"/>
