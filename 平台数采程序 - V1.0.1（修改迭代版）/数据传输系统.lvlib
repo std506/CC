@@ -24,6 +24,7 @@
 		<Item Name="SQL查询.vi" Type="VI" URL="../VIs/SQL/SQL查询.vi"/>
 		<Item Name="tcp发送.vi" Type="VI" URL="../VIs/tcp发送.vi"/>
 		<Item Name="VISATCP组合选择发送.vi" Type="VI" URL="../VIs/VISATCP组合选择发送.vi"/>
+		<Item Name="VISATCP通信.vi" Type="VI" URL="../VIs/VISATCP通信.vi"/>
 		<Item Name="串口发送.vi" Type="VI" URL="../VIs/串口发送.vi"/>
 		<Item Name="规范时间戳.vi" Type="VI" URL="../VIs/规范时间戳.vi"/>
 		<Item Name="规范小时时间戳.vi" Type="VI" URL="../VIs/规范小时时间戳.vi"/>
@@ -36,6 +37,7 @@
 		<Item Name="读取数据解析(子VI).vi" Type="VI" URL="../VIs/读取数据解析(子VI).vi"/>
 		<Item Name="主动上传工控机周期和模式 (子VI).vi" Type="VI" URL="../VIs/主动上传工控机周期和模式 (子VI).vi"/>
 		<Item Name="核查数据和日志信息入发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息入发送队列 (子VI).vi"/>
+		<Item Name="核查数据和日志信息出发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息出发送队列 (子VI).vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
@@ -47,6 +49,7 @@
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="断电保存全局.vi" Type="VI" URL="../全局/断电保存全局.vi"/>
+		<Item Name="全局1.vi" Type="VI" URL="../全局/全局1.vi"/>
 		<Item Name="起始时间.vi" Type="VI" URL="../VIs/起始时间.vi"/>
 		<Item Name="全局 反控命令枚举.vi" Type="VI" URL="../全局/全局 反控命令枚举.vi"/>
 		<Item Name="全局 环境参数.vi" Type="VI" URL="../全局/全局 环境参数.vi"/>
@@ -58,7 +61,6 @@
 		<Item Name="全局 所有参数.vi" Type="VI" URL="../全局/全局 所有参数.vi"/>
 		<Item Name="全局 提取仪器参数.vi" Type="VI" URL="../全局/全局 提取仪器参数.vi"/>
 		<Item Name="全局 小时数据发送次数.vi" Type="VI" URL="../全局/全局 小时数据发送次数.vi"/>
-		<Item Name="全局1.vi" Type="VI" URL="../全局/全局1.vi"/>
 		<Item Name="全局流量数据小时.vi" Type="VI" URL="../全局/全局流量数据小时.vi"/>
 		<Item Name="实时数据发送间隔全局.vi" Type="VI" URL="../全局/实时数据发送间隔全局.vi"/>
 	</Item>
@@ -122,5 +124,6 @@
 		<Item Name="小时数组插时间戳和空值.vi" Type="VI" URL="../子VI/小时数组插时间戳和空值.vi"/>
 		<Item Name="选择操作日志还是报警信息 (子VI).vi" Type="VI" URL="../子VI/选择操作日志还是报警信息 (子VI).vi"/>
 		<Item Name="质控数据起始时间戳查询.vi" Type="VI" URL="../子VI/质控数据起始时间戳查询.vi"/>
+		<Item Name="主动发送数据生成Condition(子VI).vi" Type="VI" URL="../子VI/主动发送数据生成Condition(子VI).vi"/>
 	</Item>
 </Library>
