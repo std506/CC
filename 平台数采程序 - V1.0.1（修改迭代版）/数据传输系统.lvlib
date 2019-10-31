@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="MIAN" Type="Folder">
+		<Item Name="NEW数据采集传输系统.vi" Type="VI" URL="../MAIN/NEW数据采集传输系统.vi"/>
 		<Item Name="数据采集传输系统.vi" Type="VI" URL="../MAIN/数据采集传输系统.vi"/>
 	</Item>
 	<Item Name="212" Type="Folder">
@@ -38,6 +39,10 @@
 		<Item Name="主动上传工控机周期和模式 (子VI).vi" Type="VI" URL="../VIs/主动上传工控机周期和模式 (子VI).vi"/>
 		<Item Name="核查数据和日志信息入发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息入发送队列 (子VI).vi"/>
 		<Item Name="核查数据和日志信息出发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息出发送队列 (子VI).vi"/>
+		<Item Name="初始化水样搜索起始时间.vi" Type="VI" URL="../VIs/初始化水样搜索起始时间.vi"/>
+		<Item Name="实时小时数据单参数上传.vi" Type="VI" URL="../VIs/实时小时数据单参数上传.vi"/>
+		<Item Name="通信状态入队列.vi" Type="VI" URL="../VIs/通信状态入队列.vi"/>
+		<Item Name="数据主动发送.vi" Type="VI" URL="../VIs/数据主动发送.vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
