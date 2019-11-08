@@ -380,7 +380,7 @@
 			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="平台数据传输系统" Type="EXE">
+			<Item Name="NEW平台数据传输系统" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5BB07E28-35DE-4EC0-A155-698A924E9649}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{67F03C73-0607-4DC3-AC6C-6A1D7A9B0F7F}</Property>
@@ -388,27 +388,27 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{554E803A-644F-451C-B507-3C1927D92F2A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">平台数据传输系统</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">NEW平台数据传输系统</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">267</Property>
+				<Property Name="Bld_version.build" Type="Int">270</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/平台数据传输系统.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{96D6CF2E-90AB-4B37-9A3E-6282F38D6CA2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6480A24C-6666-4434-B49F-BAAA7FED3DFD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/串口发送.vi</Property>
@@ -510,7 +510,6 @@
 				<Property Name="Source[34].type" Type="Str">Container</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[35].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/数据采集传输系统.vi</Property>
-				<Property Name="Source[35].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[36].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/最新子程序/数据处理整合 (子VI).vi</Property>
@@ -605,6 +604,10 @@
 				<Property Name="Source[54].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/注册表</Property>
 				<Property Name="Source[54].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[54].type" Type="Str">Container</Property>
+				<Property Name="Source[55].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[55].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/NEW数据采集传输系统.vi</Property>
+				<Property Name="Source[55].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[55].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/污染物CP编码.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
@@ -620,11 +623,11 @@
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/data</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">55</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">平台数据传输系统</Property>
-				<Property Name="TgtF_internalName" Type="Str">平台数据传输系统</Property>
+				<Property Name="SourceCount" Type="Int">56</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">NEW平台数据传输系统</Property>
+				<Property Name="TgtF_internalName" Type="Str">NEW平台数据传输系统</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2018 </Property>
-				<Property Name="TgtF_productName" Type="Str">平台数据传输系统</Property>
+				<Property Name="TgtF_productName" Type="Str">NEW平台数据传输系统</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{77776A7E-4B54-4525-8DE5-832DEEFE0FC6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">平台数据传输系统.exe</Property>
 			</Item>
