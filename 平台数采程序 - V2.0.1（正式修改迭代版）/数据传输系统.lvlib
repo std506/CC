@@ -7,7 +7,6 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="MIAN" Type="Folder">
 		<Item Name="NEW数据采集传输系统.vi" Type="VI" URL="../MAIN/NEW数据采集传输系统.vi"/>
-		<Item Name="数据采集传输系统.vi" Type="VI" URL="../MAIN/数据采集传输系统.vi"/>
 	</Item>
 	<Item Name="212" Type="Folder">
 		<Item Name="HJ212-2005.vi" Type="VI" URL="../VIs/HJ212-2005.vi"/>
@@ -74,6 +73,7 @@
 		<Item Name="格式时间字符串.vi" Type="VI" URL="../VIs/格式时间字符串.vi"/>
 		<Item Name="日期时间字符串转换分钟数加一.vi" Type="VI" URL="../通用VI/日期时间字符串转换分钟数加一.vi"/>
 		<Item Name="日期字符串格式至时间格式转换(子VI).vi" Type="VI" URL="../通用VI/日期字符串格式至时间格式转换(子VI).vi"/>
+		<Item Name="短日期时间转长日期格式.vi" Type="VI" URL="../VIs/短日期时间转长日期格式.vi"/>
 	</Item>
 	<Item Name="数据比对处理" Type="Folder">
 		<Item Name="插入单条数据.vi" Type="VI" URL="../VIs/插入单条数据.vi"/>
@@ -105,16 +105,13 @@
 	<Item Name="最新子程序" Type="Folder">
 		<Item Name="database1查询.vi" Type="VI" URL="../通用VI/database1查询.vi"/>
 		<Item Name="插值后的新数组.vi" Type="VI" URL="../子VI/插值后的新数组.vi"/>
-		<Item Name="当前时间格式显示 (子VI).vi" Type="VI" URL="../子VI/当前时间格式显示 (子VI).vi"/>
 		<Item Name="读取数据处理 (子VI).vi" Type="VI" URL="../子VI/读取数据处理 (子VI).vi"/>
-		<Item Name="短日期时间转长日期格式.vi" Type="VI" URL="../VIs/短日期时间转长日期格式.vi"/>
 		<Item Name="发送数据记录到文档(子VI).vi" Type="VI" URL="../子VI/发送数据记录到文档(子VI).vi"/>
 		<Item Name="核查数据编码整合输出.vi" Type="VI" URL="../子VI/核查数据编码整合输出.vi"/>
 		<Item Name="获取报警信息 (子VI).vi" Type="VI" URL="../子VI/获取报警信息 (子VI).vi"/>
 		<Item Name="获取操作日志 (子VI).vi" Type="VI" URL="../子VI/获取操作日志 (子VI).vi"/>
 		<Item Name="获取环境参数 (子VI).vi" Type="VI" URL="../子VI/获取环境参数 (子VI).vi"/>
 		<Item Name="加标回收数据处理整合 (子VI).vi" Type="VI" URL="../子VI/加标回收数据处理整合 (子VI).vi"/>
-		<Item Name="每个元素都写入临时表格 (子VI).vi" Type="VI" URL="../子VI/每个元素都写入临时表格 (子VI).vi"/>
 		<Item Name="日志报警参数选择 (子VI).vi" Type="VI" URL="../子VI/日志报警参数选择 (子VI).vi"/>
 		<Item Name="日志信息主动发送(子VI).vi" Type="VI" URL="../子VI/日志信息主动发送(子VI).vi"/>
 		<Item Name="实时数据参数入列队.vi" Type="VI" URL="../子VI/实时数据参数入列队.vi"/>
@@ -123,11 +120,9 @@
 		<Item Name="数据编码整合输出.vi" Type="VI" URL="../子VI/数据编码整合输出.vi"/>
 		<Item Name="数据处理整合 (子VI).vi" Type="VI" URL="../子VI/数据处理整合 (子VI).vi"/>
 		<Item Name="数据处理直接插入整合 (子VI).vi" Type="VI" URL="../子VI/数据处理直接插入整合 (子VI).vi"/>
-		<Item Name="数据写入临时表格.vi" Type="VI" URL="../子VI/数据写入临时表格.vi"/>
 		<Item Name="数组插入组合.vi" Type="VI" URL="../子VI/数组插入组合.vi"/>
 		<Item Name="数组时间戳格式化(子VI).vi" Type="VI" URL="../VIs/数组时间戳格式化(子VI).vi"/>
 		<Item Name="提取日志报警参数入列队 (子VI).vi" Type="VI" URL="../子VI/提取日志报警参数入列队 (子VI).vi"/>
-		<Item Name="小时数组插时间戳和空值.vi" Type="VI" URL="../子VI/小时数组插时间戳和空值.vi"/>
 		<Item Name="选择操作日志还是报警信息 (子VI).vi" Type="VI" URL="../子VI/选择操作日志还是报警信息 (子VI).vi"/>
 		<Item Name="质控数据起始时间戳查询.vi" Type="VI" URL="../子VI/质控数据起始时间戳查询.vi"/>
 		<Item Name="主动发送数据生成Condition(子VI).vi" Type="VI" URL="../子VI/主动发送数据生成Condition(子VI).vi"/>
