@@ -72,6 +72,7 @@
 	<Item Name="日期字符串至时间格式转化" Type="Folder">
 		<Item Name="格式时间字符串.vi" Type="VI" URL="../VIs/格式时间字符串.vi"/>
 		<Item Name="日期时间字符串转换分钟数加一.vi" Type="VI" URL="../通用VI/日期时间字符串转换分钟数加一.vi"/>
+		<Item Name="日期时间字符串转换秒数加一.vi" Type="VI" URL="../通用VI/日期时间字符串转换秒数加一.vi"/>
 		<Item Name="日期字符串格式至时间格式转换(子VI).vi" Type="VI" URL="../通用VI/日期字符串格式至时间格式转换(子VI).vi"/>
 		<Item Name="短日期时间转长日期格式.vi" Type="VI" URL="../VIs/短日期时间转长日期格式.vi"/>
 	</Item>
