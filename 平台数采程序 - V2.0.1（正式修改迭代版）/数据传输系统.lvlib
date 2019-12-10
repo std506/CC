@@ -27,6 +27,7 @@
 		<Item Name="VISATCP通信.vi" Type="VI" URL="../VIs/VISATCP通信.vi"/>
 		<Item Name="串口发送.vi" Type="VI" URL="../VIs/串口发送.vi"/>
 		<Item Name="规范时间戳.vi" Type="VI" URL="../VIs/规范时间戳.vi"/>
+		<Item Name="规范分钟数据时间戳.vi" Type="VI" URL="../VIs/规范分钟数据时间戳.vi"/>
 		<Item Name="规范小时时间戳.vi" Type="VI" URL="../VIs/规范小时时间戳.vi"/>
 		<Item Name="数据记录.vi" Type="VI" URL="../VIs/数据记录.vi"/>
 		<Item Name="数值字符串转十六进制字符.vi" Type="VI" URL="../VIs/数值字符串转十六进制字符.vi"/>
