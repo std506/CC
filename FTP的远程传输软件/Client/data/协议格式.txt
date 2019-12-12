@@ -1,0 +1,16 @@
+tcp协议格式：
+主：##QN=1；GO=1;CP=&&address=192.168.16.237,username=cc,password=std23506,filename=一体化微型水质监测站.exe,localpath=C:\Users\Administrator\Desktop\ftp接收文件\一体化微型水质监测站.exe&&\r\n
+从：##QN=1；OVER=1;CP=&&ExeRtn=1&&\r\n
+
+
+心跳包格式：
+主：##QN=1；GO=0;CP=&&&&\r\n
+从：##QN=1；OVER=0;CP=&&ExeRtn=1&&\r\n
+
+
+
+
+
+
+\r\n
+回车换行符
