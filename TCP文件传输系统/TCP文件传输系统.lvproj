@@ -11,20 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="main" Type="Folder">
-			<Item Name="主UI.vi" Type="VI" URL="../main/主UI.vi"/>
-		</Item>
-		<Item Name="全局变量" Type="Folder">
-			<Item Name="全局变量1.vi" Type="VI" URL="../全局变量/全局变量1.vi"/>
-		</Item>
-		<Item Name="TCP发送文件" Type="Folder">
-			<Item Name="TCP发送文件.lvlib" Type="Library" URL="../TCP发送文件/TCP发送文件.lvlib"/>
-			<Item Name="TCP发送文件.lvproj" Type="Document" URL="../TCP发送文件/TCP发送文件.lvproj"/>
-		</Item>
-		<Item Name="TCP接收文件" Type="Folder">
-			<Item Name="TCP接收文件.lvlib" Type="Library" URL="../TCP接收文件/TCP接收文件.lvlib"/>
-			<Item Name="tcp接收文件.lvproj" Type="Document" URL="../TCP接收文件/tcp接收文件.lvproj"/>
-		</Item>
+		<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../TCP文件传输系统.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
