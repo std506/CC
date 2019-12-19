@@ -7,6 +7,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="MIAN" Type="Folder">
 		<Item Name="NEW数据采集传输系统.vi" Type="VI" URL="../MAIN/NEW数据采集传输系统.vi"/>
+		<Item Name="更新程序.vi" Type="VI" URL="../MAIN/更新程序.vi"/>
 	</Item>
 	<Item Name="212" Type="Folder">
 		<Item Name="HJ212-2005.vi" Type="VI" URL="../VIs/HJ212-2005.vi"/>
