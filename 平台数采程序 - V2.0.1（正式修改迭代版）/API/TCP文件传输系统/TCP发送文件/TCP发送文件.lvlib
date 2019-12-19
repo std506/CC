@@ -9,6 +9,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="main" Type="Folder">
 		<Item Name="tcp发送-main.vi" Type="VI" URL="../main/tcp发送-main.vi"/>
+		<Item Name="tcp_服务器_发送.vi" Type="VI" URL="../main/tcp_服务器_发送.vi"/>
 	</Item>
 	<Item Name="CRC" Type="Folder">
 		<Item Name="CRC校验1.vi" Type="VI" URL="../CRC/CRC校验1.vi"/>

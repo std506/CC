@@ -9,6 +9,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="main" Type="Folder">
 		<Item Name="TCP单点接收.main.vi" Type="VI" URL="../main/TCP单点接收.main.vi"/>
+		<Item Name="tcp_客户端_接收.vi" Type="VI" URL="../main/tcp_客户端_接收.vi"/>
 	</Item>
 	<Item Name="control" Type="Folder">
 		<Item Name="状态检测.ctl" Type="VI" URL="../control/状态检测.ctl"/>
