@@ -20,6 +20,7 @@
 		<Item Name="浮点DCBA转换.vi" Type="VI" URL="../Modbus Master/浮点DCBA转换.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
+		<Item Name="自定义单按钮对话框.vi" Type="VI" URL="../VIs/自定义单按钮对话框.vi"/>
 		<Item Name="ANSI CRC16.vi" Type="VI" URL="../VIs/ANSI CRC16.vi"/>
 		<Item Name="CRC16.vi" Type="VI" URL="../VIs/CRC16.vi"/>
 		<Item Name="SQL查询.vi" Type="VI" URL="../VIs/SQL/SQL查询.vi"/>
@@ -99,6 +100,7 @@
 		<Item Name="实时小时数据处理整合 (子VI).vi" Type="VI" URL="../子VI/实时小时数据处理整合 (子VI).vi"/>
 		<Item Name="数据补发判定有限循环.vi" Type="VI" URL="../通用VI/数据补发判定有限循环.vi"/>
 		<Item Name="数据全参数一起发送整点触发.vi" Type="VI" URL="../通用VI/数据全参数一起发送整点触发.vi"/>
+		<Item Name="更新log记录.vi" Type="VI" URL="../通用VI/更新log记录.vi"/>
 	</Item>
 	<Item Name="注册表" Type="Folder">
 		<Item Name="查询启动项.vi" Type="VI" URL="../注册表/查询启动项.vi"/>
