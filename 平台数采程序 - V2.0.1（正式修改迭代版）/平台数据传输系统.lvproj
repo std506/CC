@@ -416,7 +416,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">55</Property>
+				<Property Name="Bld_version.build" Type="Int">57</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/NI_AB_PROJECTNAME.exe</Property>
@@ -679,7 +679,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78C932CF-544F-4DE9-980C-A263430E8D9E}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">update.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update/update.exe</Property>
@@ -691,66 +691,12 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B5B6B665-2C15-4CED-AD0D-226991250076}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3388BA6B-E8D7-4DC6-B904-95927754CA94}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/更新程序.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/编解码插件</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/键盘</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">Container</Property>
-				<Property Name="Source[12].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/全局变量</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">Container</Property>
-				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/日期字符串至时间格式转化</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">Container</Property>
-				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/数据比对处理</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
-				<Property Name="Source[15].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/数据库处理</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
-				<Property Name="Source[16].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[16].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/通用配置</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">Container</Property>
-				<Property Name="Source[17].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[17].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/注册表</Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[18].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/最新子程序</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -760,44 +706,19 @@
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/update</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/数据库</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/数据库</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/TCP文件传输系统</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/TCP文件传输系统</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/NEW数据采集传输系统.vi</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/212</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/Modbus Master</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">19</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/NEW数据采集传输系统.vi</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">update</Property>
 				<Property Name="TgtF_internalName" Type="Str">update</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
