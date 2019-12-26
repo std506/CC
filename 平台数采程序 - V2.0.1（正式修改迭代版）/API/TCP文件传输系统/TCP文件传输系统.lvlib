@@ -32,6 +32,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="main" Type="Folder">
 		<Item Name="test.vi" Type="VI" URL="../main/test.vi"/>
+		<Item Name="txttest.vi" Type="VI" URL="../main/txttest.vi"/>
 		<Item Name="主UI.vi" Type="VI" URL="../main/主UI.vi"/>
 	</Item>
 	<Item Name="TCP发送文件" Type="Folder">

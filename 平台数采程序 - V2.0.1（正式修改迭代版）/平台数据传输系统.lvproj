@@ -38,9 +38,7 @@
 		<Item Name="data" Type="Folder" URL="../data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="update" Type="Folder" URL="../update">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="update" Type="Folder"/>
 		<Item Name="数据库" Type="Folder">
 			<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 			<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
@@ -169,7 +167,6 @@
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
@@ -378,7 +375,6 @@
 				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
 				<Item Name="Read Panel from INI__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Panel from INI__ogtk.vi"/>
-				<Item Name="自定义单按钮对话框.vi" Type="VI" URL="/&lt;userlib&gt;/自定义单按钮对话框.vi"/>
 			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -417,7 +413,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
@@ -681,7 +677,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78C932CF-544F-4DE9-980C-A263430E8D9E}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">update.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update/update.exe</Property>
@@ -743,7 +739,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/sendtest</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C757668D-52E9-44A9-A83D-075A3172F1DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">sendtest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/sendtest/sendtest.exe</Property>
@@ -848,6 +844,130 @@
 				<Property Name="TgtF_productName" Type="Str">sendtest</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{72F5A35E-5EF2-43DA-B93D-AD1B80D8A303}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">sendtest.exe</Property>
+			</Item>
+			<Item Name="txtsend" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0A93982D-B939-4A0D-B758-FFBB8A326F2F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{39725A12-4554-4079-B02A-7C7CD96E8798}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C2749326-2DDB-4E8D-B9C3-DC62E26D2551}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">txtsend</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/txtsend</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F885AB99-B259-48A8-82D6-91BE44944AAA}</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">txtsend.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/txtsend/txtsend.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/txtsend/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{3CFDA3A2-436C-4651-A731-8BF6251F7364}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{90B54829-C9FE-48BD-AF42-AB59E9613B1F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{567CF497-D901-41E5-B088-CAB4DE6DB4DA}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{A9E84F6E-A3AF-4419-8066-7301C295D639}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{5422108D-D90C-4FFC-A08C-6264C1006B0F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{F4F84E94-4E07-439B-9954-7091187D0E81}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{D72117FC-53B4-414A-86D9-C7330931F236}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{CB5E7C4D-44DC-4F9A-AD12-CC800BC18F56}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{6C46D700-E791-43DF-8074-6EF135985AA2}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{88F8A427-F85A-4C5D-B8C7-359922B36F88}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{378C63C2-971A-4EB6-AB36-AE5E5A0751C5}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{FB1BF2F2-3E41-419E-AD9F-D129C63C8436}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{9E67CEB0-601B-4CF2-ABB9-7CC81024A883}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{E1BFF55C-7CE4-431E-801D-DE63E693FC3C}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{B1B48BFF-E458-415A-933F-69CDAEB1F2C0}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{DA84EC3E-A448-442D-B446-0356410F00C4}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{A35A6F58-05A2-411D-8755-F9D08491F77E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{91A30347-AB4F-4653-B545-DC380F7033FA}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{2393080C-4E58-4AE2-8FC6-07066EA9F450}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{58382965-BD2F-481B-9776-DC3EBBFFDC49}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{88909189-C962-42D6-971F-E6FD5B397A76}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{D082C1A6-F6B5-478C-A4A6-8FC0227D6E86}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{15C51521-30E4-421B-90AE-D3D08D4524F7}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{2BBF6CB0-EFB9-4721-B7C8-FC7FC8E9709B}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{02203A30-0A1D-4BB5-BA6C-14F5CEE03DD6}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{D0FF3379-8D24-4D57-8E43-B8FB454576D1}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{7F63E3D2-C233-4D5A-9C6B-44132763E41E}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{482E37CF-2A36-44D0-BBC9-14D2CF75707B}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{64F198F6-E12B-45D6-B71F-EB3976A8DF6B}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{8D279327-6F0F-4A61-8070-B822BA78B938}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{274E6FBD-7C74-41C8-9D19-0C6D949AE9B8}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">Txtsend</Property>
+				<Property Name="Exe_actXServerName" Type="Str">Txtsend</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
+				<Property Name="Source[0].itemID" Type="Str">{B5472CBB-D3C5-43FD-A2E8-FB75286ECE6D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/TCP发送文件/TCP发送文件.lvlib/main/tcp_服务器_发送.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/main/txttest.vi</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/TCP发送文件/TCP发送文件.lvlib/CRC</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/TCP发送文件/TCP发送文件.lvlib/other</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/TCP发送文件/TCP发送文件.lvlib/subvi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/全局变量</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/TCP接收文件</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/TCP发送文件/TCP发送文件.lvlib/main</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/main/主UI.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/main/test.vi</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">sendtest</Property>
+				<Property Name="TgtF_internalName" Type="Str">sendtest</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
+				<Property Name="TgtF_productName" Type="Str">sendtest</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F29BC89D-3E48-4CE4-AB70-113858B389FE}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">txtsend.exe</Property>
 			</Item>
 		</Item>
 	</Item>
