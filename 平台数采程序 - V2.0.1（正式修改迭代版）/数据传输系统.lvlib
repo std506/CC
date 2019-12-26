@@ -7,7 +7,11 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="MIAN" Type="Folder">
 		<Item Name="NEW数据采集传输系统.vi" Type="VI" URL="../MAIN/NEW数据采集传输系统.vi"/>
-		<Item Name="更新程序.vi" Type="VI" URL="../MAIN/更新程序.vi"/>
+	</Item>
+	<Item Name="自动升级程序" Type="Folder">
+		<Item Name="更新程序.vi" Type="VI" URL="../自动升级程序/更新程序.vi"/>
+		<Item Name="自动升级程序.vi" Type="VI" URL="../自动升级程序/自动升级程序.vi"/>
+		<Item Name="自动升级更新main.vi" Type="VI" URL="../自动升级程序/自动升级更新main.vi"/>
 	</Item>
 	<Item Name="212" Type="Folder">
 		<Item Name="HJ212-2005.vi" Type="VI" URL="../VIs/HJ212-2005.vi"/>
@@ -57,6 +61,7 @@
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="断电保存全局.vi" Type="VI" URL="../全局/断电保存全局.vi"/>
+		<Item Name="update全局.vi" Type="VI" URL="../全局/update全局.vi"/>
 		<Item Name="全局1.vi" Type="VI" URL="../全局/全局1.vi"/>
 		<Item Name="起始时间.vi" Type="VI" URL="../VIs/起始时间.vi"/>
 		<Item Name="全局 反控命令枚举.vi" Type="VI" URL="../全局/全局 反控命令枚举.vi"/>

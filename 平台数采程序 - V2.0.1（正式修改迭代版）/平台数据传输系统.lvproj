@@ -378,6 +378,7 @@
 				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
 				<Item Name="Read Panel from INI__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Panel from INI__ogtk.vi"/>
+				<Item Name="自定义单按钮对话框.vi" Type="VI" URL="/&lt;userlib&gt;/自定义单按钮对话框.vi"/>
 			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -397,7 +398,7 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="更新log记录.vi" Type="VI" URL="../MAIN/更新log记录.vi"/>
+			<Item Name="更新log记录.vi" Type="VI" URL="../自动升级程序/更新log记录.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="NEW平台数据传输系统" Type="EXE">
@@ -416,8 +417,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -431,7 +433,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88BE140E-EBFE-4458-9D5D-FE336E2D159E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5135DBBE-1F52-468F-9E60-37872CAC4A52}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/串口发送.vi</Property>
@@ -632,7 +634,7 @@
 				<Property Name="Source[53].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[53].type" Type="Str">Container</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[54].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/更新程序.vi</Property>
+				<Property Name="Source[54].itemID" Type="Ref"></Property>
 				<Property Name="Source[54].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[54].type" Type="Str">VI</Property>
 				<Property Name="Source[55].Container.applyInclusion" Type="Bool">true</Property>
@@ -679,7 +681,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78C932CF-544F-4DE9-980C-A263430E8D9E}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">update.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update/update.exe</Property>
@@ -691,32 +693,32 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3388BA6B-E8D7-4DC6-B904-95927754CA94}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5135DBBE-1F52-468F-9E60-37872CAC4A52}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/更新程序.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/控件</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/控件</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/数据库</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/数据库</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/TCP文件传输系统</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/TCP文件传输系统</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/NEW数据采集传输系统.vi</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/NEW数据采集传输系统.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/自动升级程序/更新程序.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">update</Property>
@@ -741,7 +743,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/sendtest</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C757668D-52E9-44A9-A83D-075A3172F1DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">sendtest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/sendtest/sendtest.exe</Property>
