@@ -172,6 +172,7 @@
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
@@ -413,7 +414,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
@@ -429,7 +430,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5135DBBE-1F52-468F-9E60-37872CAC4A52}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AEB2C113-5CBD-4E40-B5A8-B078A3479246}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/串口发送.vi</Property>
@@ -629,16 +630,12 @@
 				<Property Name="Source[53].itemID" Type="Ref">/我的电脑/TCP文件传输系统</Property>
 				<Property Name="Source[53].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[53].type" Type="Str">Container</Property>
+				<Property Name="Source[54].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[54].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[54].itemID" Type="Ref"></Property>
+				<Property Name="Source[54].itemID" Type="Ref">/我的电脑/update</Property>
 				<Property Name="Source[54].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[54].type" Type="Str">VI</Property>
-				<Property Name="Source[55].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[55].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[55].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[55].itemID" Type="Ref">/我的电脑/update</Property>
-				<Property Name="Source[55].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[55].type" Type="Str">Container</Property>
+				<Property Name="Source[54].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/污染物CP编码.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
@@ -654,7 +651,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/data</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">56</Property>
+				<Property Name="SourceCount" Type="Int">55</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">NEW平台数据传输系统</Property>
 				<Property Name="TgtF_internalName" Type="Str">NEW平台数据传输系统</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2018 </Property>
@@ -677,7 +674,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78C932CF-544F-4DE9-980C-A263430E8D9E}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">update.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update/update.exe</Property>
@@ -739,7 +736,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/sendtest</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C757668D-52E9-44A9-A83D-075A3172F1DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">sendtest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/sendtest/sendtest.exe</Property>
@@ -860,7 +857,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/txtsend</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F885AB99-B259-48A8-82D6-91BE44944AAA}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">txtsend.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/txtsend/txtsend.exe</Property>
