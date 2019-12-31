@@ -50,6 +50,7 @@
 		<Item Name="数据主动和反控发送.vi" Type="VI" URL="../VIs/数据主动和反控发送.vi"/>
 		<Item Name="读取反控数据解析(子VI).vi" Type="VI" URL="../VIs/读取反控数据解析(子VI).vi"/>
 		<Item Name="反控数据上传(子VI).vi" Type="VI" URL="../VIs/反控数据上传(子VI).vi"/>
+		<Item Name="字符串移位显示.vi" Type="VI" URL="../VIs/字符串移位显示.vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
