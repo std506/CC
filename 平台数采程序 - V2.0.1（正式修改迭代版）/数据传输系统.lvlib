@@ -9,9 +9,10 @@
 		<Item Name="NEW数据采集传输系统.vi" Type="VI" URL="../MAIN/NEW数据采集传输系统.vi"/>
 	</Item>
 	<Item Name="自动升级程序" Type="Folder">
-		<Item Name="更新程序.vi" Type="VI" URL="../自动升级程序/更新程序.vi"/>
-		<Item Name="自动升级程序.vi" Type="VI" URL="../自动升级程序/自动升级程序.vi"/>
 		<Item Name="自动升级更新main.vi" Type="VI" URL="../自动升级程序/自动升级更新main.vi"/>
+		<Item Name="自动升级程序.vi" Type="VI" URL="../自动升级程序/自动升级程序.vi"/>
+		<Item Name="更新程序.vi" Type="VI" URL="../自动升级程序/更新程序.vi"/>
+		<Item Name="更新update.vi" Type="VI" URL="../自动升级程序/更新update.vi"/>
 	</Item>
 	<Item Name="212" Type="Folder">
 		<Item Name="HJ212-2005.vi" Type="VI" URL="../VIs/HJ212-2005.vi"/>
