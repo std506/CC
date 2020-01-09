@@ -45,7 +45,6 @@
 		<Item Name="主动上传工控机周期和模式 (子VI).vi" Type="VI" URL="../VIs/主动上传工控机周期和模式 (子VI).vi"/>
 		<Item Name="核查数据和日志信息入发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息入发送队列 (子VI).vi"/>
 		<Item Name="核查数据和日志信息出发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息出发送队列 (子VI).vi"/>
-		<Item Name="初始化水样搜索起始时间.vi" Type="VI" URL="../VIs/初始化水样搜索起始时间.vi"/>
 		<Item Name="实时小时数据单参数上传.vi" Type="VI" URL="../VIs/实时小时数据单参数上传.vi"/>
 		<Item Name="通信状态入队列.vi" Type="VI" URL="../VIs/通信状态入队列.vi"/>
 		<Item Name="数据主动和反控发送.vi" Type="VI" URL="../VIs/数据主动和反控发送.vi"/>
@@ -115,6 +114,7 @@
 		<Item Name="添加启动项.vi" Type="VI" URL="../注册表/添加启动项.vi"/>
 	</Item>
 	<Item Name="最新子程序" Type="Folder">
+		<Item Name="数据索引起始时间填补空白.vi" Type="VI" URL="../子VI/数据索引起始时间填补空白.vi"/>
 		<Item Name="database1查询.vi" Type="VI" URL="../通用VI/database1查询.vi"/>
 		<Item Name="插值后的新数组.vi" Type="VI" URL="../子VI/插值后的新数组.vi"/>
 		<Item Name="读取数据处理 (子VI).vi" Type="VI" URL="../子VI/读取数据处理 (子VI).vi"/>
