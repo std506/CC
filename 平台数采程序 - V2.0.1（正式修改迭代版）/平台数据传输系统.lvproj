@@ -1093,6 +1093,96 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9CEEDEB7-ABDC-48CF-B32F-7C3F89731ADD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">updatesend.exe</Property>
 			</Item>
+			<Item Name="Server send" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{65B7B066-A50C-4064-97D9-D3518B2AB244}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6580A280-0005-4D3E-BF01-AA148D95826C}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E9AE9E94-46B3-4100-8A99-3831DA589A20}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Server send</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/Server send</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5E2C5121-344F-4B06-A696-A21581F87762}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Server send.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/Server send/Server send.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/Server send/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{74048D43-4750-4437-83C6-E757FD4DB6D7}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{4553EE6B-C9BA-41B6-8934-91E050072908}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{92FD2C34-BF1E-473E-89E7-739AACCF4D98}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{112F688A-9806-4ED2-9089-438A8A85071B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{88EB5583-4D95-4C26-8265-255FB9AF9169}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{DBE647A3-93CD-42A8-A39E-7C76EB74FD29}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{B18360C6-B4E8-4714-893E-70E70D0C6BF8}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{234057C8-D11F-40EF-99A7-9E690BFECFCD}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{B76075B9-D985-4573-A753-057509C644A0}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{5DFFB5B4-81D8-457B-A38B-A6579142F087}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{27FF14C6-B1EA-4E7B-B19B-277132C8FB18}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{61CC9613-1532-494E-8B93-98DA2F7BEDBE}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{FA76E4B5-D730-4761-9598-B0CDBF728A9B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{0D1C525D-1120-4266-9402-96A08C1ADF41}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{237E5205-14F1-4AE1-841D-A817E2215C9E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{8243133A-CF19-44EC-B3DB-E211BAB8E845}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{79FA3070-8F57-4816-B472-C8C8968AFBE2}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{94A2BCE0-BFA9-4A53-9184-991395F4A757}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{1CD19ABF-8D4E-47B4-8BD3-2F4317914739}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{95C59A0E-C713-4009-9AB7-3AF4BF389C1C}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{A6CF14B7-F056-45B3-BFD5-A2A7569F9896}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{7423079E-52CE-4039-9B63-1CB277DB2908}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{62F6373E-A5C6-4B34-A4C3-8CE2B5DD87EE}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{18D453B9-BC4D-4EA7-A0CF-D97173C91C27}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{6A507F48-A5EE-4500-A353-A739AB3F6CE8}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{54FB9444-96F5-45FB-B57D-DF62DFB4C503}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{7F99978D-207F-4D73-9288-3132B494AA7A}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{7BA5EAE3-A5CB-4039-8C76-46A2A6F4A835}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{EAAE3198-0B61-4859-8668-D085E774FC07}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{D438B42A-BB27-4C89-A073-2ED861BAA2D0}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{859439DA-CEBE-4AE5-ACD1-086E3FF49FFE}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">ServerSend</Property>
+				<Property Name="Exe_actXServerName" Type="Str">ServerSend</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/云同步.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{192F3CB7-F85F-4DEB-A6DC-2198B77931DC}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/main/Server send.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/TCP文件传输系统/TCP文件传输系统.lvlib/TCP发送文件/TCP发送文件.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/data</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Server send</Property>
+				<Property Name="TgtF_internalName" Type="Str">Server send</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2020 </Property>
+				<Property Name="TgtF_productName" Type="Str">Server send</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1AA37B28-D4FD-44DF-804A-1E79597232C3}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Server send.exe</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>

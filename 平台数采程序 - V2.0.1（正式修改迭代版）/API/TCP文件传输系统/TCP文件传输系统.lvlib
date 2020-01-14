@@ -31,6 +31,7 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="main" Type="Folder">
+		<Item Name="Server send.vi" Type="VI" URL="../main/Server send.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../main/test.vi"/>
 		<Item Name="txttest.vi" Type="VI" URL="../main/txttest.vi"/>
 		<Item Name="updatetest.vi" Type="VI" URL="../main/updatetest.vi"/>
