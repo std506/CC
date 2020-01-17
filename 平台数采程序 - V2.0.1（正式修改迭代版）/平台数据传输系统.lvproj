@@ -45,10 +45,8 @@
 			<Item Name="数采仪日志报警存储(子VI).vi" Type="VI" URL="../数据库/数采仪日志报警存储(子VI).vi"/>
 			<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>
 		</Item>
-		<Item Name="TCP文件传输系统" Type="Folder">
-			<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../API/TCP文件传输系统/TCP文件传输系统.lvlib"/>
-		</Item>
 		<Item Name="数据传输系统.lvlib" Type="Library" URL="../数据传输系统.lvlib"/>
+		<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -167,12 +165,13 @@
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
 				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
@@ -395,7 +394,6 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="更新log记录.vi" Type="VI" URL="../自动升级程序/更新log记录.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="NEW平台数据传输系统" Type="EXE">
@@ -414,7 +412,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
@@ -627,7 +625,7 @@
 				<Property Name="Source[53].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[53].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[53].itemID" Type="Ref">/我的电脑/TCP文件传输系统</Property>
+				<Property Name="Source[53].itemID" Type="Ref"></Property>
 				<Property Name="Source[53].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[53].type" Type="Str">Container</Property>
 				<Property Name="Source[54].Container.applyInclusion" Type="Bool">true</Property>
@@ -674,7 +672,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78C932CF-544F-4DE9-980C-A263430E8D9E}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">update.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/update/update.exe</Property>
@@ -686,7 +684,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5135DBBE-1F52-468F-9E60-37872CAC4A52}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D7C3854B-E4F7-4C06-8696-8298FC60DBD5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -700,19 +698,18 @@
 				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/数据库</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/TCP文件传输系统</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/NEW数据采集传输系统.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/MIAN/NEW数据采集传输系统.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/自动更新.lvlib/自动升级程序/update/更新程序.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/自动升级程序/更新程序.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/自动更新.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">update</Property>
 				<Property Name="TgtF_internalName" Type="Str">update</Property>
