@@ -20,6 +20,7 @@
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="自定义单按钮对话框.vi" Type="VI" URL="../VIs/自定义单按钮对话框.vi"/>
+		<Item Name="自定义双按钮对话框.vi" Type="VI" URL="../VIs/自定义双按钮对话框.vi"/>
 		<Item Name="ANSI CRC16.vi" Type="VI" URL="../VIs/ANSI CRC16.vi"/>
 		<Item Name="CRC16.vi" Type="VI" URL="../VIs/CRC16.vi"/>
 		<Item Name="SQL查询.vi" Type="VI" URL="../VIs/SQL/SQL查询.vi"/>
