@@ -1,14 +1,6 @@
 [项目窗口数据(_D)]
 ProjectExplorer.ClassicPosition[String] = "37,13,975,475"
 
-[AB_Cache_{E9AE9E94-46B3-4100-8A99-3831DA589A20}]
-Cache_Path[Path] Line0001 = "/C/Users/TinkPad/AppData/Local/Temp/AB_Cache_{E9AE"
-Cache_Path[Path] Line0002 = "9E94-46B3-4100-8A99-3831DA589A20}.txt"
-
-[AB_Cache_{5E2C5121-344F-4B06-A696-A21581F87762}]
-Cache_Path[Path] Line0001 = "/C/Users/TinkPad/AppData/Local/Temp/AB_Cache_{5E2C"
-Cache_Path[Path] Line0002 = "5121-344F-4B06-A696-A21581F87762}.txt"
-
 [AB_Cache_{9B8B66CD-B2F7-460A-807D-459840145F7D}]
 Cache_Path[Path] Line0001 = "/C/Users/TinkPad/AppData/Local/Temp/AB_Cache_{9B8B"
 Cache_Path[Path] Line0002 = "66CD-B2F7-460A-807D-459840145F7D}.txt"
@@ -24,4 +16,12 @@ Cache_Path[Path] Line0002 = "803A-644F-451C-B507-3C1927D92F2A}.txt"
 [AB_Cache_{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}]
 Cache_Path[Path] Line0001 = "/C/Users/TinkPad/AppData/Local/Temp/AB_Cache_{4C92"
 Cache_Path[Path] Line0002 = "43C6-0260-471A-8EBF-FE076EB7B2F3}.txt"
+
+[AB_Cache_{E9AE9E94-46B3-4100-8A99-3831DA589A20}]
+Cache_Path[Path] Line0001 = "/C/Users/TinkPad/AppData/Local/Temp/AB_Cache_{E9AE"
+Cache_Path[Path] Line0002 = "9E94-46B3-4100-8A99-3831DA589A20}.txt"
+
+[AB_Cache_{5E2C5121-344F-4B06-A696-A21581F87762}]
+Cache_Path[Path] Line0001 = "/C/Users/TinkPad/AppData/Local/Temp/AB_Cache_{5E2C"
+Cache_Path[Path] Line0002 = "5121-344F-4B06-A696-A21581F87762}.txt"
 

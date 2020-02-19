@@ -29,26 +29,6 @@
 			<Item Name="main" Type="Folder">
 				<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../TCP文件传输系统/TCP文件传输系统.lvlib"/>
 			</Item>
-			<Item Name="TCP发送文件" Type="Folder">
-				<Item Name="CRC" Type="Folder"/>
-				<Item Name="main" Type="Folder"/>
-				<Item Name="other" Type="Folder"/>
-				<Item Name="subvi" Type="Folder"/>
-				<Item Name="TCP发送文件.aliases" Type="Document" URL="../TCP文件传输系统/TCP发送文件/TCP发送文件.aliases"/>
-				<Item Name="TCP发送文件.lvlps" Type="Document" URL="../TCP文件传输系统/TCP发送文件/TCP发送文件.lvlps"/>
-				<Item Name="TCP发送文件.lvproj" Type="Document" URL="../TCP文件传输系统/TCP发送文件/TCP发送文件.lvproj"/>
-			</Item>
-			<Item Name="TCP接收文件" Type="Folder">
-				<Item Name="control" Type="Folder"/>
-				<Item Name="CRC" Type="Folder"/>
-				<Item Name="main" Type="Folder"/>
-				<Item Name="other" Type="Folder"/>
-				<Item Name="subvi" Type="Folder"/>
-				<Item Name="tcp接收文件.aliases" Type="Document" URL="../TCP文件传输系统/TCP接收文件/tcp接收文件.aliases"/>
-				<Item Name="tcp接收文件.lvlps" Type="Document" URL="../TCP文件传输系统/TCP接收文件/tcp接收文件.lvlps"/>
-				<Item Name="tcp接收文件.lvproj" Type="Document" URL="../TCP文件传输系统/TCP接收文件/tcp接收文件.lvproj"/>
-			</Item>
-			<Item Name="全局变量" Type="Folder"/>
 			<Item Name="TCP文件传输系统.aliases" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.aliases"/>
 			<Item Name="TCP文件传输系统.lvlps" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.lvlps"/>
 			<Item Name="TCP文件传输系统.lvproj" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.lvproj"/>
