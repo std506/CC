@@ -7,6 +7,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="自动升级程序" Type="Folder">
 		<Item Name="main" Type="Folder">
+			<Item Name="FTP自动升级更新main.vi" Type="VI" URL="../main/FTP自动升级更新main.vi"/>
 			<Item Name="自动升级更新main.vi" Type="VI" URL="../main/自动升级更新main.vi"/>
 		</Item>
 		<Item Name="subvi" Type="Folder">
