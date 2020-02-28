@@ -20,7 +20,13 @@
 				<Item Name="读取数据库.vi" Type="VI" URL="../vis数据查询/SQL/读取数据库.vi"/>
 			</Item>
 			<Item Name="数据库" Type="Folder"/>
+			<Item Name="下拉列表" Type="Folder">
+				<Item Name="项属性" Type="Folder"/>
+				<Item Name="下拉列表.xctl" Type="XControl" URL="../vis数据查询/下拉列表/下拉列表.xctl"/>
+			</Item>
 			<Item Name="数据查询_仪器数据.vi" Type="VI" URL="../vis数据查询/数据查询_仪器数据.vi"/>
+			<Item Name="数据查询_仪器日志.vi" Type="VI" URL="../vis数据查询/数据查询_仪器日志.vi"/>
+			<Item Name="数据查询_报警信息.vi" Type="VI" URL="../vis数据查询/数据查询_报警信息.vi"/>
 			<Item Name="数据查询筛选.vi" Type="VI" URL="../vis数据查询/数据查询筛选.vi"/>
 		</Item>
 		<Item Name="data" Type="Folder" URL="../data">
@@ -301,6 +307,9 @@
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="登录对话框.vi" Type="VI" URL="../VI/登录对话框.vi"/>
@@ -328,7 +337,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F69F2217-7659-4E95-9664-40729CFA256D}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">斯坦道CODMn.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/斯坦道CODMn.exe</Property>
