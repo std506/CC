@@ -19,6 +19,7 @@
 		<Item Name="浮点DCBA转换.vi" Type="VI" URL="../Modbus Master/浮点DCBA转换.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
+		<Item Name="数据主动和反控发送.vi" Type="VI" URL="../VIs/数据主动和反控发送.vi"/>
 		<Item Name="自定义单按钮对话框.vi" Type="VI" URL="../VIs/自定义单按钮对话框.vi"/>
 		<Item Name="自定义双按钮对话框.vi" Type="VI" URL="../VIs/自定义双按钮对话框.vi"/>
 		<Item Name="ANSI CRC16.vi" Type="VI" URL="../VIs/ANSI CRC16.vi"/>
@@ -42,7 +43,6 @@
 		<Item Name="核查数据和日志信息出发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息出发送队列 (子VI).vi"/>
 		<Item Name="实时小时数据单参数上传.vi" Type="VI" URL="../VIs/实时小时数据单参数上传.vi"/>
 		<Item Name="通信状态入队列.vi" Type="VI" URL="../VIs/通信状态入队列.vi"/>
-		<Item Name="数据主动和反控发送.vi" Type="VI" URL="../VIs/数据主动和反控发送.vi"/>
 		<Item Name="读取反控数据解析(子VI).vi" Type="VI" URL="../VIs/读取反控数据解析(子VI).vi"/>
 		<Item Name="反控数据上传(子VI).vi" Type="VI" URL="../VIs/反控数据上传(子VI).vi"/>
 		<Item Name="字符串移位显示.vi" Type="VI" URL="../VIs/字符串移位显示.vi"/>
