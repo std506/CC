@@ -19,6 +19,7 @@
 		</Item>
 		<Item Name="update" Type="Folder">
 			<Item Name="更新程序.vi" Type="VI" URL="../update/更新程序.vi"/>
+			<Item Name="超过50个备份文件就删除旧的.vi" Type="VI" URL="../update/超过50个备份文件就删除旧的.vi"/>
 		</Item>
 		<Item Name="VIS" Type="Folder">
 			<Item Name="自定义单按钮对话框.vi" Type="VI" URL="../VIS/自定义单按钮对话框.vi"/>
