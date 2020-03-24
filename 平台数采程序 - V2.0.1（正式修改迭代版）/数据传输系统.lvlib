@@ -133,4 +133,6 @@
 		<Item Name="质控数据起始时间戳查询.vi" Type="VI" URL="../子VI/质控数据起始时间戳查询.vi"/>
 		<Item Name="主动发送数据生成Condition(子VI).vi" Type="VI" URL="../子VI/主动发送数据生成Condition(子VI).vi"/>
 	</Item>
+	<Item Name="关键参数组合 (子VI).vi" Type="VI" URL="../VIs/关键参数组合 (子VI).vi"/>
+	<Item Name="提取仪器参数 (子VI).vi" Type="VI" URL="../VIs/提取仪器参数 (子VI).vi"/>
 </Library>
