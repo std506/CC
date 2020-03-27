@@ -19,6 +19,18 @@
 		<Item Name="浮点DCBA转换.vi" Type="VI" URL="../Modbus Master/浮点DCBA转换.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
+		<Item Name="HexToData" Type="Folder">
+			<Item Name="HexToDate.vi" Type="VI" URL="../VIs/HexToData/HexToDate.vi"/>
+			<Item Name="HexToDword.vi" Type="VI" URL="../VIs/HexToData/HexToDword.vi"/>
+			<Item Name="HexToFloat.vi" Type="VI" URL="../VIs/HexToData/HexToFloat.vi"/>
+			<Item Name="HexToString.vi" Type="VI" URL="../VIs/HexToData/HexToString.vi"/>
+			<Item Name="HexToWord.vi" Type="VI" URL="../VIs/HexToData/HexToWord.vi"/>
+		</Item>
+		<Item Name="DataToHex" Type="Folder">
+			<Item Name="DateToHex.vi" Type="VI" URL="../VIs/DataToHex/DateToHex.vi"/>
+			<Item Name="FloatToHex.vi" Type="VI" URL="../VIs/DataToHex/FloatToHex.vi"/>
+			<Item Name="WordToHex.vi" Type="VI" URL="../VIs/DataToHex/WordToHex.vi"/>
+		</Item>
 		<Item Name="数据主动和反控发送.vi" Type="VI" URL="../VIs/数据主动和反控发送.vi"/>
 		<Item Name="自定义单按钮对话框.vi" Type="VI" URL="../VIs/自定义单按钮对话框.vi"/>
 		<Item Name="自定义双按钮对话框.vi" Type="VI" URL="../VIs/自定义双按钮对话框.vi"/>
@@ -132,7 +144,9 @@
 		<Item Name="选择操作日志还是报警信息 (子VI).vi" Type="VI" URL="../子VI/选择操作日志还是报警信息 (子VI).vi"/>
 		<Item Name="质控数据起始时间戳查询.vi" Type="VI" URL="../子VI/质控数据起始时间戳查询.vi"/>
 		<Item Name="主动发送数据生成Condition(子VI).vi" Type="VI" URL="../子VI/主动发送数据生成Condition(子VI).vi"/>
+		<Item Name="设置仪器参数命令解析.vi" Type="VI" URL="../子VI/设置仪器参数命令解析.vi"/>
 	</Item>
 	<Item Name="关键参数组合 (子VI).vi" Type="VI" URL="../VIs/关键参数组合 (子VI).vi"/>
 	<Item Name="提取仪器参数 (子VI).vi" Type="VI" URL="../VIs/提取仪器参数 (子VI).vi"/>
+	<Item Name="3090仪器参数上传.vi" Type="VI" URL="../VIs/3090仪器参数上传.vi"/>
 </Library>
