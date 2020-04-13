@@ -152,4 +152,8 @@
 	<Item Name="剖面多参数组合(子VI).vi" Type="VI" URL="../VIs/剖面多参数组合(子VI).vi"/>
 	<Item Name="3090仪器参数上传.vi" Type="VI" URL="../VIs/3090仪器参数上传.vi"/>
 	<Item Name="剖面多参数上传.vi" Type="VI" URL="../VIs/剖面多参数上传.vi"/>
+	<Item Name="零点跨度数据组合 (子VI).vi" Type="VI" URL="../VIs/零点跨度数据组合 (子VI).vi"/>
+	<Item Name="加标回收数据组合 (子VI).vi" Type="VI" URL="../VIs/加标回收数据组合 (子VI).vi"/>
+	<Item Name="平行样集成干预数据组合(子VI).vi" Type="VI" URL="../VIs/平行样集成干预数据组合(子VI).vi"/>
+	<Item Name="标样核查数据组合(子VI).vi" Type="VI" URL="../VIs/标样核查数据组合(子VI).vi"/>
 </Library>
