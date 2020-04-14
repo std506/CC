@@ -1,3 +1,9 @@
+托管平台
+http://47.98.43.76:7080/web
+ChenCan
+59315200
+
+
 公司的平台登陆地址
 guest1 59315288
 http://47.98.43.76:9080/web/data/query/index.shtml

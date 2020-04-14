@@ -128,7 +128,6 @@
 		<Item Name="核查数据编码整合输出.vi" Type="VI" URL="../子VI/核查数据编码整合输出.vi"/>
 		<Item Name="获取报警信息 (子VI).vi" Type="VI" URL="../子VI/获取报警信息 (子VI).vi"/>
 		<Item Name="获取操作日志 (子VI).vi" Type="VI" URL="../子VI/获取操作日志 (子VI).vi"/>
-		<Item Name="获取环境参数 (子VI).vi" Type="VI" URL="../子VI/获取环境参数 (子VI).vi"/>
 		<Item Name="加标回收数据处理整合 (子VI).vi" Type="VI" URL="../子VI/加标回收数据处理整合 (子VI).vi"/>
 		<Item Name="日志报警参数选择 (子VI).vi" Type="VI" URL="../子VI/日志报警参数选择 (子VI).vi"/>
 		<Item Name="日志信息主动发送(子VI).vi" Type="VI" URL="../子VI/日志信息主动发送(子VI).vi"/>
@@ -152,6 +151,7 @@
 	<Item Name="剖面多参数组合(子VI).vi" Type="VI" URL="../VIs/剖面多参数组合(子VI).vi"/>
 	<Item Name="3090仪器参数上传.vi" Type="VI" URL="../VIs/3090仪器参数上传.vi"/>
 	<Item Name="剖面多参数上传.vi" Type="VI" URL="../VIs/剖面多参数上传.vi"/>
+	<Item Name="环境参数上传.vi" Type="VI" URL="../VIs/环境参数上传.vi"/>
 	<Item Name="零点跨度数据组合 (子VI).vi" Type="VI" URL="../VIs/零点跨度数据组合 (子VI).vi"/>
 	<Item Name="加标回收数据组合 (子VI).vi" Type="VI" URL="../VIs/加标回收数据组合 (子VI).vi"/>
 	<Item Name="平行样集成干预数据组合(子VI).vi" Type="VI" URL="../VIs/平行样集成干预数据组合(子VI).vi"/>
