@@ -3,6 +3,16 @@ http://47.98.43.76:7080/web
 ChenCan
 59315200
 
+安徽水文局
+http://61.191.22.155:8000/wq/#/sjdmzdz/
+gzyw
+19SJDM@gzyw
+怡文
+
+古田平台
+http://47.98.43.76:9080/web/u/login.shtml;JSESSIONID=64e6f35d-8fea-49da-a960-c39f2c476bcc
+gtxiong
+123456
 
 公司的平台登陆地址
 guest1 59315288
