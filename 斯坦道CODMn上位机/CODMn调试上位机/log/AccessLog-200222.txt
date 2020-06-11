@@ -1,0 +1,490 @@
+【20/02/22 0:24:25.176】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:25.684】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:26.733】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:27.699】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:28.695】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:37.649】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:37.801】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:38.805】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:39.896】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:40.804】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:41.807】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:42.803】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:43.923】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:44.854】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:45.803】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:46.816】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:47.804】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:48.804】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:49.805】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:50.820】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:51.802】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:52.805】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:53.807】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:54.822】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:55.807】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:56.804】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:57.856】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:58.814】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:24:59.805】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:00.804】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:01.810】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:02.807】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:03.821】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:04.816】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:05.806】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:06.818】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:07.807】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:36.814】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:41.825】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:42.004】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:42.993】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:52.517】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:52.658】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:53.659】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:54.660】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:55.660】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:56.660】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:57.659】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:58.660】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:25:59.659】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:00.661】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:01.661】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:02.664】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:03.666】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:04.669】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:05.687】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:06.674】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:07.664】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:08.697】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:09.677】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:10.679】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:11.668】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:12.667】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:13.668】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:14.667】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:15.666】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:16.689】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:17.666】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:18.667】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:19.665】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:20.692】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:21.666】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:22.665】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:23.666】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:24.666】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:25.684】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:26.678】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:27.670】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:28.726】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:29.680】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:30.681】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:31.670】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:32.677】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:33.677】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:34.839】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:35.689】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:36.684】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:37.673】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:38.675】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:39.705】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:40.676】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:41.675】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:42.676】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:43.686】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:44.676】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:45.681】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:46.676】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
+【20/02/22 0:26:47.675】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.

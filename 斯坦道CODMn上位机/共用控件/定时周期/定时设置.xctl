@@ -1,0 +1,91 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="16008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"&lt;2MR%!813:!!O;K$1#V-#WJ",5Q,OPKI&amp;K9&amp;N;!7JA7VI";=JQVBZ"4F%#-ZG/O26X_ZZ$/87%&gt;M\6P%FXB^VL\_NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAO_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y![_ML^!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 4</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="subvi" Type="Folder">
+		<Item Name="启动条件判断.vi" Type="VI" URL="../subvi/启动条件判断.vi"/>
+		<Item Name="启动命令国标转换.vi" Type="VI" URL="../subvi/启动命令国标转换.vi"/>
+		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
+		<Item Name="批量设置.vi" Type="VI" URL="../subvi/批量设置.vi"/>
+		<Item Name="定时设置写入.vi" Type="VI" URL="../subvi/定时设置写入.vi"/>
+		<Item Name="定时设置全局文件.vi" Type="VI" URL="../subvi/定时设置全局文件.vi"/>
+		<Item Name="定时设置读取.vi" Type="VI" URL="../subvi/定时设置读取.vi"/>
+	</Item>
+	<Item Name="control" Type="Folder">
+		<Item Name="定点周期设置.ctl" Type="VI" URL="../control/定点周期设置.ctl"/>
+		<Item Name="国标控制命令.ctl" Type="VI" URL="../control/国标控制命令.ctl"/>
+		<Item Name="间隔启动设置.ctl" Type="VI" URL="../control/间隔启动设置.ctl"/>
+		<Item Name="测量参数.ctl" Type="VI" URL="../control/测量参数.ctl"/>
+		<Item Name="启动命令选择.ctl" Type="VI" URL="../control/启动命令选择.ctl"/>
+		<Item Name="周期模式设置.ctl" Type="VI" URL="../control/周期模式设置.ctl"/>
+	</Item>
+	<Item Name="配置信息" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">配置信息</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">配置信息</Property>
+		<Item Name="配置信息读取.vi" Type="Property VI" URL="../subvi/属性/配置信息读取.vi"/>
+		<Item Name="配置信息写入.vi" Type="Property VI" URL="../subvi/属性/配置信息写入.vi"/>
+	</Item>
+	<Item Name="仪器运行状态" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">仪器状态</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">仪器运行状态</Property>
+		<Item Name="仪器运行状态读取.vi" Type="Property VI" URL="../subvi/属性/仪器运行状态读取.vi"/>
+		<Item Name="仪器运行状态写入.vi" Type="Property VI" URL="../subvi/属性/仪器运行状态写入.vi"/>
+	</Item>
+	<Item Name="外观.vi" Type="Ability VI" URL="../subvi/外观.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="状态.ctl" Type="Ability VI" URL="../subvi/状态.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="数据.ctl" Type="Ability VI" URL="../subvi/数据.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="初始化.vi" Type="Ability VI" URL="../subvi/初始化.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="定点周期设置.vi" Type="VI" URL="../subvi/定点周期设置.vi"/>
+	<Item Name="最近一次结束时间" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">仪器最近一次启动时间</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">最近一次结束时间</Property>
+		<Item Name="最近一次结束时间读取.vi" Type="Property VI" URL="../subvi/属性/最近一次结束时间读取.vi"/>
+	</Item>
+	<Item Name="启动次数" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">启动次数</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">启动次数</Property>
+		<Item Name="启动次数读取.vi" Type="Property VI" URL="../subvi/属性/启动次数读取.vi"/>
+	</Item>
+	<Item Name="最近一次启动时间" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">最近一次启动时间</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">最近一次启动时间</Property>
+		<Item Name="最近一次启动时间读取.vi" Type="Property VI" URL="../subvi/属性/最近一次启动时间读取.vi"/>
+	</Item>
+	<Item Name="间隔计时" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">间隔计时</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">间隔计时</Property>
+		<Item Name="间隔计时读取.vi" Type="Property VI" URL="../subvi/属性/间隔计时读取.vi"/>
+	</Item>
+	<Item Name="测量参数名称" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">测量参数名称</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">测量参数名称</Property>
+		<Item Name="测量参数名称读取.vi" Type="Property VI" URL="../subvi/属性/测量参数名称读取.vi"/>
+		<Item Name="测量参数名称写入.vi" Type="Property VI" URL="../subvi/属性/测量参数名称写入.vi"/>
+	</Item>
+	<Item Name="时间源" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">时间源</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">时间源</Property>
+		<Item Name="时间源写入.vi" Type="Property VI" URL="../subvi/属性/时间源写入.vi"/>
+	</Item>
+	<Item Name="引用参数" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">引用参数</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">引用参数</Property>
+		<Item Name="引用参数写入.vi" Type="Property VI" URL="../subvi/属性/引用参数写入.vi"/>
+	</Item>
+</XControl>
