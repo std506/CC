@@ -1,5 +1,0 @@
-【20/02/28 15:06:33.591】:错误-2147467259发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->斯坦道CODMn.lvlib:数据写入database.vi->待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
-
-可能原因：
-ADO Error: 0x80004005
-NI_Database_API.lvlib:DB Tools Open Connec (String).vi->斯坦道CODMn.lvlib:数据写入database.vi->待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi中的Exception occured in Microsoft JET Database Engine: 不能打开数据库 ''。应用程序可能无法识别该数据库，或文件可能损坏。
