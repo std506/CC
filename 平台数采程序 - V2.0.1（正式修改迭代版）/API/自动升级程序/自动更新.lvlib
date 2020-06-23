@@ -16,6 +16,7 @@
 			<Item Name="更新log记录.vi" Type="VI" URL="../subvi/更新log记录.vi"/>
 			<Item Name="自动升级程序.vi" Type="VI" URL="../subvi/自动升级程序.vi"/>
 			<Item Name="更新update.vi" Type="VI" URL="../subvi/更新update.vi"/>
+			<Item Name="解析对应路径的PID.vi" Type="VI" URL="../subvi/解析对应路径的PID.vi"/>
 		</Item>
 		<Item Name="update" Type="Folder">
 			<Item Name="更新程序.vi" Type="VI" URL="../update/更新程序.vi"/>
