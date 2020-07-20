@@ -425,7 +425,7 @@
 			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="NEW平台数据传输系统" Type="EXE">
+			<Item Name="NEW平台数据传输系统-认证" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5BB07E28-35DE-4EC0-A155-698A924E9649}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{67F03C73-0607-4DC3-AC6C-6A1D7A9B0F7F}</Property>
@@ -433,32 +433,32 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{554E803A-644F-451C-B507-3C1927D92F2A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NEW平台数据传输系统</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">NEW平台数据传输系统-认证</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统-认证</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">89</Property>
+				<Property Name="Bld_version.build" Type="Int">90</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">45</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统-认证/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统-认证/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">新目标</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/uptade</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统-认证/uptade</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{93674043-9A3E-4023-AB70-523B603C023B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{502E0CF5-9580-4D24-9E6B-099F9C52E0A2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/串口发送.vi</Property>
@@ -669,10 +669,10 @@
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">53</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">NEW平台数据传输系统</Property>
-				<Property Name="TgtF_internalName" Type="Str">NEW平台数据传输系统</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">NEW平台数据传输系统-认证</Property>
+				<Property Name="TgtF_internalName" Type="Str">NEW平台数据传输系统-认证</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2018 </Property>
-				<Property Name="TgtF_productName" Type="Str">NEW平台数据传输系统</Property>
+				<Property Name="TgtF_productName" Type="Str">NEW平台数据传输系统-认证</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{77776A7E-4B54-4525-8DE5-832DEEFE0FC6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">平台数据传输系统.exe</Property>
 			</Item>
