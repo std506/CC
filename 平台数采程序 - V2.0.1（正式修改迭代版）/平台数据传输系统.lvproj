@@ -47,6 +47,7 @@
 		<Item Name="数据传输系统.lvlib" Type="Library" URL="../数据传输系统.lvlib"/>
 		<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 		<Item Name="参数配置表.vi" Type="VI" URL="../子VI/参数配置表.vi"/>
+		<Item Name="配置文件断电保存(子VI).vi" Type="VI" URL="../子VI/配置文件断电保存(子VI).vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -448,7 +449,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">96</Property>
+				<Property Name="Bld_version.build" Type="Int">97</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">49</Property>
