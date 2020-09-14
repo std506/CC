@@ -1,3 +1,7 @@
+固定站测试平台链接：
+http://218.6.70.66:30105/web/ 账号：testtest 
+密码：stdyftest
+
 托管平台
 http://47.98.43.76:7080/web
 ChenCan
