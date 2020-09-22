@@ -157,4 +157,5 @@
 	<Item Name="平行样集成干预数据组合(子VI).vi" Type="VI" URL="../VIs/平行样集成干预数据组合(子VI).vi"/>
 	<Item Name="标样核查数据组合(子VI).vi" Type="VI" URL="../VIs/标样核查数据组合(子VI).vi"/>
 	<Item Name="数据发送组合-20200825 (子VI).vi" Type="VI" URL="../子VI/数据发送组合-20200825 (子VI).vi"/>
+	<Item Name="与工控机交互(子VI).vi" Type="VI" URL="../子VI/与工控机交互(子VI).vi"/>
 </Library>
