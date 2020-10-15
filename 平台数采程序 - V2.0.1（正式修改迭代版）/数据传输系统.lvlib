@@ -51,8 +51,8 @@
 		<Item Name="字符转十六进制字符串.vi" Type="VI" URL="../VIs/字符转十六进制字符串.vi"/>
 		<Item Name="最小窗口后台运行(子VI).vi" Type="VI" URL="../VIs/最小窗口后台运行(子VI).vi"/>
 		<Item Name="主动上传工控机周期和模式 (子VI).vi" Type="VI" URL="../VIs/主动上传工控机周期和模式 (子VI).vi"/>
-		<Item Name="核查数据和日志信息入发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息入发送队列 (子VI).vi"/>
-		<Item Name="核查数据和日志信息出发送队列 (子VI).vi" Type="VI" URL="../VIs/核查数据和日志信息出发送队列 (子VI).vi"/>
+		<Item Name="日志信息入发送队列 (子VI).vi" Type="VI" URL="../VIs/日志信息入发送队列 (子VI).vi"/>
+		<Item Name="日志信息出发送队列 (子VI).vi" Type="VI" URL="../VIs/日志信息出发送队列 (子VI).vi"/>
 		<Item Name="实时小时数据单参数上传.vi" Type="VI" URL="../VIs/实时小时数据单参数上传.vi"/>
 		<Item Name="通信状态入队列.vi" Type="VI" URL="../VIs/通信状态入队列.vi"/>
 		<Item Name="读取反控数据解析(子VI).vi" Type="VI" URL="../VIs/读取反控数据解析(子VI).vi"/>
@@ -158,4 +158,7 @@
 	<Item Name="标样核查数据组合(子VI).vi" Type="VI" URL="../VIs/标样核查数据组合(子VI).vi"/>
 	<Item Name="数据发送组合-20200825 (子VI).vi" Type="VI" URL="../子VI/数据发送组合-20200825 (子VI).vi"/>
 	<Item Name="与工控机交互(子VI).vi" Type="VI" URL="../子VI/与工控机交互(子VI).vi"/>
+	<Item Name="核查数据发送(子VI).vi" Type="VI" URL="../VIs/核查数据发送(子VI).vi"/>
+	<Item Name="参数配置表.vi" Type="VI" URL="../子VI/参数配置表.vi"/>
+	<Item Name="配置文件断电保存(子VI).vi" Type="VI" URL="../子VI/配置文件断电保存(子VI).vi"/>
 </Library>
