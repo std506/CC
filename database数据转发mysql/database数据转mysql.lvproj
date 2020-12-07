@@ -21,6 +21,8 @@
 		<Item Name="断电保存全局.vi" Type="VI" URL="../断电保存全局.vi"/>
 		<Item Name="内部全局.vi" Type="VI" URL="../内部全局.vi"/>
 		<Item Name="因子编码配置表.vi" Type="VI" URL="../因子编码配置表.vi"/>
+		<Item Name="修改数据发送起始时间.vi" Type="VI" URL="../修改数据发送起始时间.vi"/>
+		<Item Name="XH转换.vi" Type="VI" URL="../XH转换.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
@@ -110,7 +112,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0367DA99-A714-4A3B-86A3-76AAEE417E5B}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">database转mysql.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/database转mysql.exe</Property>
