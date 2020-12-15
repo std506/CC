@@ -52,6 +52,7 @@
 		<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 		<Item Name="数组拆分.vi" Type="VI" URL="../通用VI/数组拆分.vi"/>
 		<Item Name="仪器参数发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数发送 (子VI).vi"/>
+		<Item Name="告警信息文本转换为协议i12031值.vi" Type="VI" URL="../VIs/告警信息文本转换为协议i12031值.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -212,6 +213,7 @@
 				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
 				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
 				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
@@ -451,10 +453,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">148</Property>
+				<Property Name="Bld_version.build" Type="Int">149</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">53</Property>
+				<Property Name="Bld_version.patch" Type="Int">54</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -468,7 +470,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{93522EE9-A2E3-405A-B383-E8D84D284CB7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8913ACF6-86F5-478B-9007-2BC58CF438C8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/串口发送.vi</Property>
