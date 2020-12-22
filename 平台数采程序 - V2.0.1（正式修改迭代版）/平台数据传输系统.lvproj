@@ -53,6 +53,7 @@
 		<Item Name="数组拆分.vi" Type="VI" URL="../通用VI/数组拆分.vi"/>
 		<Item Name="仪器参数发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数发送 (子VI).vi"/>
 		<Item Name="告警信息文本转换为协议i12031值.vi" Type="VI" URL="../VIs/告警信息文本转换为协议i12031值.vi"/>
+		<Item Name="创建脚本文件.vi" Type="VI" URL="../通用VI/创建脚本文件.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -453,10 +454,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">155</Property>
+				<Property Name="Bld_version.build" Type="Int">161</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">56</Property>
+				<Property Name="Bld_version.patch" Type="Int">59</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -470,7 +471,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{37B8306E-94BB-4A37-A982-6F1A15F25633}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{52E08272-747E-4E1C-8F88-32105F4D17EE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/串口发送.vi</Property>
