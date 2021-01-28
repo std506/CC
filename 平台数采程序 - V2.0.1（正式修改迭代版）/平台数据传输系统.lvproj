@@ -50,10 +50,6 @@
 		</Item>
 		<Item Name="数据传输系统.lvlib" Type="Library" URL="../数据传输系统.lvlib"/>
 		<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
-		<Item Name="数组拆分.vi" Type="VI" URL="../通用VI/数组拆分.vi"/>
-		<Item Name="仪器参数发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数发送 (子VI).vi"/>
-		<Item Name="告警信息文本转换为协议i12031值.vi" Type="VI" URL="../VIs/告警信息文本转换为协议i12031值.vi"/>
-		<Item Name="创建脚本文件.vi" Type="VI" URL="../通用VI/创建脚本文件.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

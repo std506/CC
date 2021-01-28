@@ -58,6 +58,7 @@
 		<Item Name="读取反控数据解析(子VI).vi" Type="VI" URL="../VIs/读取反控数据解析(子VI).vi"/>
 		<Item Name="反控数据上传(子VI).vi" Type="VI" URL="../VIs/反控数据上传(子VI).vi"/>
 		<Item Name="字符串移位显示.vi" Type="VI" URL="../VIs/字符串移位显示.vi"/>
+		<Item Name="数组拆分.vi" Type="VI" URL="../通用VI/数组拆分.vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
@@ -161,4 +162,8 @@
 	<Item Name="核查数据发送(子VI).vi" Type="VI" URL="../VIs/核查数据发送(子VI).vi"/>
 	<Item Name="参数配置表.vi" Type="VI" URL="../子VI/参数配置表.vi"/>
 	<Item Name="配置文件断电保存(子VI).vi" Type="VI" URL="../子VI/配置文件断电保存(子VI).vi"/>
+	<Item Name="仪器参数发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数发送 (子VI).vi"/>
+	<Item Name="告警信息文本转换为协议i12031值.vi" Type="VI" URL="../VIs/告警信息文本转换为协议i12031值.vi"/>
+	<Item Name="创建脚本文件.vi" Type="VI" URL="../通用VI/创建脚本文件.vi"/>
+	<Item Name="数据发送test.vi" Type="VI" URL="../子VI/数据发送test.vi"/>
 </Library>
