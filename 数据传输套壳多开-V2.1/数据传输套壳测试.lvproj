@@ -409,12 +409,9 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="FreeMem.dll" Type="Document" URL="../平台数采程序 - V2-03/data/FreeMem.dll"/>
-			<Item Name="FreeMem.dll" Type="Document" URL="../平台数采程序 - V2-01/data/FreeMem.dll"/>
 			<Item Name="System.Web" Type="Document" URL="System.Web">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="FreeMem.dll" Type="Document" URL="../平台数采程序 - V2-02/data/FreeMem.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="数据传输系统" Type="EXE">
@@ -432,7 +429,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD6A7C27-52A0-4E2F-BF39-943A8E095564}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">64</Property>
