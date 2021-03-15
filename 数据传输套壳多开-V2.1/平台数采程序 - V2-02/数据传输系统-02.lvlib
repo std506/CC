@@ -68,6 +68,7 @@
 		<Item Name="字符键盘.vi" Type="VI" URL="../VIs/键盘/字符键盘.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
+		<Item Name="外部交互全局.vi" Type="VI" URL="../全局/外部交互全局.vi"/>
 		<Item Name="断电保存全局.vi" Type="VI" URL="../全局/断电保存全局.vi"/>
 		<Item Name="全局1.vi" Type="VI" URL="../全局/全局1.vi"/>
 		<Item Name="起始时间.vi" Type="VI" URL="../VIs/起始时间.vi"/>
@@ -187,6 +188,11 @@
 	<Item Name="仪器参数发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数发送 (子VI).vi"/>
 	<Item Name="告警信息文本转换为协议i12031值.vi" Type="VI" URL="../VIs/告警信息文本转换为协议i12031值.vi"/>
 	<Item Name="创建脚本文件.vi" Type="VI" URL="../通用VI/创建脚本文件.vi"/>
+	<Item Name="小时数据发送 (子VI).vi" Type="VI" URL="../子VI/小时数据发送 (子VI).vi"/>
+	<Item Name="实时数据发送 (子VI).vi" Type="VI" URL="../子VI/实时数据发送 (子VI).vi"/>
+	<Item Name="零点核查数据发送 (子VI).vi" Type="VI" URL="../子VI/零点核查数据发送 (子VI).vi"/>
+	<Item Name="跨度核查数据发送 (子VI).vi" Type="VI" URL="../子VI/跨度核查数据发送 (子VI).vi"/>
+	<Item Name="标样核查数据发送(子VI).vi" Type="VI" URL="../子VI/标样核查数据发送(子VI).vi"/>
 	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
 </Library>
