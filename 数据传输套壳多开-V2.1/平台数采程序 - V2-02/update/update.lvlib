@@ -20,4 +20,5 @@
 	<Item Name="服务器更改对话框.vi" Type="VI" URL="../服务器更改对话框.vi"/>
 	<Item Name="更新全局变量.vi" Type="VI" URL="../更新全局变量.vi"/>
 	<Item Name="关于.ctl" Type="VI" URL="../关于.ctl"/>
+	<Item Name="自定义双按钮对话框.vi" Type="VI" URL="../自定义双按钮对话框.vi"/>
 </Library>
