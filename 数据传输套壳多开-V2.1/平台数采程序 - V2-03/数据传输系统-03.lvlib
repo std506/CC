@@ -193,6 +193,7 @@
 	<Item Name="零点核查数据发送 (子VI).vi" Type="VI" URL="../子VI/零点核查数据发送 (子VI).vi"/>
 	<Item Name="跨度核查数据发送 (子VI).vi" Type="VI" URL="../子VI/跨度核查数据发送 (子VI).vi"/>
 	<Item Name="标样核查数据发送(子VI).vi" Type="VI" URL="../子VI/标样核查数据发送(子VI).vi"/>
+	<Item Name="数据补传对话框.vi" Type="VI" URL="../VIs/数据补传对话框.vi"/>
 	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
 </Library>
