@@ -431,8 +431,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">1001</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">1002</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">66</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
@@ -448,7 +448,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7F8B5069-4FD8-4BF6-B8AD-484071BD18DD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{79D780FF-DB7F-4EC7-A3AA-C0F4AEEBDF01}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/subvi/串口发送.vi</Property>
