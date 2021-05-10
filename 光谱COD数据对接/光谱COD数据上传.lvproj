@@ -142,14 +142,14 @@
 			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="我的应用程序" Type="EXE">
+			<Item Name="光谱COD数据上传" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{96EF4A51-D679-4B91-B624-6EFE36E4C020}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{89D727FD-3295-40E5-9C96-BBB1F30B84BB}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BFC4CAF3-0DEF-4D26-AC11-626ECF8877DB}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">我的应用程序</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">光谱COD数据上传</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -157,10 +157,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/光谱COD数据上传</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2216953A-F9F0-46A1-9FA8-B32B15EC7871}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">应用程序.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/光谱COD数据上传/应用程序.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">光谱COD数据上传.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/光谱COD数据上传/光谱COD数据上传.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -168,31 +168,19 @@
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/光谱COD数据上传/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{78637883-E22A-4910-8AA6-378572D9409C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8528E75-1F75-4259-8510-3E577B67A3BC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/csv数据转JOSN发送.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">我的应用程序</Property>
-				<Property Name="TgtF_internalName" Type="Str">我的应用程序</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">光谱COD数据上传</Property>
+				<Property Name="TgtF_internalName" Type="Str">光谱COD数据上传</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021 </Property>
-				<Property Name="TgtF_productName" Type="Str">我的应用程序</Property>
+				<Property Name="TgtF_productName" Type="Str">光谱COD数据上传</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{772F9B48-8F56-48E0-9145-516D57932D85}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">应用程序.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">光谱COD数据上传.exe</Property>
 			</Item>
 		</Item>
 	</Item>
