@@ -25,6 +25,7 @@
 		<Item Name="Subvi" Type="Folder">
 			<Item Name="日期字符串格式至时间格式转换.vi" Type="VI" URL="../Subvi/日期字符串格式至时间格式转换.vi"/>
 			<Item Name="数组拆分.vi" Type="VI" URL="../Subvi/数组拆分.vi"/>
+			<Item Name="发送数据记录到文档(子VI).vi" Type="VI" URL="../Subvi/发送数据记录到文档(子VI).vi"/>
 		</Item>
 		<Item Name="STD光谱数据接口（暂定20210508）.doc" Type="Document" URL="../STD光谱数据接口（暂定20210508）.doc"/>
 		<Item Name="csv数据转JOSN发送.vi" Type="VI" URL="../csv数据转JOSN发送.vi"/>
@@ -156,7 +157,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/光谱COD数据上传</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2216953A-F9F0-46A1-9FA8-B32B15EC7871}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">应用程序.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/光谱COD数据上传/应用程序.exe</Property>
