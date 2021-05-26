@@ -147,7 +147,6 @@
 		<Item Name="设置仪器参数命令解析.vi" Type="VI" URL="../子VI/设置仪器参数命令解析.vi"/>
 	</Item>
 	<Item Name="数据库" Type="Folder">
-		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
 		<Item Name="数采仪日志报警存储(子VI).vi" Type="VI" URL="../数据库/数采仪日志报警存储(子VI).vi"/>
 		<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>

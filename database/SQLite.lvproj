@@ -47,6 +47,10 @@
 			<Item Name="原位多参数全参数数据插入.vi" Type="VI" URL="../Interface/原位多参数全参数数据插入.vi"/>
 			<Item Name="原位多参数单参数数据插入.vi" Type="VI" URL="../Interface/原位多参数单参数数据插入.vi"/>
 			<Item Name="copy database to platform.vi" Type="VI" URL="../Interface/copy database to platform.vi"/>
+			<Item Name="database path.vi" Type="VI" URL="../Interface/database path.vi"/>
+			<Item Name="database platform path.vi" Type="VI" URL="../Interface/database platform path.vi"/>
+			<Item Name="获取最新一笔数据.vi" Type="VI" URL="../Interface/获取最新一笔数据.vi"/>
+			<Item Name="Select Str.vi" Type="VI" URL="../Interface/Select Str.vi"/>
 		</Item>
 		<Item Name="config" Type="Folder">
 			<Item Name="load config.vi" Type="VI" URL="../config/load config.vi"/>
@@ -163,7 +167,9 @@
 				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 			</Item>
+			<Item Name="系统设置全局变量.vi" Type="VI" URL="../../../系统/系统设置全局变量.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
