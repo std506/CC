@@ -93,16 +93,7 @@
 		<Item Name="短日期时间转长日期格式.vi" Type="VI" URL="../VIs/短日期时间转长日期格式.vi"/>
 	</Item>
 	<Item Name="数据比对处理" Type="Folder">
-		<Item Name="插入单条数据.vi" Type="VI" URL="../VIs/插入单条数据.vi"/>
 		<Item Name="数据表比对.vi" Type="VI" URL="../VIs/数据表比对.vi"/>
-	</Item>
-	<Item Name="数据库处理" Type="Folder">
-		<Item Name="SQL插入命令.vi" Type="VI" URL="../VIs/SQL插入命令.vi"/>
-		<Item Name="发送数据处理.vi" Type="VI" URL="../VIs/发送数据处理.vi"/>
-		<Item Name="获取需发送的数据表.vi" Type="VI" URL="../VIs/SQL/获取需发送的数据表.vi"/>
-		<Item Name="数据库读取.vi" Type="VI" URL="../VIs/数据库读取.vi"/>
-		<Item Name="数据库删除.vi" Type="VI" URL="../VIs/数据库删除.vi"/>
-		<Item Name="数据库写入.vi" Type="VI" URL="../VIs/数据库写入.vi"/>
 	</Item>
 	<Item Name="通用配置" Type="Folder">
 		<Item Name="从数据库获取数据通用可配置(子VI).vi" Type="VI" URL="../子VI/从数据库获取数据通用可配置(子VI).vi"/>
