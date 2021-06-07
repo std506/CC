@@ -187,4 +187,5 @@
 	<Item Name="核查数据时间戳转换 (子VI).vi" Type="VI" URL="../子VI/核查数据时间戳转换 (子VI).vi"/>
 	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
+	<Item Name="数据库加密匹配 (子VI).vi" Type="VI" URL="../VIs/数据库加密匹配 (子VI).vi"/>
 </Library>

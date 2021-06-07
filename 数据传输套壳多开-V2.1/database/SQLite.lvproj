@@ -53,6 +53,8 @@
 			<Item Name="获取最新一笔数据.vi" Type="VI" URL="../Interface/获取最新一笔数据.vi"/>
 			<Item Name="Select Str.vi" Type="VI" URL="../Interface/Select Str.vi"/>
 			<Item Name="SQLite Upsert.vi" Type="VI" URL="../Interface/SQLite Upsert.vi"/>
+			<Item Name="access table insert sqlite.vi" Type="VI" URL="../数据导入工具/access table insert sqlite.vi"/>
+			<Item Name="数据导入工具-main.vi" Type="VI" URL="../数据导入工具/数据导入工具-main.vi"/>
 			<Item Name="Sqlite Query.vi" Type="VI" URL="../Interface/Sqlite Query.vi"/>
 		</Item>
 		<Item Name="config" Type="Folder">
@@ -175,8 +177,50 @@
 				<Item Name="OpenSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenSerializer/OpenSerializer.lvlib"/>
 				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 			</Item>
 		</Item>
-		<Item Name="程序生成规范" Type="Build"/>
+		<Item Name="程序生成规范" Type="Build">
+			<Item Name="Access数据迁移工具" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F5F11A7C-885B-406F-ABEE-AA653CAFEFD2}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{84DA1D73-7CDB-4EC2-9D07-6B9163336C83}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{961375FD-6851-45BB-A66E-6E4588DD7EAC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Access数据迁移工具</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Access数据迁移工具</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DEF2A385-C2D3-4934-82E2-EE9DEC8A1FAA}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Access数据迁移工具.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Access数据迁移工具/Access数据迁移工具.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Access数据迁移工具/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F886F3EF-E713-4756-B39E-8AA254EE9EC2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Interface/数据导入工具-main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Access数据迁移工具</Property>
+				<Property Name="TgtF_internalName" Type="Str">Access数据迁移工具</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Access数据迁移工具</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{84FB11E5-3BC8-4B4D-9D22-D7196DB853F1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Access数据迁移工具.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
