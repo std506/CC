@@ -59,6 +59,8 @@
 		<Item Name="反控数据上传(子VI).vi" Type="VI" URL="../VIs/反控数据上传(子VI).vi"/>
 		<Item Name="字符串移位显示.vi" Type="VI" URL="../VIs/字符串移位显示.vi"/>
 		<Item Name="数据库加密匹配 (子VI).vi" Type="VI" URL="../VIs/数据库加密匹配 (子VI).vi"/>
+		<Item Name="2084上传各参数测量周期.vi" Type="VI" URL="../VIs/2084上传各参数测量周期.vi"/>
+		<Item Name="2084远程反控参数运行间隔解析.vi" Type="VI" URL="../VIs/2084远程反控参数运行间隔解析.vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
@@ -186,6 +188,8 @@
 	<Item Name="标样核查数据发送(子VI).vi" Type="VI" URL="../子VI/标样核查数据发送(子VI).vi"/>
 	<Item Name="数据补传对话框.vi" Type="VI" URL="../VIs/数据补传对话框.vi"/>
 	<Item Name="核查数据时间戳转换 (子VI).vi" Type="VI" URL="../子VI/核查数据时间戳转换 (子VI).vi"/>
+	<Item Name="新剖面数据上传.vi" Type="VI" URL="../VIs/新剖面数据上传.vi"/>
+	<Item Name="新剖面数据组合.vi" Type="VI" URL="../VIs/新剖面数据组合.vi"/>
 	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
 </Library>
