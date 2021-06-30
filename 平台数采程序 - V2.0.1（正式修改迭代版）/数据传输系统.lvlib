@@ -61,6 +61,9 @@
 		<Item Name="数据库加密匹配 (子VI).vi" Type="VI" URL="../VIs/数据库加密匹配 (子VI).vi"/>
 		<Item Name="2084上传各参数测量周期.vi" Type="VI" URL="../VIs/2084上传各参数测量周期.vi"/>
 		<Item Name="2084远程反控参数运行间隔解析.vi" Type="VI" URL="../VIs/2084远程反控参数运行间隔解析.vi"/>
+		<Item Name="initialization.vi" Type="VI" URL="../VIs/initialization.vi"/>
+		<Item Name="每周自动更新循环.vi" Type="VI" URL="../VIs/每周自动更新循环.vi"/>
+		<Item Name="TCPtaskhandle.vi" Type="VI" URL="../VIs/TCPtaskhandle.vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
