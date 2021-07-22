@@ -193,6 +193,7 @@
 	<Item Name="核查数据时间戳转换 (子VI).vi" Type="VI" URL="../子VI/核查数据时间戳转换 (子VI).vi"/>
 	<Item Name="新剖面数据上传.vi" Type="VI" URL="../VIs/新剖面数据上传.vi"/>
 	<Item Name="新剖面数据组合.vi" Type="VI" URL="../VIs/新剖面数据组合.vi"/>
+	<Item Name="3020仪器参数发送.vi" Type="VI" URL="../子VI/3020仪器参数发送.vi"/>
 	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
 </Library>
