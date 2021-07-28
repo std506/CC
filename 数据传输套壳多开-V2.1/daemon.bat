@@ -1,5 +1,7 @@
 @echo off
- 
+
+cd /D %~dp0 
+
 if "%1" == "h" goto begin
  
 mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&&exit
@@ -7,8 +9,6 @@ mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&
 :begin
 
 :again
-
-cd /D %~dp0
 
 tasklist|findstr -i "平台数据传输系统.exe"
 if ERRORLEVEL 1 (
