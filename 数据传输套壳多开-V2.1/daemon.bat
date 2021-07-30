@@ -9,13 +9,14 @@ mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&
 :begin
 
 :again
-
-tasklist|findstr -i "平台数据传输系统.exe"
-if ERRORLEVEL 1 (
-    echo 平台数据传输系统 is off in %Date:~5,2%-%Date:~8,2% %Time:~0,2%:%Time:~3,2%
-    start "" "平台数据传输系统.exe"
+tasklist|findstr -i "LabVIEW.exe"if ERRORLEVEL 1 (
+    echo LabVIEW is off in %Date:~5,2%-%Date:~8,2% %Time:~0,2%:%Time:~3,2%
+    start "" "LabVIEW.exe"
 )
 echo PROCESSING 0
 choice /t 10 /d y /n > nul
 echo PROCESSING 1
+goto again
+
+ho PROCESSING 1
 goto again
