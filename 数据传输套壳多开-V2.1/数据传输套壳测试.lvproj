@@ -14,15 +14,12 @@
 		<Item Name="data" Type="Folder" URL="../data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="data-2" Type="Folder" URL="../data-2">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="data-3" Type="Folder" URL="../data-3">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="数据传输系统.lvlib" Type="Library" URL="../平台数采程序 - V2-01/数据传输系统.lvlib"/>
 		<Item Name="数据传输系统-02.lvlib" Type="Library" URL="../平台数采程序 - V2-02/数据传输系统-02.lvlib"/>
 		<Item Name="数据传输系统-03.lvlib" Type="Library" URL="../平台数采程序 - V2-03/数据传输系统-03.lvlib"/>
+		<Item Name="数据传输系统-04.lvlib" Type="Library" URL="../平台数采程序 - V2-04/数据传输系统-04.lvlib"/>
+		<Item Name="数据传输系统-05.lvlib" Type="Library" URL="../平台数采程序 - V2-05/数据传输系统-05.lvlib"/>
+		<Item Name="数据传输系统-06.lvlib" Type="Library" URL="../平台数采程序 - V2-06/数据传输系统-06.lvlib"/>
 		<Item Name="主界面.vi" Type="VI" URL="../主界面.vi"/>
 		<Item Name="断电保存全局.vi" Type="VI" URL="../断电保存全局.vi"/>
 		<Item Name="自检dll.vi" Type="VI" URL="../自检dll.vi"/>
@@ -537,7 +534,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD6A7C27-52A0-4E2F-BF39-943A8E095564}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
@@ -551,7 +548,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{59BB8900-96C0-45D3-A617-ED4E9C862D99}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F45BF2D5-A37C-4E77-BA64-5BEC0270C513}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/主界面.vi</Property>
