@@ -64,6 +64,13 @@
 		<Item Name="initialization.vi" Type="VI" URL="../VIs/initialization.vi"/>
 		<Item Name="每周自动更新循环.vi" Type="VI" URL="../VIs/每周自动更新循环.vi"/>
 		<Item Name="TCPtaskhandle.vi" Type="VI" URL="../VIs/TCPtaskhandle.vi"/>
+		<Item Name="关键参数解析.vi" Type="VI" URL="../子VI/关键参数解析.vi"/>
+		<Item Name="关键参数转data(子VI).vi" Type="VI" URL="../VIs/关键参数转data(子VI).vi"/>
+		<Item Name="仪器参数改变发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数改变发送 (子VI).vi"/>
+		<Item Name="校准信息解析.vi" Type="VI" URL="../../../集成模板/总磷总氮模板/新电路板/模板库/斯坦道仪器总磷总氮/Subvi/校准信息解析.vi"/>
+		<Item Name="校准信息改变发送 (子VI).vi" Type="VI" URL="../VIs/校准信息改变发送 (子VI).vi"/>
+		<Item Name="校准参数转data(子VI).vi" Type="VI" URL="../VIs/校准参数转data(子VI).vi"/>
+		<Item Name="校准信息组合 (子VI).vi" Type="VI" URL="../VIs/校准信息组合 (子VI).vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
@@ -142,6 +149,37 @@
 		<Item Name="质控数据起始时间戳查询.vi" Type="VI" URL="../子VI/质控数据起始时间戳查询.vi"/>
 		<Item Name="主动发送数据生成Condition(子VI).vi" Type="VI" URL="../子VI/主动发送数据生成Condition(子VI).vi"/>
 		<Item Name="设置仪器参数命令解析.vi" Type="VI" URL="../子VI/设置仪器参数命令解析.vi"/>
+		<Item Name="核查数据断电保存 (子VI).vi" Type="VI" URL="../VIs/核查数据断电保存 (子VI).vi"/>
+		<Item Name="关键参数组合 (子VI).vi" Type="VI" URL="../VIs/关键参数组合 (子VI).vi"/>
+		<Item Name="提取仪器参数 (子VI).vi" Type="VI" URL="../VIs/提取仪器参数 (子VI).vi"/>
+		<Item Name="剖面多参数组合(子VI).vi" Type="VI" URL="../VIs/剖面多参数组合(子VI).vi"/>
+		<Item Name="3090仪器参数上传.vi" Type="VI" URL="../VIs/3090仪器参数上传.vi"/>
+		<Item Name="剖面多参数上传.vi" Type="VI" URL="../VIs/剖面多参数上传.vi"/>
+		<Item Name="环境参数上传.vi" Type="VI" URL="../VIs/环境参数上传.vi"/>
+		<Item Name="零点跨度数据组合 (子VI).vi" Type="VI" URL="../VIs/零点跨度数据组合 (子VI).vi"/>
+		<Item Name="加标回收数据组合 (子VI).vi" Type="VI" URL="../VIs/加标回收数据组合 (子VI).vi"/>
+		<Item Name="平行样集成干预数据组合(子VI).vi" Type="VI" URL="../VIs/平行样集成干预数据组合(子VI).vi"/>
+		<Item Name="标样核查数据组合(子VI).vi" Type="VI" URL="../VIs/标样核查数据组合(子VI).vi"/>
+		<Item Name="数据发送组合-20200825 (子VI).vi" Type="VI" URL="../子VI/数据发送组合-20200825 (子VI).vi"/>
+		<Item Name="与工控机交互(子VI).vi" Type="VI" URL="../子VI/与工控机交互(子VI).vi"/>
+		<Item Name="核查数据发送(子VI).vi" Type="VI" URL="../VIs/核查数据发送(子VI).vi"/>
+		<Item Name="参数配置表.vi" Type="VI" URL="../子VI/参数配置表.vi"/>
+		<Item Name="配置文件断电保存(子VI).vi" Type="VI" URL="../子VI/配置文件断电保存(子VI).vi"/>
+		<Item Name="数组拆分.vi" Type="VI" URL="../通用VI/数组拆分.vi"/>
+		<Item Name="仪器参数发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数发送 (子VI).vi"/>
+		<Item Name="告警信息文本转换为协议i12031值.vi" Type="VI" URL="../VIs/告警信息文本转换为协议i12031值.vi"/>
+		<Item Name="创建脚本文件.vi" Type="VI" URL="../通用VI/创建脚本文件.vi"/>
+		<Item Name="小时数据发送 (子VI).vi" Type="VI" URL="../子VI/小时数据发送 (子VI).vi"/>
+		<Item Name="实时数据发送 (子VI).vi" Type="VI" URL="../子VI/实时数据发送 (子VI).vi"/>
+		<Item Name="零点核查数据发送 (子VI).vi" Type="VI" URL="../子VI/零点核查数据发送 (子VI).vi"/>
+		<Item Name="跨度核查数据发送 (子VI).vi" Type="VI" URL="../子VI/跨度核查数据发送 (子VI).vi"/>
+		<Item Name="标样核查数据发送(子VI).vi" Type="VI" URL="../子VI/标样核查数据发送(子VI).vi"/>
+		<Item Name="数据补传对话框.vi" Type="VI" URL="../VIs/数据补传对话框.vi"/>
+		<Item Name="核查数据时间戳转换 (子VI).vi" Type="VI" URL="../子VI/核查数据时间戳转换 (子VI).vi"/>
+		<Item Name="新剖面数据上传.vi" Type="VI" URL="../VIs/新剖面数据上传.vi"/>
+		<Item Name="新剖面数据组合.vi" Type="VI" URL="../VIs/新剖面数据组合.vi"/>
+		<Item Name="3020仪器参数发送.vi" Type="VI" URL="../子VI/3020仪器参数发送.vi"/>
+		<Item Name="剖面数据拆分切割.vi" Type="VI" URL="../通用VI/剖面数据拆分切割.vi"/>
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
@@ -164,37 +202,6 @@
 		<Item Name="更新控件.ctl" Type="VI" URL="../控件/更新控件.ctl"/>
 		<Item Name="帮助控件.ctl" Type="VI" URL="../控件/帮助控件.ctl"/>
 	</Item>
-	<Item Name="核查数据断电保存 (子VI).vi" Type="VI" URL="../VIs/核查数据断电保存 (子VI).vi"/>
-	<Item Name="关键参数组合 (子VI).vi" Type="VI" URL="../VIs/关键参数组合 (子VI).vi"/>
-	<Item Name="提取仪器参数 (子VI).vi" Type="VI" URL="../VIs/提取仪器参数 (子VI).vi"/>
-	<Item Name="剖面多参数组合(子VI).vi" Type="VI" URL="../VIs/剖面多参数组合(子VI).vi"/>
-	<Item Name="3090仪器参数上传.vi" Type="VI" URL="../VIs/3090仪器参数上传.vi"/>
-	<Item Name="剖面多参数上传.vi" Type="VI" URL="../VIs/剖面多参数上传.vi"/>
-	<Item Name="环境参数上传.vi" Type="VI" URL="../VIs/环境参数上传.vi"/>
-	<Item Name="零点跨度数据组合 (子VI).vi" Type="VI" URL="../VIs/零点跨度数据组合 (子VI).vi"/>
-	<Item Name="加标回收数据组合 (子VI).vi" Type="VI" URL="../VIs/加标回收数据组合 (子VI).vi"/>
-	<Item Name="平行样集成干预数据组合(子VI).vi" Type="VI" URL="../VIs/平行样集成干预数据组合(子VI).vi"/>
-	<Item Name="标样核查数据组合(子VI).vi" Type="VI" URL="../VIs/标样核查数据组合(子VI).vi"/>
-	<Item Name="数据发送组合-20200825 (子VI).vi" Type="VI" URL="../子VI/数据发送组合-20200825 (子VI).vi"/>
-	<Item Name="与工控机交互(子VI).vi" Type="VI" URL="../子VI/与工控机交互(子VI).vi"/>
-	<Item Name="核查数据发送(子VI).vi" Type="VI" URL="../VIs/核查数据发送(子VI).vi"/>
-	<Item Name="参数配置表.vi" Type="VI" URL="../子VI/参数配置表.vi"/>
-	<Item Name="配置文件断电保存(子VI).vi" Type="VI" URL="../子VI/配置文件断电保存(子VI).vi"/>
-	<Item Name="数组拆分.vi" Type="VI" URL="../通用VI/数组拆分.vi"/>
-	<Item Name="仪器参数发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数发送 (子VI).vi"/>
-	<Item Name="告警信息文本转换为协议i12031值.vi" Type="VI" URL="../VIs/告警信息文本转换为协议i12031值.vi"/>
-	<Item Name="创建脚本文件.vi" Type="VI" URL="../通用VI/创建脚本文件.vi"/>
-	<Item Name="小时数据发送 (子VI).vi" Type="VI" URL="../子VI/小时数据发送 (子VI).vi"/>
-	<Item Name="实时数据发送 (子VI).vi" Type="VI" URL="../子VI/实时数据发送 (子VI).vi"/>
-	<Item Name="零点核查数据发送 (子VI).vi" Type="VI" URL="../子VI/零点核查数据发送 (子VI).vi"/>
-	<Item Name="跨度核查数据发送 (子VI).vi" Type="VI" URL="../子VI/跨度核查数据发送 (子VI).vi"/>
-	<Item Name="标样核查数据发送(子VI).vi" Type="VI" URL="../子VI/标样核查数据发送(子VI).vi"/>
-	<Item Name="数据补传对话框.vi" Type="VI" URL="../VIs/数据补传对话框.vi"/>
-	<Item Name="核查数据时间戳转换 (子VI).vi" Type="VI" URL="../子VI/核查数据时间戳转换 (子VI).vi"/>
-	<Item Name="新剖面数据上传.vi" Type="VI" URL="../VIs/新剖面数据上传.vi"/>
-	<Item Name="新剖面数据组合.vi" Type="VI" URL="../VIs/新剖面数据组合.vi"/>
-	<Item Name="3020仪器参数发送.vi" Type="VI" URL="../子VI/3020仪器参数发送.vi"/>
-	<Item Name="剖面数据拆分切割.vi" Type="VI" URL="../通用VI/剖面数据拆分切割.vi"/>
 	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
 </Library>
