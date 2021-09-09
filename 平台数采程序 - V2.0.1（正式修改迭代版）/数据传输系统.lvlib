@@ -67,10 +67,10 @@
 		<Item Name="关键参数解析.vi" Type="VI" URL="../子VI/关键参数解析.vi"/>
 		<Item Name="关键参数转data(子VI).vi" Type="VI" URL="../VIs/关键参数转data(子VI).vi"/>
 		<Item Name="仪器参数改变发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数改变发送 (子VI).vi"/>
-		<Item Name="校准信息解析.vi" Type="VI" URL="../../../集成模板/总磷总氮模板/新电路板/模板库/斯坦道仪器总磷总氮/Subvi/校准信息解析.vi"/>
 		<Item Name="校准信息改变发送 (子VI).vi" Type="VI" URL="../VIs/校准信息改变发送 (子VI).vi"/>
 		<Item Name="校准参数转data(子VI).vi" Type="VI" URL="../VIs/校准参数转data(子VI).vi"/>
 		<Item Name="校准信息组合 (子VI).vi" Type="VI" URL="../VIs/校准信息组合 (子VI).vi"/>
+		<Item Name="校准信息解析.vi" Type="VI" URL="../子VI/校准信息解析.vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
