@@ -50,7 +50,6 @@
 		<Item Name="字符串精度转换.vi" Type="VI" URL="../VIs/字符串精度转换.vi"/>
 		<Item Name="字符转十六进制字符串.vi" Type="VI" URL="../VIs/字符转十六进制字符串.vi"/>
 		<Item Name="最小窗口后台运行(子VI).vi" Type="VI" URL="../VIs/最小窗口后台运行(子VI).vi"/>
-		<Item Name="主动上传工控机周期和模式 (子VI).vi" Type="VI" URL="../VIs/主动上传工控机周期和模式 (子VI).vi"/>
 		<Item Name="日志信息入发送队列 (子VI).vi" Type="VI" URL="../VIs/日志信息入发送队列 (子VI).vi"/>
 		<Item Name="日志信息出发送队列 (子VI).vi" Type="VI" URL="../VIs/日志信息出发送队列 (子VI).vi"/>
 		<Item Name="实时小时数据单参数上传.vi" Type="VI" URL="../VIs/实时小时数据单参数上传.vi"/>

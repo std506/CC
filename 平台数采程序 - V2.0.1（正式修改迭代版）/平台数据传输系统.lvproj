@@ -519,6 +519,7 @@
 			<Item Name="Sqlite Query.vi" Type="VI" URL="../../database/Interface/Sqlite Query.vi"/>
 			<Item Name="database platform path.vi" Type="VI" URL="../../database/Interface/database platform path.vi"/>
 			<Item Name="database path.vi" Type="VI" URL="../../database/Interface/database path.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="NEW平台数据传输系统" Type="EXE">
@@ -536,7 +537,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">63</Property>
@@ -1022,7 +1023,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/自动更新.lvlib/自动升级程序/TCP文件传输系统/main/TCP文件传输系统.lvlib/main/Server send.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib/自动更新.lvlib/TCP文件传输系统.lvlib/main/Server send.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
