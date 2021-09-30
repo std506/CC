@@ -1,0 +1,15 @@
+【21/04/23 16:11:52.955】:错误-2147217913发生于 NI_Database_API.lvlib:Cmd Execute.vi->斯坦道CODMn.lvlib:data insert core.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->斯坦道CODMn.lvlib:data insert core.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi中的Exception occured in Microsoft JET Database Engine: 标准表达式中数据类型不匹配。
+【21/04/23 16:11:54.606】:错误-2147217913发生于 NI_Database_API.lvlib:Cmd Execute.vi->斯坦道CODMn.lvlib:data insert core.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->斯坦道CODMn.lvlib:data insert core.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi中的Exception occured in Microsoft JET Database Engine: 标准表达式中数据类型不匹配。
+【21/04/23 16:12:07.764】:错误-2147217913发生于 NI_Database_API.lvlib:Cmd Execute.vi->斯坦道CODMn.lvlib:data insert core.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->斯坦道CODMn.lvlib:data insert core.vi->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi中的Exception occured in Microsoft JET Database Engine: 标准表达式中数据类型不匹配。

@@ -1,0 +1,16 @@
+【21/09/30 17:03:20.988】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【21/09/30 17:03:21.913】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【21/09/30 17:03:22.788】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【21/09/30 17:03:23.739】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.

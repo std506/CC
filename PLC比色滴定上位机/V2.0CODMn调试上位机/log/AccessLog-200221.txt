@@ -1,0 +1,5 @@
+【20/02/21 16:46:19.068】:错误1发生于 NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道CODMn.lvlib:数据写入database.vi
+
+可能原因：
+ADO Error: 0x00000001
+Argument error; the number of columns does not equal the number of parameters.
