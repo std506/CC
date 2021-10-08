@@ -138,4 +138,9 @@
 	<Item Name="参数设置" Type="Folder">
 		<Item Name="参数设置页.vi" Type="VI" URL="../参数设置/参数设置页.vi"/>
 	</Item>
+	<Item Name="DataGrid" Type="Folder">
+		<Item Name="time生成路径 (子VI).vi" Type="VI" URL="../DataGrid/time生成路径 (子VI).vi"/>
+		<Item Name="波形前面板显示.vi" Type="VI" URL="../DataGrid/波形前面板显示.vi"/>
+		<Item Name="读取CODMn数据波形新.vi" Type="VI" URL="../DataGrid/读取CODMn数据波形新.vi"/>
+	</Item>
 </Library>

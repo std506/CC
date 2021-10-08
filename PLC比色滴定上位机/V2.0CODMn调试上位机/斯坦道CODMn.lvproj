@@ -559,20 +559,10 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PLC版 CODMn字段定义.ctl" Type="VI" URL="../database/control/PLC版 CODMn字段定义.ctl"/>
-			<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../database/Interface/PLC版CODMn数据插入.vi"/>
-			<Item Name="报警信息字段定义.ctl" Type="VI" URL="../database/control/报警信息字段定义.ctl"/>
-			<Item Name="操作日志数据插入.vi" Type="VI" URL="../database/Interface/操作日志数据插入.vi"/>
-			<Item Name="报警信息数据插入.vi" Type="VI" URL="../database/Interface/报警信息数据插入.vi"/>
 			<Item Name="CODMn交互.ctl" Type="VI" URL="../../共用控件/内部交互/CODMn交互.ctl"/>
-			<Item Name="校准日志数据插入.vi" Type="VI" URL="../database/Interface/校准日志数据插入.vi"/>
-			<Item Name="insert values.vi" Type="VI" URL="../database/Interface/insert values.vi"/>
-			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../database/control/操作日志字段定义.ctl"/>
 			<Item Name="数据查询菜单.xctl" Type="XControl" URL="../vis数据查询/control/数据查询菜单/数据查询菜单.xctl"/>
 			<Item Name="子菜单.ctl" Type="VI" URL="../vis数据查询/control/子菜单.ctl"/>
-			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
-			<Item Name="Select Str.vi" Type="VI" URL="../database/Interface/Select Str.vi"/>
-			<Item Name="SQLite Upsert.vi" Type="VI" URL="../database/Interface/SQLite Upsert.vi"/>
+			<Item Name="SQLite Upsert.vi" Type="VI" URL="../../database/Interface/SQLite Upsert.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -588,11 +578,24 @@
 			<Item Name="System.Web" Type="Document" URL="System.Web">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="database path.vi" Type="VI" URL="../database/Interface/database path.vi"/>
-			<Item Name="数据库类型.ctl" Type="VI" URL="../database/control/数据库类型.ctl"/>
-			<Item Name="Access Lib.lvlib" Type="Library" URL="../database/Access/Access Lib.lvlib"/>
-			<Item Name="SQLite Lib.lvlib" Type="Library" URL="../database/SQLite/SQLite Lib.lvlib"/>
-			<Item Name="校准日志字段定义.ctl" Type="VI" URL="../database/control/校准日志字段定义.ctl"/>
+			<Item Name="database path.vi" Type="VI" URL="../../database/Interface/database path.vi"/>
+			<Item Name="PLC版 CODMn字段定义.ctl" Type="VI" URL="../../database/control/PLC版 CODMn字段定义.ctl"/>
+			<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../../database/Interface/PLC版CODMn数据插入.vi"/>
+			<Item Name="insert values.vi" Type="VI" URL="../../database/Interface/insert values.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="数据库类型.ctl" Type="VI" URL="../../database/control/数据库类型.ctl"/>
+			<Item Name="Access Lib.lvlib" Type="Library" URL="../../database/Access/Access Lib.lvlib"/>
+			<Item Name="SQLite Lib.lvlib" Type="Library" URL="../../database/SQLite/SQLite Lib.lvlib"/>
+			<Item Name="报警信息字段定义.ctl" Type="VI" URL="../../database/control/报警信息字段定义.ctl"/>
+			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
+			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../database/control/操作日志字段定义.ctl"/>
+			<Item Name="报警信息数据插入.vi" Type="VI" URL="../../database/Interface/报警信息数据插入.vi"/>
+			<Item Name="校准日志数据插入.vi" Type="VI" URL="../../database/Interface/校准日志数据插入.vi"/>
+			<Item Name="校准日志字段定义.ctl" Type="VI" URL="../../database/control/校准日志字段定义.ctl"/>
+			<Item Name="Select Str.vi" Type="VI" URL="../../database/Interface/Select Str.vi"/>
+			<Item Name="数据查询大列表框.ctl" Type="VI" URL="../Control/数据查询大列表框.ctl"/>
+			<Item Name="Read database.vi" Type="VI" URL="../DataGrid/Read database.vi"/>
+			<Item Name="Sqlite Query.vi" Type="VI" URL="../../database/Interface/Sqlite Query.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="斯坦道CODMn" Type="EXE">
@@ -611,7 +614,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9C453B90-080D-45EC-8348-8CB860527513}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
