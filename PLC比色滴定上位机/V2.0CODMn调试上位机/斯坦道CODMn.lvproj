@@ -593,8 +593,6 @@
 			<Item Name="校准日志数据插入.vi" Type="VI" URL="../../database/Interface/校准日志数据插入.vi"/>
 			<Item Name="校准日志字段定义.ctl" Type="VI" URL="../../database/control/校准日志字段定义.ctl"/>
 			<Item Name="Select Str.vi" Type="VI" URL="../../database/Interface/Select Str.vi"/>
-			<Item Name="数据查询大列表框.ctl" Type="VI" URL="../Control/数据查询大列表框.ctl"/>
-			<Item Name="Read database.vi" Type="VI" URL="../DataGrid/Read database.vi"/>
 			<Item Name="Sqlite Query.vi" Type="VI" URL="../../database/Interface/Sqlite Query.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
@@ -614,9 +612,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9C453B90-080D-45EC-8348-8CB860527513}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">斯坦道CODMn.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/斯坦道CODMn.exe</Property>
@@ -626,7 +624,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/image/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{626B529F-2BB6-4CBD-AC1D-8F8D5A3078EE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D3191914-70E3-41EB-9029-DD4B444C771F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/生产调试用上位机.vi</Property>
