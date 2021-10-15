@@ -161,11 +161,9 @@
 		<Item Name="标样核查数据组合(子VI).vi" Type="VI" URL="../VIs/标样核查数据组合(子VI).vi"/>
 		<Item Name="数据发送组合-20200825 (子VI).vi" Type="VI" URL="../子VI/数据发送组合-20200825 (子VI).vi"/>
 		<Item Name="与工控机交互(子VI).vi" Type="VI" URL="../子VI/与工控机交互(子VI).vi"/>
-		<Item Name="核查数据发送(子VI).vi" Type="VI" URL="../VIs/核查数据发送(子VI).vi"/>
 		<Item Name="参数配置表.vi" Type="VI" URL="../子VI/参数配置表.vi"/>
 		<Item Name="配置文件断电保存(子VI).vi" Type="VI" URL="../子VI/配置文件断电保存(子VI).vi"/>
 		<Item Name="数组拆分.vi" Type="VI" URL="../通用VI/数组拆分.vi"/>
-		<Item Name="仪器参数发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数发送 (子VI).vi"/>
 		<Item Name="告警信息文本转换为协议i12031值.vi" Type="VI" URL="../VIs/告警信息文本转换为协议i12031值.vi"/>
 		<Item Name="创建脚本文件.vi" Type="VI" URL="../通用VI/创建脚本文件.vi"/>
 		<Item Name="小时数据发送 (子VI).vi" Type="VI" URL="../子VI/小时数据发送 (子VI).vi"/>

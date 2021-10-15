@@ -1,0 +1,180 @@
+【21/10/15 14:23:13.147】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:13.373】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:14.368】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:15.368】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:16.397】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:17.378】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:18.496】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:19.373】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:20.483】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:21.373】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:22.386】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:23.391】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:24.376】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:25.372】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:26.460】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:27.371】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:28.373】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:29.452】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:30.373】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:31.375】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:32.375】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:33.375】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:34.376】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:35.377】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:36.376】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:37.375】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:38.376】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:39.377】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:40.377】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:41.379】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:42.377】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:43.376】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:44.378】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:45.379】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:46.377】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
+【21/10/15 14:23:47.378】:错误403483发生于 MB Master.lvlib:MB_Master_Serial.lvclass:Querry.vi:3550001
+
+可能原因：
+
+Invalid Modbus session
