@@ -30,16 +30,6 @@
 		<Item Name="全局" Type="Folder">
 			<Item Name="update全局.vi" Type="VI" URL="../全局/update全局.vi"/>
 		</Item>
-		<Item Name="TCP文件传输系统" Type="Folder">
-			<Item Name="main" Type="Folder">
-				<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../TCP文件传输系统/TCP文件传输系统.lvlib"/>
-			</Item>
-			<Item Name="TCP文件传输系统.aliases" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.aliases"/>
-			<Item Name="TCP文件传输系统.lvlps" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.lvlps"/>
-			<Item Name="TCP文件传输系统.lvproj" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.lvproj"/>
-		</Item>
-		<Item Name="image" Type="Folder">
-			<Item Name="tubiao.ico" Type="Document" URL="../image/tubiao.ico"/>
-		</Item>
 	</Item>
+	<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../TCP文件传输系统/TCP文件传输系统.lvlib"/>
 </Library>

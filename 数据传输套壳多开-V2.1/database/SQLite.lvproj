@@ -38,6 +38,9 @@
 			<Item Name="SQLite example.vi" Type="VI" URL="../SQLite example.vi"/>
 		</Item>
 		<Item Name="Interface" Type="Folder">
+			<Item Name="外部调用接口" Type="Folder">
+				<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			</Item>
 			<Item Name="insert values.vi" Type="VI" URL="../Interface/insert values.vi"/>
 			<Item Name="营养盐数据插入.vi" Type="VI" URL="../Interface/营养盐数据插入.vi"/>
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../Interface/操作日志数据插入.vi"/>
