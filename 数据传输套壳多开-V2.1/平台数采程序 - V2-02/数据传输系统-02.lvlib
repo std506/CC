@@ -177,6 +177,7 @@
 		<Item Name="新剖面数据组合.vi" Type="VI" URL="../VIs/新剖面数据组合.vi"/>
 		<Item Name="3020仪器参数发送.vi" Type="VI" URL="../子VI/3020仪器参数发送.vi"/>
 		<Item Name="剖面数据拆分切割.vi" Type="VI" URL="../通用VI/剖面数据拆分切割.vi"/>
+		<Item Name="采配水仪器参数改变发送 (子VI).vi" Type="VI" URL="../VIs/采配水仪器参数改变发送 (子VI).vi"/>
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
