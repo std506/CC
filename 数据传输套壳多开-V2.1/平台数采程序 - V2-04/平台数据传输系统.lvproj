@@ -114,10 +114,7 @@
 				<Item Name="Write Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value STR.vi"/>
 				<Item Name="Write Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value DWORD.vi"/>
 				<Item Name="Write Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple U32.vi"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/master/Modbus Master.lvclass"/>
 				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Transmission Data Unit.lvclass"/>
 				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
@@ -537,7 +534,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NEW平台数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">56</Property>
+				<Property Name="Bld_version.build" Type="Int">65</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">64</Property>
@@ -1030,6 +1027,83 @@
 				<Property Name="TgtF_productName" Type="Str">Server send</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1AA37B28-D4FD-44DF-804A-1E79597232C3}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Server send.exe</Property>
+			</Item>
+			<Item Name="MB" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1DB124C9-FEFD-41D2-9A45-F33591DB06A8}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4B32A603-7569-4D75-9E9C-3F609C280B1A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{2E6EBC05-4DE8-427E-B759-35122ECB7722}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MB</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MB</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DC6B9CB7-447D-4276-989C-1CA9633FC7C3}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">MB.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MB/MB.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MB/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{21212767-F1CD-4D21-ADBD-42786A5D9042}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{E512E3AA-7C68-471E-9D09-06BB3FD3D355}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{68014882-C6C5-4A70-BCF0-050427EB3470}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{FAADC2A5-39BB-4653-923D-BA86DF95FCD4}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{4F833EE9-D6B4-463C-8A8C-B44F6E8E4CC2}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{A7CB9A10-2954-4665-8152-A82529D9616A}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{4C5520F8-6530-43AC-B72B-8EDCD3036762}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{F3B6B7B7-58AC-4D20-B6CA-32B6F5DFFAFA}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{B85B6A9F-0673-45A0-A9FE-A99F28EBD5C6}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{91BEF2E0-11B7-4DD3-94FD-C95E0272D1DC}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{B6A4461A-B545-4CD8-87A3-8AAA873AC1B7}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{0E50D1CA-125A-437D-9999-575D7E3703C5}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{63613565-E3B3-4360-B36F-43943C6C41D2}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{BF28F622-89AA-40A6-BDA9-9F3885520745}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{8D6C7ADA-E171-48A2-97C7-DF363EBC60BC}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{5B6CAB9B-8DE9-4127-A611-759D5FFA898F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{C19EAD94-3807-4B60-B2CD-6A19AEF93E1D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{17FB4603-13F1-49E7-B5C4-C83297B0AEB6}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{2F7A69F9-4931-44A8-B3EA-C8147334D527}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{F3D4CE9E-1624-4A5D-B7EB-A15194CCBF54}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{D2C3533C-08E0-4669-9F61-8DF5B0A17829}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{B16EF916-49C0-48AD-B583-4E9259275D02}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{F88647F0-9DF5-41B7-825D-21CA3A2F388D}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{F43A9888-3FD8-43B8-A56C-D7959A46F101}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{27713C5A-8B09-4CF6-BCE0-CB01BD4E0C3C}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{D3750FD5-F9DB-48FD-AE92-07DD9B7F030F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{9E45FB45-A0D1-4489-A93D-0D07E33CBB55}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{F96A189C-6018-4DF0-A43E-5F9BF03453C5}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{F419196E-3354-4F1C-AC37-8862E4918214}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{355B0868-AFB8-4DA8-B539-1241063061BF}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{AE7A0243-2937-4575-895C-76732C6096A6}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">MB</Property>
+				<Property Name="Exe_actXServerName" Type="Str">MB</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
+				<Property Name="Source[0].itemID" Type="Str">{F3D79F75-8CF5-4E14-9F9D-929516CD8524}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统-04.lvlib/Modbus Master/Modbus Master.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MB</Property>
+				<Property Name="TgtF_internalName" Type="Str">MB</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">MB</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{92DEEC17-E9B9-428C-9FFD-26D7E9327295}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MB.exe</Property>
 			</Item>
 		</Item>
 	</Item>
