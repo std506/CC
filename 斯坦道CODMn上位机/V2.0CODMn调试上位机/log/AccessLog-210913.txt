@@ -1,0 +1,15 @@
+【21/09/13 18:34:59.561】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi:3760009->insert values.vi:620008->PLC版CODMn数据插入.vi:440001->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi:3760009->insert values.vi:620008->PLC版CODMn数据插入.vi:440001->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【21/09/13 18:35:11.060】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi:3760009->insert values.vi:620008->PLC版CODMn数据插入.vi:440001->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi:3760009->insert values.vi:620008->PLC版CODMn数据插入.vi:440001->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【21/09/13 18:35:14.151】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi:3760009->insert values.vi:620008->PLC版CODMn数据插入.vi:440001->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi:3760009->insert values.vi:620008->PLC版CODMn数据插入.vi:440001->斯坦道CODMn.lvlib:数据写入database.vi->斯坦道CODMn.lvlib:待机状态数据存储写入和切换量程(子VI).vi->斯坦道CODMn.lvlib:COD主界面（列队使用）.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。

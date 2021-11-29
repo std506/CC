@@ -22,4 +22,9 @@
 	<Item Name="状态 2.ctl" Type="Ability VI" URL="../状态 2.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">State</Property>
 	</Item>
+	<Item Name="属性" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">属性</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">属性</Property>
+		<Item Name="配置属性写入.vi" Type="Property VI" URL="../属性/配置属性写入.vi"/>
+	</Item>
 </XControl>
