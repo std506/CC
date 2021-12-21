@@ -522,8 +522,6 @@
 			<Item Name="database platform path.vi" Type="VI" URL="../../database/Interface/database platform path.vi"/>
 			<Item Name="database path.vi" Type="VI" URL="../../database/Interface/database path.vi"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
-			<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
-			<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="NEW平台数据传输系统" Type="EXE">

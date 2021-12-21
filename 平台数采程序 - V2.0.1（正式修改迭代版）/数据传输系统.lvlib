@@ -200,4 +200,6 @@
 		<Item Name="更新控件.ctl" Type="VI" URL="../控件/更新控件.ctl"/>
 		<Item Name="帮助控件.ctl" Type="VI" URL="../控件/帮助控件.ctl"/>
 	</Item>
+	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
+	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
 </Library>
