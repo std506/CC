@@ -202,4 +202,5 @@
 	</Item>
 	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
+	<Item Name="AESC#vi.vi" Type="VI" URL="../通用VI/AESC#vi.vi"/>
 </Library>

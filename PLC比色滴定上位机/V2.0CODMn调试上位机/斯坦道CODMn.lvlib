@@ -147,4 +147,7 @@
 	<Item Name="Control" Type="Folder">
 		<Item Name="数据查询大列表框.ctl" Type="VI" URL="../Control/数据查询大列表框.ctl"/>
 	</Item>
+	<Item Name="温度补偿" Type="Folder">
+		<Item Name="温度补偿.vi" Type="VI" URL="../温度补偿/温度补偿.vi"/>
+	</Item>
 </Library>

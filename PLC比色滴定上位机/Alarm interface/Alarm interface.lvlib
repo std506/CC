@@ -6,13 +6,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="subvi" Type="Folder">
-		<Item Name="Write XML.vi" Type="VI" URL="../subvi/Write XML.vi"/>
+		<Item Name="报警XML解析.vi" Type="VI" URL="../subvi/报警XML解析.vi"/>
 		<Item Name="Read XML.vi" Type="VI" URL="../subvi/Read XML.vi"/>
 		<Item Name="Read configure.vi" Type="VI" URL="../subvi/Read configure.vi"/>
 		<Item Name="Write configure.vi" Type="VI" URL="../subvi/Write configure.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 		<Item Name="操作.vi" Type="VI" URL="../subvi/操作.vi"/>
-		<Item Name="code.vi" Type="VI" URL="../subvi/code.vi"/>
 		<Item Name="报警定义配置.vi" Type="VI" URL="../subvi/报警定义配置.vi"/>
 		<Item Name="Alarm interface.vi" Type="VI" URL="../subvi/Alarm interface.vi"/>
 		<Item Name="Read alarm XML.vi" Type="VI" URL="../subvi/Read alarm XML.vi"/>
