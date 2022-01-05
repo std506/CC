@@ -117,6 +117,8 @@
 		<Item Name="数据补发判定有限循环.vi" Type="VI" URL="../通用VI/数据补发判定有限循环.vi"/>
 		<Item Name="数据全参数一起发送整点触发.vi" Type="VI" URL="../通用VI/数据全参数一起发送整点触发.vi"/>
 		<Item Name="更新log记录.vi" Type="VI" URL="../通用VI/更新log记录.vi"/>
+		<Item Name="AESC#vi.vi" Type="VI" URL="../通用VI/AESC#vi.vi"/>
+		<Item Name="变量初始化.vi" Type="VI" URL="../通用VI/变量初始化.vi"/>
 	</Item>
 	<Item Name="注册表" Type="Folder">
 		<Item Name="查询启动项.vi" Type="VI" URL="../注册表/查询启动项.vi"/>
@@ -202,5 +204,4 @@
 	</Item>
 	<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
-	<Item Name="AESC#vi.vi" Type="VI" URL="../通用VI/AESC#vi.vi"/>
 </Library>
