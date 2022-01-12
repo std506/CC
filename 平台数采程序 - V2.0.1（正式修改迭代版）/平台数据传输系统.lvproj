@@ -26,6 +26,90 @@
 		<Item Name="data" Type="Folder" URL="../data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="database" Type="Folder">
+			<Item Name="Access" Type="Folder">
+				<Item Name="control" Type="Folder"/>
+				<Item Name="Interface" Type="Folder"/>
+				<Item Name="subvi" Type="Folder"/>
+				<Item Name="Access Lib.lvlib" Type="Library" URL="../../database/Access/Access Lib.lvlib"/>
+			</Item>
+			<Item Name="config" Type="Folder">
+				<Item Name="load config.vi" Type="VI" URL="../../database/config/load config.vi"/>
+				<Item Name="save config.vi" Type="VI" URL="../../database/config/save config.vi"/>
+			</Item>
+			<Item Name="control" Type="Folder">
+				<Item Name="NMAE气象仪字段定义.ctl" Type="VI" URL="../../database/control/NMAE气象仪字段定义.ctl"/>
+				<Item Name="PLC版 CODMn字段定义.ctl" Type="VI" URL="../../database/control/PLC版 CODMn字段定义.ctl"/>
+				<Item Name="WXA100气象仪字段定义.ctl" Type="VI" URL="../../database/control/WXA100气象仪字段定义.ctl"/>
+				<Item Name="报警信息字段定义.ctl" Type="VI" URL="../../database/control/报警信息字段定义.ctl"/>
+				<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../database/control/操作日志字段定义.ctl"/>
+				<Item Name="单片机版 CODMn字段定义.ctl" Type="VI" URL="../../database/control/单片机版 CODMn字段定义.ctl"/>
+				<Item Name="集成多参数单参数字段定义.ctl" Type="VI" URL="../../database/control/集成多参数单参数字段定义.ctl"/>
+				<Item Name="集成多参数全参数字段定义.ctl" Type="VI" URL="../../database/control/集成多参数全参数字段定义.ctl"/>
+				<Item Name="集成干预字段定义.ctl" Type="VI" URL="../../database/control/集成干预字段定义.ctl"/>
+				<Item Name="加标回收字段定义.ctl" Type="VI" URL="../../database/control/加标回收字段定义.ctl"/>
+				<Item Name="流量计字段定义.ctl" Type="VI" URL="../../database/control/流量计字段定义.ctl"/>
+				<Item Name="平行样测试数据字段定义.ctl" Type="VI" URL="../../database/control/平行样测试数据字段定义.ctl"/>
+				<Item Name="剖面数据_bbe_NAQDO.ctl" Type="VI" URL="../../database/control/剖面数据_bbe_NAQDO.ctl"/>
+				<Item Name="剖面数据_EXO2.ctl" Type="VI" URL="../../database/control/剖面数据_EXO2.ctl"/>
+				<Item Name="剖面数据字段定义.ctl" Type="VI" URL="../../database/control/剖面数据字段定义.ctl"/>
+				<Item Name="数据库类型.ctl" Type="VI" URL="../../database/control/数据库类型.ctl"/>
+				<Item Name="校准日志字段定义.ctl" Type="VI" URL="../../database/control/校准日志字段定义.ctl"/>
+				<Item Name="营养盐字段定义.ctl" Type="VI" URL="../../database/control/营养盐字段定义.ctl"/>
+				<Item Name="原位多参数单参数字段定义.ctl" Type="VI" URL="../../database/control/原位多参数单参数字段定义.ctl"/>
+				<Item Name="原位多参数全参数字段定义.ctl" Type="VI" URL="../../database/control/原位多参数全参数字段定义.ctl"/>
+			</Item>
+			<Item Name="Interface" Type="Folder">
+				<Item Name="外部调用接口" Type="Folder">
+					<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+				</Item>
+				<Item Name="copy database to platform.vi" Type="VI" URL="../../database/Interface/copy database to platform.vi"/>
+				<Item Name="database path.vi" Type="VI" URL="../../database/Interface/database path.vi"/>
+				<Item Name="database platform path.vi" Type="VI" URL="../../database/Interface/database platform path.vi"/>
+				<Item Name="insert values.vi" Type="VI" URL="../../database/Interface/insert values.vi"/>
+				<Item Name="NMEA气象仪数据插入.vi" Type="VI" URL="../../database/Interface/NMEA气象仪数据插入.vi"/>
+				<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../../database/Interface/PLC版CODMn数据插入.vi"/>
+				<Item Name="Select Str.vi" Type="VI" URL="../../database/Interface/Select Str.vi"/>
+				<Item Name="Sqlite Query.vi" Type="VI" URL="../../database/Interface/Sqlite Query.vi"/>
+				<Item Name="SQLite Upsert.vi" Type="VI" URL="../../database/Interface/SQLite Upsert.vi"/>
+				<Item Name="WXA100气象仪数据插入.vi" Type="VI" URL="../../database/Interface/WXA100气象仪数据插入.vi"/>
+				<Item Name="报警信息数据插入.vi" Type="VI" URL="../../database/Interface/报警信息数据插入.vi"/>
+				<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
+				<Item Name="超标留样数据插入.vi" Type="VI" URL="../../database/Interface/超标留样数据插入.vi"/>
+				<Item Name="单片机版CODMn数据插入.vi" Type="VI" URL="../../database/Interface/单片机版CODMn数据插入.vi"/>
+				<Item Name="点创CODCr数据插入.vi" Type="VI" URL="../../database/Interface/点创CODCr数据插入.vi"/>
+				<Item Name="环境参数数据插入.vi" Type="VI" URL="../../database/Interface/环境参数数据插入.vi"/>
+				<Item Name="获取最新一笔数据.vi" Type="VI" URL="../../database/Interface/获取最新一笔数据.vi"/>
+				<Item Name="集成多参数单参数数据插入.vi" Type="VI" URL="../../database/Interface/集成多参数单参数数据插入.vi"/>
+				<Item Name="集成多参数全参数数据插入.vi" Type="VI" URL="../../database/Interface/集成多参数全参数数据插入.vi"/>
+				<Item Name="集成干预数据插入.vi" Type="VI" URL="../../database/Interface/集成干预数据插入.vi"/>
+				<Item Name="加标回收数据插入.vi" Type="VI" URL="../../database/Interface/加标回收数据插入.vi"/>
+				<Item Name="流量计数据插入.vi" Type="VI" URL="../../database/Interface/流量计数据插入.vi"/>
+				<Item Name="剖面数据_bbe_NAQDO.vi" Type="VI" URL="../../database/Interface/剖面数据_bbe_NAQDO.vi"/>
+				<Item Name="剖面数据_exo2.vi" Type="VI" URL="../../database/Interface/剖面数据_exo2.vi"/>
+				<Item Name="剖面数据插入.vi" Type="VI" URL="../../database/Interface/剖面数据插入.vi"/>
+				<Item Name="剖面数据模拟器.vi" Type="VI" URL="../../database/Interface/剖面数据模拟器.vi"/>
+				<Item Name="校准日志数据插入.vi" Type="VI" URL="../../database/Interface/校准日志数据插入.vi"/>
+				<Item Name="营养盐数据插入.vi" Type="VI" URL="../../database/Interface/营养盐数据插入.vi"/>
+				<Item Name="原位多参数单参数数据插入.vi" Type="VI" URL="../../database/Interface/原位多参数单参数数据插入.vi"/>
+				<Item Name="原位多参数全参数数据插入.vi" Type="VI" URL="../../database/Interface/原位多参数全参数数据插入.vi"/>
+			</Item>
+			<Item Name="SQLite" Type="Folder">
+				<Item Name="Interface" Type="Folder"/>
+				<Item Name="subvi" Type="Folder"/>
+				<Item Name="SQLite Lib.lvlib" Type="Library" URL="../../database/SQLite/SQLite Lib.lvlib"/>
+			</Item>
+			<Item Name="数据导入工具" Type="Folder">
+				<Item Name="access table insert sqlite.vi" Type="VI" URL="../../database/数据导入工具/access table insert sqlite.vi"/>
+				<Item Name="数据导入工具-main.vi" Type="VI" URL="../../database/数据导入工具/数据导入工具-main.vi"/>
+			</Item>
+			<Item Name="Access example.vi" Type="VI" URL="../../database/Access example.vi"/>
+			<Item Name="alter database password.vi" Type="VI" URL="../../database/alter database password.vi"/>
+			<Item Name="SQLite example.vi" Type="VI" URL="../../database/SQLite example.vi"/>
+			<Item Name="SQLite.aliases" Type="Document" URL="../../database/SQLite.aliases"/>
+			<Item Name="SQLite.lvlps" Type="Document" URL="../../database/SQLite.lvlps"/>
+			<Item Name="SQLite.lvproj" Type="Document" URL="../../database/SQLite.lvproj"/>
+		</Item>
 		<Item Name="数据传输系统.lvlib" Type="Library" URL="../数据传输系统.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -191,6 +275,10 @@
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Serializer.Base64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenSerializer.Base64/Serializer.Base64.lvclass"/>
+				<Item Name="OpenSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenSerializer/OpenSerializer.lvlib"/>
+				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
@@ -488,6 +576,8 @@
 				<Item Name="SQLite_Is Encrypted.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/API/Utilities/SQLite_Is Encrypted.vi"/>
 				<Item Name="SQLite_Check DB.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/API/Utilities/SQLite_Check DB.vi"/>
 				<Item Name="SQLite_Change Password.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/API/Utilities/SQLite_Change Password.vi"/>
+				<Item Name="Clear Error.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Examples/Applications/Error Logger/Clear Error.vi"/>
+				<Item Name="DB_Man Dlg Password.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Examples/Applications/SQLite DB Manager/_Core/DB_Man Dlg Password.vi"/>
 			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -510,18 +600,6 @@
 			<Item Name="System.Web" Type="Document" URL="System.Web">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="报警信息字段定义.ctl" Type="VI" URL="../../database/control/报警信息字段定义.ctl"/>
-			<Item Name="报警信息数据插入.vi" Type="VI" URL="../../database/Interface/报警信息数据插入.vi"/>
-			<Item Name="数据库类型.ctl" Type="VI" URL="../../database/control/数据库类型.ctl"/>
-			<Item Name="insert values.vi" Type="VI" URL="../../database/Interface/insert values.vi"/>
-			<Item Name="Access Lib.lvlib" Type="Library" URL="../../database/Access/Access Lib.lvlib"/>
-			<Item Name="SQLite Lib.lvlib" Type="Library" URL="../../database/SQLite/SQLite Lib.lvlib"/>
-			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
-			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../database/control/操作日志字段定义.ctl"/>
-			<Item Name="Sqlite Query.vi" Type="VI" URL="../../database/Interface/Sqlite Query.vi"/>
-			<Item Name="database platform path.vi" Type="VI" URL="../../database/Interface/database platform path.vi"/>
-			<Item Name="database path.vi" Type="VI" URL="../../database/Interface/database path.vi"/>
-			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="NEW平台数据传输系统" Type="EXE">
@@ -1355,6 +1433,275 @@
 				<Property Name="TgtF_productName" Type="Str">线程6</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8B4B0428-046A-4FFF-B34C-C81D8AA87D82}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">线程6.lvlibp</Property>
+			</Item>
+			<Item Name="数据传输系统-01" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{AC0989F2-E810-404B-AF53-812D179ECF45}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">数据传输系统-01</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/16.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/TinkPad/Documents/LabVIEW Data/2016(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-01</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9CCC53CB-AB5D-4797-B839-301D89EB918D}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-01</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">API</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/database</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{433869CB-3C49-4289-B8C9-B723932A8896}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="数据传输系统-02" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{59A32B0A-655B-47A5-A2C7-ECC1E45BCF70}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">数据传输系统-02</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/16.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/TinkPad/Documents/LabVIEW Data/2016(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-02</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A4EF0C34-1BAF-4D4D-A8E8-28D726E47217}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-02</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">API</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/database</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{433869CB-3C49-4289-B8C9-B723932A8896}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].newName" Type="Str">数据传输系统-02.lvlib</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="数据传输系统-03" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FCF04E15-9767-4167-988F-22A4A8445D09}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">数据传输系统-03</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/16.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/TinkPad/Documents/LabVIEW Data/2016(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-03</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{81187416-7AB3-4115-B7B8-63A9A9E087A7}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-03</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">API</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/database</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{433869CB-3C49-4289-B8C9-B723932A8896}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].newName" Type="Str">数据传输系统-03.lvlib</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="数据传输系统-04" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{225EF542-98D9-4800-9B0D-61A805FB0F23}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">数据传输系统-04</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/16.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/TinkPad/Documents/LabVIEW Data/2016(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-04</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8B42CDCC-A529-455B-87D1-F01D3AC116AA}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-04</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">API</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/database</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{433869CB-3C49-4289-B8C9-B723932A8896}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].newName" Type="Str">数据传输系统-04.lvlib</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="数据传输系统-05" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7BC9A8A9-F0CB-4B5B-A54A-B7E42E20E371}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">数据传输系统-05</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/16.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/TinkPad/Documents/LabVIEW Data/2016(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-05</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3E594E86-7BE5-459A-8EE5-FCF490B5B422}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-05</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">API</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/database</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{433869CB-3C49-4289-B8C9-B723932A8896}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].newName" Type="Str">数据传输系统-05.lvlib</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="数据传输系统-06" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9D36EAC1-2CB1-4489-B535-ACD3B172D80B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">数据传输系统-06</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/16.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/TinkPad/Documents/LabVIEW Data/2016(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-06</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0045B0FF-0034-4655-BF1F-CF45765D89B2}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-06</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">API</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/database</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{433869CB-3C49-4289-B8C9-B723932A8896}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/数据传输系统.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].newName" Type="Str">数据传输系统-06.lvlib</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
