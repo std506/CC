@@ -24,4 +24,11 @@
 	<Item Name="更新全局变量.vi" Type="VI" URL="../更新全局变量.vi"/>
 	<Item Name="关于.ctl" Type="VI" URL="../关于.ctl"/>
 	<Item Name="自定义双按钮对话框.vi" Type="VI" URL="../自定义双按钮对话框.vi"/>
+	<Item Name="create daemon exec.vi" Type="VI" URL="../create daemon exec.vi"/>
+	<Item Name="create daemon config.vi" Type="VI" URL="../create daemon config.vi"/>
+	<Item Name="stop daemon.vi" Type="VI" URL="../stop daemon.vi"/>
+	<Item Name="start daemon.vi" Type="VI" URL="../start daemon.vi"/>
+	<Item Name="create daemon.vi" Type="VI" URL="../create daemon.vi"/>
+	<Item Name="配置文件read.vi" Type="VI" URL="../配置文件read.vi"/>
+	<Item Name="配置文件write.vi" Type="VI" URL="../配置文件write.vi"/>
 </Library>
