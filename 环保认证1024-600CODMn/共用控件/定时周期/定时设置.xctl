@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="16008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5X&lt;A91M&lt;/W-,&lt;'&amp;&lt;9+K1,7Q,&lt;)%N&lt;!NMA3X)DW?-RJ(JQ"I\%%Z,(@`BA#==ZB3RN;]28_,V7@P_W`:R`&gt;HV*SU_WE@\N_XF[3:^^TX\+2YP)D7K6;G-RV3P)R`ZS%=_]J'XP/5N&lt;XH,7V\SEJ?]Z#5P?=J4HP+5JTTFWS%0?=B$DD1G(R/.1==!IT.+D)`B':\B'2Z@9XC':XC':XBUC?%:HO%:HO&amp;R7QT0]!T0]!S0I4&lt;*&lt;)?=:XA-(]X40-X40-VDSGC?"GC4N9(&lt;)"D2,L;4ZGG?ZH%;T&gt;-]T&gt;-]T?.S.%`T.%`T.)^&lt;NF8J4@-YZ$S'C?)JHO)JHO)R&gt;"20]220]230[;*YCK=ASI2F=)1I.Z5/Z5PR&amp;)^@54T&amp;5TT&amp;5TQO&lt;5_INJ6Z;"[(H#&gt;ZEC&gt;ZEC&gt;Z$"(*ETT*ETT*9^B)HO2*HO2*(F.&amp;]C20]C2)GN4UE1:,.[:/+5A?0^NOS?UJ^3&lt;*\9B9GT@7JISVW7*NIFC&lt;)^:$D`5Q9TWE7)M@;V&amp;D,6;M29DVR]6#R],%GC47T9_/=@&gt;Z5V&gt;V57&gt;V5E&gt;V5(OV?^T[FTP?\`?YX7ZRP6\D=LH%_8S/U_E5R_-R$I&gt;$\0@\W/VW&lt;[_"&lt;Y[X&amp;],0^^+,]T_J&gt;`J@_B_]'_.T`$KO.@I"O[^NF!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="control" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="测量参数.ctl" Type="VI" URL="../control/测量参数.ctl"/>
+		<Item Name="定点周期设置.ctl" Type="VI" URL="../control/定点周期设置.ctl"/>
+		<Item Name="国标控制命令.ctl" Type="VI" URL="../control/国标控制命令.ctl"/>
+		<Item Name="间隔启动设置.ctl" Type="VI" URL="../control/间隔启动设置.ctl"/>
+		<Item Name="启动命令选择.ctl" Type="VI" URL="../control/启动命令选择.ctl"/>
+		<Item Name="切换按钮.ctl" Type="VI" URL="../control/切换按钮.ctl"/>
+		<Item Name="周期模式设置.ctl" Type="VI" URL="../control/周期模式设置.ctl"/>
+		<Item Name="每月启动.ctl" Type="VI" URL="../control/每月启动.ctl"/>
+		<Item Name="每周启动.ctl" Type="VI" URL="../control/每周启动.ctl"/>
+	</Item>
+	<Item Name="subvi" Type="Folder">
+		<Item Name="测试状态判断.vi" Type="VI" URL="../Functions/测试状态判断.vi"/>
+		<Item Name="定点周期设置.vi" Type="VI" URL="../Functions/定点周期设置.vi"/>
+		<Item Name="命令转换.vi" Type="VI" URL="../Functions/命令转换.vi"/>
+		<Item Name="配置文件读取写入.vi" Type="VI" URL="../Functions/配置文件读取写入.vi"/>
+		<Item Name="批量设置.vi" Type="VI" URL="../Functions/批量设置.vi"/>
+		<Item Name="数字键盘.vi" Type="VI" URL="../Functions/数字键盘.vi"/>
+	</Item>
+	<Item Name="属性" Type="Folder">
+		<Item Name="测量参数写入" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">测量参数写入</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">测量参数写入</Property>
+			<Item Name="测量参数写入.vi" Type="Property VI" URL="../属性/测量参数写入.vi"/>
+		</Item>
+		<Item Name="调用模块名称写入" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">调用模块名称写入</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">调用模块名称写入</Property>
+			<Item Name="调用模块名称写入.vi" Type="Property VI" URL="../属性/调用模块名称写入.vi"/>
+		</Item>
+		<Item Name="仪器时间写入" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">仪器时间写入</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">仪器时间写入</Property>
+			<Item Name="仪器时间写入.vi" Type="Property VI" URL="../属性/仪器时间写入.vi"/>
+		</Item>
+		<Item Name="仪器状态" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">仪器状态</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">仪器状态</Property>
+			<Item Name="仪器状态写入.vi" Type="Property VI" URL="../属性/仪器状态写入.vi"/>
+		</Item>
+	</Item>
+	<Item Name="初始化 1.vi" Type="Ability VI" URL="../subvi/初始化 1.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="数据 1.ctl" Type="Ability VI" URL="../subvi/数据 1.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="外观 1.vi" Type="Ability VI" URL="../subvi/外观 1.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="状态 1.ctl" Type="Ability VI" URL="../subvi/状态 1.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+</XControl>

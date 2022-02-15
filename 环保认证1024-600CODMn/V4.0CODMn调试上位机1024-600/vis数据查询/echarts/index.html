@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </meta>
+
+    <style type="text/css">
+		table.hovertable {
+			font-family: verdana, arial, sans-serif;
+			font-size: 11px;
+			color: #333333;
+			border-width: 1px;
+			border-color: #999999;
+			border-collapse: collapse;
+		}
+
+		table.hovertable th {
+			background-color: #c3dde0;
+			border-width: 1px;
+			padding: 8px;
+			border-style: solid;
+			border-color: #a9c6c9;
+		}
+
+		table.hovertable tr {
+			background-color: #d4e3e5;
+		}
+
+		table.hovertable td {
+			border-width: 1px;
+			padding: 8px;
+			border-style: solid;
+			border-color: #a9c6c9;
+		}
+	</style>
+</head><body style="height: 100%; margin: 0">
+    <div id="container" style="height: 100%"></div>
+
+    <script type="text/javascript" src="./echarts.min.js"></script>
+    <!-- Uncomment this line if you want to dataTool extension
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.0.0/dist/extension/dataTool.min.js"></script>
+        -->
+    <!-- Uncomment this line if you want to use gl extension
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.0-rc.1/dist/echarts-gl.min.js"></script>
+        -->
+    <!-- Uncomment this line if you want to echarts-stat extension
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+        -->
+    <!-- Uncomment this line if you want to use map
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.0.0/map/js/china.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.0.0/map/js/world.js"></script>
+        -->
+    <!-- Uncomment these two lines if you want to use bmap extension
+        <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=<Your Key Here>"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.0.0/dist/extension/bmap.min.js"></script>
+        --><script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('container'));
+    var option;
+    var colors = ['#4962FC', '#7570B3', '#dd3ee5', '#12e78c', '#fe8104', '#01C2F9', '#F4CB29', '#FD9E06', '#E7298A', '#1B9E77'];option = {
+color: colors,
+
+tooltip: {
+trigger: 'axis',
+axisPointer: {
+
+type: 'cross'
+}
+},
+grid: {
+show: false,
+containLabel: true,
+},legend: {
+selected:{
+'DO':true,
+
+}
+},dataset:{
+source:[['时间',	'DO',
+],
+]
+},xAxis: [
+{
+type: 'category',
+axisTick: {
+alignWithLabel: true
+},
+},
+],yAxis: [
+{
+name: 'DO',
+type: 'value',
+min: 'dataMin',
+max: 'dataMax',
+offset: 0,
+position: 'left',
+splitLine: { show: false },
+axisLine: {
+show: true,
+lineStyle: {
+color: colors[0]
+}
+
+},
+axisLabel: {
+formatter: '{value}'
+}
+
+
+},
+
+],toolbox: {
+                show: true,
+
+                feature: {
+                    mark: { show: true },
+                    dataView: {
+                        show: true, title: '数据视图', readOnly: true,
+optionToContent: function (opt) {
+                            var series = opt.dataset[0].source;
+                            var tdHeads = '';
+                            
+                            var table = '<div style="height:100overflow:scroll;"><table class ="hovertable";border="1" style="border-collapse:collapse;text-align:center"><tbody><tr>' + tdHeads + '</tr>';
+                            var tdBodys = '';
+                            for (var i = 0, l = series.length; i < l; i++) {
+                                for (var j = 0; j < series[0].length; j++) {
+                                    if (typeof (series[i][j]) == 'object') {
+
+ 
+                                        tdBodys += '<td>' + series[i][j] + '</td>';
+                                    } else {
+                                        tdBodys += '<td>' + series[i][j] + '</td>';
+                                    }
+                                }
+                                table += '<tr onmouseover="this.style.backgroundColor=&#39;#ffff66&#39;;" onmouseout="this.style.backgroundColor=&#39;#d4e3e5&#39;;" style="background-color: rgb(212, 227, 229);">' + tdBodys + '</tr>';
+                                tdBodys = '';
+                            }
+                            table += '</tbody></table></div>';
+                            return table;
+                        }
+                    },
+                    magicType: { show: true, title: { line: '折线图', bar: '柱状图', }, type: ['line', 'bar'] },
+                    restore: { show: true, title: '刷新' },
+                    saveAsImage: { show: true, title: '保存图片', backgroundColor: '#fff' },
+                }
+            },
+
+
+dataZoom: [ { show: true, type: 'slider' , realtime: true, start: 0, end: 100, height: 50,
+                bottom: 10, }, { type: 'inside' , start: 0, end: 100 }, ],series: [
+{
+name: 'DO',
+type: 'line',
+yAxisIndex: 0,
+smooth: false,
+connectNulls:true,
+emphasis: {
+focus: 'series'
+},
+itemStyle: {
+normal: {
+color: colors[0],
+}
+},
+markPoint: {
+data: [
+{ type: 'max', name: '最大值' },
+{ type: 'min', name: '最小值' }
+],
+},
+markLine: {
+data: [
+{ type: 'average', name: '平均值' }
+]
+},
+},
+
+]};
+option && myChart.setOption(option);
+myChart.on('legendselectchanged', function (params) {
+    var isSelected = params.selected[params.name];
+    var arr = [];
+    var k = 0;
+    var b ;
+    for (let i in params.selected){
+    
+            if(params.selected[i]){
+
+                arr.push({
+                    'show':true,
+                    offset: parseInt(k/2) * 50,
+                    position: k % 2 == 0 ? 'left' : "right",
+            }
+            );
+            k = k + 1;
+            }
+            else{
+                arr.push({
+                    'show':false,
+                    offset: 0,
+                });
+            }
+    };
+b = {yAxis:JSON.parse(JSON.stringify(arr))};
+    option && myChart.setOption(b);
+});
+</script>
+</body>
+
+</html>
