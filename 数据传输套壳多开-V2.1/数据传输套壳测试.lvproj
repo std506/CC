@@ -495,10 +495,8 @@
 			<Item Name="System.Web" Type="Document" URL="System.Web">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="报警信息字段定义.ctl" Type="VI" URL="../database/control/报警信息字段定义.ctl"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../database/control/数据库类型.ctl"/>
-			<Item Name="报警信息数据插入.vi" Type="VI" URL="../database/Interface/报警信息数据插入.vi"/>
 			<Item Name="insert values.vi" Type="VI" URL="../database/Interface/insert values.vi"/>
 			<Item Name="Access Lib.lvlib" Type="Library" URL="../database/Access/Access Lib.lvlib"/>
 			<Item Name="SQLite Lib.lvlib" Type="Library" URL="../database/SQLite/SQLite Lib.lvlib"/>
@@ -530,7 +528,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD6A7C27-52A0-4E2F-BF39-943A8E095564}</Property>
-				<Property Name="Bld_version.build" Type="Int">100</Property>
+				<Property Name="Bld_version.build" Type="Int">101</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">28</Property>
@@ -544,7 +542,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D8A71BF-FB7D-4961-A356-DA71B88533BB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{04CF1ACD-2D72-449D-BFAF-F7DF6B68A6A4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/主界面.vi</Property>

@@ -182,7 +182,6 @@
 		<Item Name="采配水仪器参数改变发送 (子VI).vi" Type="VI" URL="../VIs/采配水仪器参数改变发送 (子VI).vi"/>
 	</Item>
 	<Item Name="数据库" Type="Folder">
-		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
 		<Item Name="数采仪日志报警存储(子VI).vi" Type="VI" URL="../数据库/数采仪日志报警存储(子VI).vi"/>
 		<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>
 	</Item>
