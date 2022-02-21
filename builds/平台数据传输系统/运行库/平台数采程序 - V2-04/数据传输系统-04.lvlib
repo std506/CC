@@ -119,6 +119,7 @@
 		<Item Name="更新log记录.vi" Type="VI" URL="../通用VI/更新log记录.vi"/>
 		<Item Name="AESC#vi.vi" Type="VI" URL="../通用VI/AESC#vi.vi"/>
 		<Item Name="变量初始化.vi" Type="VI" URL="../通用VI/变量初始化.vi"/>
+		<Item Name="Force Quit LabVIEW.vi" Type="VI" URL="../通用VI/Force Quit LabVIEW.vi"/>
 	</Item>
 	<Item Name="注册表" Type="Folder">
 		<Item Name="查询启动项.vi" Type="VI" URL="../注册表/查询启动项.vi"/>
