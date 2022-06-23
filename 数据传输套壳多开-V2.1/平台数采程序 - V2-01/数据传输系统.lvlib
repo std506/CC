@@ -125,6 +125,9 @@
 		<Item Name="查询启动项.vi" Type="VI" URL="../注册表/查询启动项.vi"/>
 		<Item Name="删除启动项.vi" Type="VI" URL="../注册表/删除启动项.vi"/>
 		<Item Name="添加启动项.vi" Type="VI" URL="../注册表/添加启动项.vi"/>
+		<Item Name="查询MN号.vi" Type="VI" URL="../注册表/查询MN号.vi"/>
+		<Item Name="添加MN号.vi" Type="VI" URL="../注册表/添加MN号.vi"/>
+		<Item Name="删除MN号.vi" Type="VI" URL="../注册表/删除MN号.vi"/>
 	</Item>
 	<Item Name="最新子程序" Type="Folder">
 		<Item Name="数据索引起始时间填补空白.vi" Type="VI" URL="../子VI/数据索引起始时间填补空白.vi"/>

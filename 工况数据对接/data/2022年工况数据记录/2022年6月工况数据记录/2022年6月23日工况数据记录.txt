@@ -1,0 +1,424 @@
+2022/06/23 09:19:31
+send:{"time":"2022-06-23 09:19:30","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:32
+receive:{"code":"200","message":"成功","timestamp":1655947171337,"data":true,"success":true}
+2022/06/23 09:19:32
+send:{"time":"2022-06-23 09:19:30","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:32
+receive:{"code":"200","message":"成功","timestamp":1655947171445,"data":true,"success":true}
+2022/06/23 09:19:32
+send:{"time":"2022-06-23 09:19:30","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:33
+receive:{"code":"200","message":"成功","timestamp":1655947171593,"data":true,"success":true}
+2022/06/23 09:19:33
+send:{"time":"2022-06-23 09:19:31","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:33
+receive:{"code":"200","message":"成功","timestamp":1655947172045,"data":true,"success":true}
+2022/06/23 09:19:33
+send:{"time":"2022-06-23 09:19:31","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:34
+receive:{"code":"200","message":"成功","timestamp":1655947172310,"data":true,"success":true}
+2022/06/23 09:19:34
+send:{"time":"2022-06-23 09:19:31","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:34
+receive:{"code":"200","message":"成功","timestamp":1655947172412,"data":true,"success":true}
+2022/06/23 09:19:38
+send:{"time":"2022-06-23 09:19:36","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:38
+receive:{"code":"200","message":"成功","timestamp":1655947177628,"data":true,"success":true}
+2022/06/23 09:19:39
+send:{"time":"2022-06-23 09:19:36","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:39
+receive:{"code":"200","message":"成功","timestamp":1655947177745,"data":true,"success":true}
+2022/06/23 09:19:40
+send:{"time":"2022-06-23 09:19:36","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:40
+receive:{"code":"200","message":"成功","timestamp":1655947177851,"data":true,"success":true}
+2022/06/23 09:19:41
+send:{"time":"2022-06-23 09:19:37","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:41
+receive:{"code":"200","message":"成功","timestamp":1655947178270,"data":true,"success":true}
+2022/06/23 09:19:41
+send:{"time":"2022-06-23 09:19:37","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:42
+receive:{"code":"200","message":"成功","timestamp":1655947178367,"data":true,"success":true}
+2022/06/23 09:19:42
+send:{"time":"2022-06-23 09:19:37","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:42
+receive:{"code":"200","message":"成功","timestamp":1655947178459,"data":true,"success":true}
+2022/06/23 09:19:45
+send:{"time":"2022-06-23 09:19:43","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:45
+receive:{"code":"200","message":"成功","timestamp":1655947184188,"data":true,"success":true}
+2022/06/23 09:19:45
+send:{"time":"2022-06-23 09:19:43","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:45
+receive:{"code":"200","message":"成功","timestamp":1655947184428,"data":true,"success":true}
+2022/06/23 09:19:45
+send:{"time":"2022-06-23 09:19:43","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:46
+receive:{"code":"200","message":"成功","timestamp":1655947184836,"data":true,"success":true}
+2022/06/23 09:19:46
+send:{"time":"2022-06-23 09:19:44","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:46
+receive:{"code":"200","message":"成功","timestamp":1655947185420,"data":true,"success":true}
+2022/06/23 09:19:47
+send:{"time":"2022-06-23 09:19:44","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:47
+receive:{"code":"200","message":"成功","timestamp":1655947185587,"data":true,"success":true}
+2022/06/23 09:19:47
+send:{"time":"2022-06-23 09:19:44","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:48
+receive:{"code":"200","message":"成功","timestamp":1655947185828,"data":true,"success":true}
+2022/06/23 09:19:48
+send:{"time":"2022-06-23 09:19:47","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:48
+receive:{"code":"200","message":"成功","timestamp":1655947187920,"data":true,"success":true}
+2022/06/23 09:19:48
+send:{"time":"2022-06-23 09:19:47","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:49
+receive:{"code":"200","message":"成功","timestamp":1655947188003,"data":true,"success":true}
+2022/06/23 09:19:49
+send:{"time":"2022-06-23 09:19:47","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:49
+receive:{"code":"200","message":"成功","timestamp":1655947188120,"data":true,"success":true}
+2022/06/23 09:19:50
+send:{"time":"2022-06-23 09:19:50","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:51
+receive:{"code":"200","message":"成功","timestamp":1655947190995,"data":true,"success":true}
+2022/06/23 09:19:51
+send:{"time":"2022-06-23 09:19:50","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:51
+receive:{"code":"200","message":"成功","timestamp":1655947191211,"data":true,"success":true}
+2022/06/23 09:19:51
+send:{"time":"2022-06-23 09:19:50","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:51
+receive:{"code":"200","message":"成功","timestamp":1655947191350,"data":true,"success":true}
+2022/06/23 09:19:52
+send:{"time":"2022-06-23 09:19:52","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:52
+receive:{"code":"200","message":"成功","timestamp":1655947192950,"data":true,"success":true}
+2022/06/23 09:19:53
+send:{"time":"2022-06-23 09:19:52","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:53
+receive:{"code":"200","message":"成功","timestamp":1655947193053,"data":true,"success":true}
+2022/06/23 09:19:53
+send:{"time":"2022-06-23 09:19:52","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:53
+receive:{"code":"200","message":"成功","timestamp":1655947193250,"data":true,"success":true}
+2022/06/23 09:19:54
+send:{"time":"2022-06-23 09:19:54","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:54
+receive:{"code":"200","message":"成功","timestamp":1655947194867,"data":true,"success":true}
+2022/06/23 09:19:54
+send:{"time":"2022-06-23 09:19:54","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:55
+receive:{"code":"200","message":"成功","timestamp":1655947194967,"data":true,"success":true}
+2022/06/23 09:19:55
+send:{"time":"2022-06-23 09:19:54","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:55
+receive:{"code":"200","message":"成功","timestamp":1655947195069,"data":true,"success":true}
+2022/06/23 09:19:57
+send:{"time":"2022-06-23 09:19:57","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:19:57
+receive:{"code":"200","message":"成功","timestamp":1655947197853,"data":true,"success":true}
+2022/06/23 09:19:57
+send:{"time":"2022-06-23 09:19:57","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:19:57
+receive:{"code":"200","message":"成功","timestamp":1655947197896,"data":true,"success":true}
+2022/06/23 09:19:58
+send:{"time":"2022-06-23 09:19:57","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:19:58
+receive:{"code":"200","message":"成功","timestamp":1655947198004,"data":true,"success":true}
+2022/06/23 09:20:00
+send:{"time":"2022-06-23 09:20:00","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:00
+receive:{"code":"200","message":"成功","timestamp":1655947200761,"data":true,"success":true}
+2022/06/23 09:20:00
+send:{"time":"2022-06-23 09:20:00","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:00
+receive:{"code":"200","message":"成功","timestamp":1655947200870,"data":true,"success":true}
+2022/06/23 09:20:01
+send:{"time":"2022-06-23 09:20:00","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:02
+receive:{"code":"200","message":"成功","timestamp":1655947200978,"data":true,"success":true}
+2022/06/23 09:20:17
+send:{"time":"2022-06-23 09:20:17","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:17
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:17.787"}
+2022/06/23 09:20:17
+send:{"time":"2022-06-23 09:20:17","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:18
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:17.828"}
+2022/06/23 09:20:18
+send:{"time":"2022-06-23 09:20:17","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:18
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:17.862"}
+2022/06/23 09:20:20
+send:{"time":"2022-06-23 09:20:20","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:20
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:20.769"}
+2022/06/23 09:20:20
+send:{"time":"2022-06-23 09:20:20","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:21
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:20.797"}
+2022/06/23 09:20:21
+send:{"time":"2022-06-23 09:20:20","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:21
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:20.831"}
+2022/06/23 09:20:23
+send:{"time":"2022-06-23 09:20:23","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:23
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:23.823"}
+2022/06/23 09:20:24
+send:{"time":"2022-06-23 09:20:23","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:24
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:23.846"}
+2022/06/23 09:20:25
+send:{"time":"2022-06-23 09:20:23","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:25
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:23.865"}
+2022/06/23 09:20:27
+send:{"time":"2022-06-23 09:20:26","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:27
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:27.461"}
+2022/06/23 09:20:27
+send:{"time":"2022-06-23 09:20:26","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:27
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:27.488"}
+2022/06/23 09:20:28
+send:{"time":"2022-06-23 09:20:26","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:28
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:27.511"}
+2022/06/23 09:20:29
+send:{"time":"2022-06-23 09:20:29","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:29
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:29.747"}
+2022/06/23 09:20:29
+send:{"time":"2022-06-23 09:20:29","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:29
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:29.788"}
+2022/06/23 09:20:29
+send:{"time":"2022-06-23 09:20:29","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:30
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:29.819"}
+2022/06/23 09:20:32
+send:{"time":"2022-06-23 09:20:32","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:32
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:32.766"}
+2022/06/23 09:20:32
+send:{"time":"2022-06-23 09:20:32","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:32
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:32.795"}
+2022/06/23 09:20:33
+send:{"time":"2022-06-23 09:20:32","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:33
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:32.838"}
+2022/06/23 09:20:35
+send:{"time":"2022-06-23 09:20:35","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:35
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:35.746"}
+2022/06/23 09:20:35
+send:{"time":"2022-06-23 09:20:35","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:35
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:35.782"}
+2022/06/23 09:20:35
+send:{"time":"2022-06-23 09:20:35","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:36
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:35.814"}
+2022/06/23 09:20:38
+send:{"time":"2022-06-23 09:20:38","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:38
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:38.766"}
+2022/06/23 09:20:38
+send:{"time":"2022-06-23 09:20:38","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:38
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:38.794"}
+2022/06/23 09:20:39
+send:{"time":"2022-06-23 09:20:38","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:39
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:38.839"}
+2022/06/23 09:20:41
+send:{"time":"2022-06-23 09:20:41","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:41
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:41.802"}
+2022/06/23 09:20:41
+send:{"time":"2022-06-23 09:20:41","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:41
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:41.837"}
+2022/06/23 09:20:42
+send:{"time":"2022-06-23 09:20:41","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:42
+receive:{"code":"040015","message":"token无效","success":false,"timestamp":"2022-06-23T09:20:41.906"}
+2022/06/23 09:20:45
+send:{"time":"2022-06-23 09:20:44","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:45
+receive:{"code":"200","message":"成功","timestamp":1655947245440,"data":true,"success":true}
+2022/06/23 09:20:45
+send:{"time":"2022-06-23 09:20:44","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:46
+receive:{"code":"200","message":"成功","timestamp":1655947245645,"data":true,"success":true}
+2022/06/23 09:20:46
+send:{"time":"2022-06-23 09:20:44","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:46
+receive:{"code":"200","message":"成功","timestamp":1655947245940,"data":true,"success":true}
+2022/06/23 09:20:48
+send:{"time":"2022-06-23 09:20:47","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:48
+receive:{"code":"200","message":"成功","timestamp":1655947248190,"data":true,"success":true}
+2022/06/23 09:20:48
+send:{"time":"2022-06-23 09:20:47","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:48
+receive:{"code":"200","message":"成功","timestamp":1655947248315,"data":true,"success":true}
+2022/06/23 09:20:48
+send:{"time":"2022-06-23 09:20:47","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:49
+receive:{"code":"200","message":"成功","timestamp":1655947248432,"data":true,"success":true}
+2022/06/23 09:20:51
+send:{"time":"2022-06-23 09:20:50","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:51
+receive:{"code":"200","message":"成功","timestamp":1655947250982,"data":true,"success":true}
+2022/06/23 09:20:51
+send:{"time":"2022-06-23 09:20:50","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:51
+receive:{"code":"200","message":"成功","timestamp":1655947251173,"data":true,"success":true}
+2022/06/23 09:20:52
+send:{"time":"2022-06-23 09:20:50","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:52
+receive:{"code":"200","message":"成功","timestamp":1655947251476,"data":true,"success":true}
+2022/06/23 09:20:54
+send:{"time":"2022-06-23 09:20:53","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:20:54
+receive:{"code":"200","message":"成功","timestamp":1655947254232,"data":true,"success":true}
+2022/06/23 09:20:54
+send:{"time":"2022-06-23 09:20:53","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:20:54
+receive:{"code":"200","message":"成功","timestamp":1655947254371,"data":true,"success":true}
+2022/06/23 09:20:54
+send:{"time":"2022-06-23 09:20:53","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:20:55
+receive:{"code":"200","message":"成功","timestamp":1655947254487,"data":true,"success":true}
+2022/06/23 09:24:23
+send:{"time":"2022-06-23 09:24:23","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:24:23
+receive:{"code":"200","message":"成功","timestamp":1655947463785,"data":true,"success":true}
+2022/06/23 09:24:23
+send:{"time":"2022-06-23 09:24:23","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:24:24
+receive:{"code":"200","message":"成功","timestamp":1655947463897,"data":true,"success":true}
+2022/06/23 09:24:24
+send:{"time":"2022-06-23 09:24:23","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:24:24
+receive:{"code":"200","message":"成功","timestamp":1655947464010,"data":true,"success":true}
+2022/06/23 09:24:26
+send:{"time":"2022-06-23 09:24:26","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:24:26
+receive:{"code":"200","message":"成功","timestamp":1655947466716,"data":true,"success":true}
+2022/06/23 09:24:26
+send:{"time":"2022-06-23 09:24:26","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:24:27
+receive:{"code":"200","message":"成功","timestamp":1655947466855,"data":true,"success":true}
+2022/06/23 09:24:27
+send:{"time":"2022-06-23 09:24:26","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:24:27
+receive:{"code":"200","message":"成功","timestamp":1655947466955,"data":true,"success":true}
+2022/06/23 09:24:29
+send:{"time":"2022-06-23 09:24:29","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:24:29
+receive:{"code":"200","message":"成功","timestamp":1655947469772,"data":true,"success":true}
+2022/06/23 09:24:29
+send:{"time":"2022-06-23 09:24:29","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:24:30
+receive:{"code":"200","message":"成功","timestamp":1655947469930,"data":true,"success":true}
+2022/06/23 09:24:30
+send:{"time":"2022-06-23 09:24:29","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:24:30
+receive:{"code":"200","message":"成功","timestamp":1655947470022,"data":true,"success":true}
+2022/06/23 09:24:32
+send:{"time":"2022-06-23 09:24:32","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:24:32
+receive:{"code":"200","message":"成功","timestamp":1655947472947,"data":true,"success":true}
+2022/06/23 09:24:33
+send:{"time":"2022-06-23 09:24:32","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:24:33
+receive:{"code":"200","message":"成功","timestamp":1655947473072,"data":true,"success":true}
+2022/06/23 09:24:33
+send:{"time":"2022-06-23 09:24:32","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:24:33
+receive:{"code":"200","message":"成功","timestamp":1655947473180,"data":true,"success":true}
+2022/06/23 09:26:33
+send:{"time":"2022-06-23 09:26:32","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:26:33
+receive:{"code":"200","message":"成功","timestamp":1655947592932,"data":true,"success":true}
+2022/06/23 09:26:33
+send:{"time":"2022-06-23 09:26:32","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:26:33
+receive:{"code":"200","message":"成功","timestamp":1655947593299,"data":true,"success":true}
+2022/06/23 09:26:33
+send:{"time":"2022-06-23 09:26:32","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:26:33
+receive:{"code":"200","message":"成功","timestamp":1655947593441,"data":true,"success":true}
+2022/06/23 09:26:35
+send:{"time":"2022-06-23 09:26:35","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:26:35
+receive:{"code":"200","message":"成功","timestamp":1655947595890,"data":true,"success":true}
+2022/06/23 09:26:35
+send:{"time":"2022-06-23 09:26:35","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:26:36
+receive:{"code":"200","message":"成功","timestamp":1655947595982,"data":true,"success":true}
+2022/06/23 09:26:36
+send:{"time":"2022-06-23 09:26:35","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:26:36
+receive:{"code":"200","message":"成功","timestamp":1655947596086,"data":true,"success":true}
+2022/06/23 09:32:51
+send:{"time":"2022-06-23 09:32:51","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 09:32:51
+receive:{"code":"200","message":"成功","timestamp":1655947971642,"data":true,"success":true}
+2022/06/23 09:32:51
+send:{"time":"2022-06-23 09:32:51","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 09:32:52
+receive:{"code":"200","message":"成功","timestamp":1655947971760,"data":true,"success":true}
+2022/06/23 09:32:52
+send:{"time":"2022-06-23 09:32:51","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 09:32:52
+receive:{"code":"200","message":"成功","timestamp":1655947971858,"data":true,"success":true}
+2022/06/23 13:36:10
+send:{"time":"2022-06-23 13:36:10","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 13:36:10
+receive:{"code":"200","message":"成功","timestamp":1655962570782,"data":true,"success":true}
+2022/06/23 13:36:10
+send:{"time":"2022-06-23 13:36:10","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2022/06/23 13:36:11
+receive:{"code":"200","message":"成功","timestamp":1655962570907,"data":true,"success":true}
+2022/06/23 13:37:07
+send:{"time":"2022-06-23 13:37:07","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 13:37:07
+receive:{"code":"200","message":"成功","timestamp":1655962627893,"data":true,"success":true}
+2022/06/23 13:37:07
+send:{"time":"2022-06-23 13:37:07","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2022/06/23 13:37:07
+receive:{"code":"200","message":"成功","timestamp":1655962628094,"data":true,"success":true}
+2022/06/23 13:38:07
+send:{"time":"2022-06-23 13:38:07","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 13:38:07
+receive:{"code":"200","message":"成功","timestamp":1655962687733,"data":true,"success":true}
+2022/06/23 13:38:07
+send:{"time":"2022-06-23 13:38:07","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2022/06/23 13:38:07
+receive:{"code":"200","message":"成功","timestamp":1655962687898,"data":true,"success":true}
+2022/06/23 13:39:07
+send:{"time":"2022-06-23 13:39:07","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 13:39:07
+receive:{"code":"200","message":"成功","timestamp":1655962747743,"data":true,"success":true}
+2022/06/23 13:39:07
+send:{"time":"2022-06-23 13:39:07","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2022/06/23 13:39:07
+receive:{"code":"200","message":"成功","timestamp":1655962747919,"data":true,"success":true}
+2022/06/23 13:55:08
+send:{"time":"2022-06-23 13:55:07","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 13:55:08
+receive:{"code":"200","message":"成功","timestamp":1655963708323,"data":true,"success":true}
+2022/06/23 13:55:08
+send:{"time":"2022-06-23 13:55:07","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2022/06/23 13:55:08
+receive:{"code":"200","message":"成功","timestamp":1655963708463,"data":true,"success":true}

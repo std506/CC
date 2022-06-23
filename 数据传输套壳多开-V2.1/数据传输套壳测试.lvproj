@@ -473,6 +473,7 @@
 				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
 				<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
+				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -506,11 +507,11 @@
 			<Item Name="database platform path.vi" Type="VI" URL="../database/Interface/database platform path.vi"/>
 			<Item Name="Sqlite Query.vi" Type="VI" URL="../database/Interface/Sqlite Query.vi"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-01/data/AESTOOL.dll"/>
-			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-02/data/AESTOOL.dll"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-03/data/AESTOOL.dll"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-04/data/AESTOOL.dll"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-05/data/AESTOOL.dll"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-06/data/AESTOOL.dll"/>
+			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-02/data/AESTOOL.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="数据传输系统" Type="EXE">
@@ -528,7 +529,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD6A7C27-52A0-4E2F-BF39-943A8E095564}</Property>
-				<Property Name="Bld_version.build" Type="Int">111</Property>
+				<Property Name="Bld_version.build" Type="Int">125</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">28</Property>
