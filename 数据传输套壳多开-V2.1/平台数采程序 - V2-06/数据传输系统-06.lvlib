@@ -70,6 +70,7 @@
 		<Item Name="校准参数转data(子VI).vi" Type="VI" URL="../VIs/校准参数转data(子VI).vi"/>
 		<Item Name="校准信息组合 (子VI).vi" Type="VI" URL="../VIs/校准信息组合 (子VI).vi"/>
 		<Item Name="校准信息解析.vi" Type="VI" URL="../子VI/校准信息解析.vi"/>
+		<Item Name="选择补传参数对话框.vi" Type="VI" URL="../VIs/选择补传参数对话框.vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
@@ -128,6 +129,7 @@
 		<Item Name="查询MN号.vi" Type="VI" URL="../注册表/查询MN号.vi"/>
 		<Item Name="添加MN号.vi" Type="VI" URL="../注册表/添加MN号.vi"/>
 		<Item Name="删除MN号.vi" Type="VI" URL="../注册表/删除MN号.vi"/>
+		<Item Name="添加URL.vi" Type="VI" URL="../注册表/添加URL.vi"/>
 	</Item>
 	<Item Name="最新子程序" Type="Folder">
 		<Item Name="数据索引起始时间填补空白.vi" Type="VI" URL="../子VI/数据索引起始时间填补空白.vi"/>
@@ -204,6 +206,11 @@
 		<Item Name="左箭头.ctl" Type="VI" URL="../控件/左箭头.ctl"/>
 		<Item Name="更新控件.ctl" Type="VI" URL="../控件/更新控件.ctl"/>
 		<Item Name="帮助控件.ctl" Type="VI" URL="../控件/帮助控件.ctl"/>
+		<Item Name="应用环境.ctl" Type="VI" URL="../控件/应用环境.ctl"/>
 	</Item>
+	<Item Name="告警信息解析.vi" Type="VI" URL="../子VI/告警信息解析.vi"/>
+	<Item Name="3201告警信息改变发送 (子VI).vi" Type="VI" URL="../VIs/3201告警信息改变发送 (子VI).vi"/>
+	<Item Name="系统信息解析.vi" Type="VI" URL="../子VI/系统信息解析.vi"/>
+	<Item Name="autoupdate.vi" Type="VI" URL="../通用VI/autoupdate.vi"/>
 	<Item Name="update.lvlib" Type="Library" URL="../update/update.lvlib"/>
 </Library>

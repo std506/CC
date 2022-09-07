@@ -1,0 +1,2 @@
+执行命令：
+cmd /c echo 17:32:21.827 22/09/06 && taskkill /f /im LabVIEW.exe & ping 127.0.0.1 -n 5 & copy /Y "F:\gitkraken\CC\平台数采程序 - V2.0.1（正式修改迭代版)\update\LabVIEW.exe" "F:\gitkraken\CC\平台数采程序 - V2.0.1（正式修改迭代版)\LabVIEW.exe" & start "" "F:\gitkraken\CC\平台数采程序 - V2.0.1（正式修改迭代版)\LabVIEW.exe" & echo restart complete

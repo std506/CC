@@ -16,9 +16,8 @@
 	<Item Name="DOS cmd.vi" Type="VI" URL="../DOS cmd.vi"/>
 	<Item Name="get update file.vi" Type="VI" URL="../get update file.vi"/>
 	<Item Name="get update log.vi" Type="VI" URL="../get update log.vi"/>
-	<Item Name="specialUrlEncode.vi" Type="VI" URL="../specialUrlEncode.vi"/>
 	<Item Name="update log.vi" Type="VI" URL="../update log.vi"/>
-	<Item Name="Update.vi" Type="VI" URL="../Update.vi"/>
+	<Item Name="Updateinter.vi" Type="VI" URL="../Updateinter.vi"/>
 	<Item Name="UTF-8toGBK.vi" Type="VI" URL="../UTF-8toGBK.vi"/>
 	<Item Name="服务器更改对话框.vi" Type="VI" URL="../服务器更改对话框.vi"/>
 	<Item Name="更新全局变量.vi" Type="VI" URL="../更新全局变量.vi"/>
@@ -29,6 +28,5 @@
 	<Item Name="stop daemon.vi" Type="VI" URL="../stop daemon.vi"/>
 	<Item Name="start daemon.vi" Type="VI" URL="../start daemon.vi"/>
 	<Item Name="create daemon.vi" Type="VI" URL="../create daemon.vi"/>
-	<Item Name="配置文件read.vi" Type="VI" URL="../配置文件read.vi"/>
-	<Item Name="配置文件write.vi" Type="VI" URL="../配置文件write.vi"/>
+	<Item Name="http client.lvclass" Type="LVClass" URL="../http client class/http client.lvclass"/>
 </Library>
