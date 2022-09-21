@@ -25,6 +25,11 @@
 		<Item Name="数字键盘.vi" Type="VI" URL="../键盘/数字键盘.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../键盘/字符键盘.vi"/>
 	</Item>
+	<Item Name="控件" Type="Folder">
+		<Item Name="data_in.ctl" Type="VI" URL="../控件/data_in.ctl"/>
+		<Item Name="table.ctl" Type="VI" URL="../控件/table.ctl"/>
+		<Item Name="Type.ctl" Type="VI" URL="../控件/Type.ctl"/>
+	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="断电保存全局.vi" Type="VI" URL="../断电保存全局/断电保存全局.vi"/>
 	</Item>
