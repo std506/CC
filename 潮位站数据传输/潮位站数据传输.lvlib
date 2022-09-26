@@ -4,16 +4,17 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="interface" Type="Folder">
+		<Item Name="data_combination.lvclass" Type="LVClass" URL="../data_combination/data_combination.lvclass"/>
+		<Item Name="data_inter.lvclass" Type="LVClass" URL="../data_inter/data_inter.lvclass"/>
+		<Item Name="database.lvclass" Type="LVClass" URL="../database_class/database.lvclass"/>
+	</Item>
 	<Item Name="implementations" Type="Folder">
 		<Item Name="access.lvclass" Type="LVClass" URL="../access/access.lvclass"/>
 		<Item Name="HJ212.lvclass" Type="LVClass" URL="../HJ212/HJ212.lvclass"/>
 		<Item Name="serial.lvclass" Type="LVClass" URL="../serial/serial.lvclass"/>
 		<Item Name="TCP.lvclass" Type="LVClass" URL="../tcp/TCP.lvclass"/>
-	</Item>
-	<Item Name="interface" Type="Folder">
-		<Item Name="data_combination.lvclass" Type="LVClass" URL="../data_combination/data_combination.lvclass"/>
-		<Item Name="data_inter.lvclass" Type="LVClass" URL="../data_inter/data_inter.lvclass"/>
-		<Item Name="database.lvclass" Type="LVClass" URL="../database_class/database.lvclass"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="变量存储.vi" Type="VI" URL="../SUBVI/变量存储.vi"/>
