@@ -93,6 +93,9 @@
 				<Item Name="营养盐数据插入.vi" Type="VI" URL="../../database/Interface/营养盐数据插入.vi"/>
 				<Item Name="原位多参数单参数数据插入.vi" Type="VI" URL="../../database/Interface/原位多参数单参数数据插入.vi"/>
 				<Item Name="原位多参数全参数数据插入.vi" Type="VI" URL="../../database/Interface/原位多参数全参数数据插入.vi"/>
+				<Item Name="Generate_random_password.vi" Type="VI" URL="../../database/Interface/Generate_random_password.vi"/>
+				<Item Name="读取秘钥.vi" Type="VI" URL="../../database/Interface/读取秘钥.vi"/>
+				<Item Name="添加秘钥.vi" Type="VI" URL="../../database/Interface/添加秘钥.vi"/>
 			</Item>
 			<Item Name="SQLite" Type="Folder">
 				<Item Name="Interface" Type="Folder"/>
@@ -567,6 +570,7 @@
 			<Item Name="System.Web" Type="Document" URL="System.Web">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="性能模式.vi" Type="VI" URL="../../database/Interface/性能模式.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="NEW平台数据传输系统" Type="EXE">
