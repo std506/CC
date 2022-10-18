@@ -510,6 +510,8 @@
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-05/data/AESTOOL.dll"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-06/data/AESTOOL.dll"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-02/data/AESTOOL.dll"/>
+			<Item Name="读取秘钥.vi" Type="VI" URL="../database/Interface/读取秘钥.vi"/>
+			<Item Name="性能模式.vi" Type="VI" URL="../database/Interface/性能模式.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="数据传输系统" Type="EXE">
@@ -527,10 +529,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD6A7C27-52A0-4E2F-BF39-943A8E095564}</Property>
-				<Property Name="Bld_version.build" Type="Int">168</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">28</Property>
+				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据传输系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/数据传输系统/平台数据传输系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -541,7 +543,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B71358C3-31B8-4C70-AB6A-3F4BD06C2C5E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4CCB3A8E-6972-494F-94F4-42315F76D011}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/主界面.vi</Property>
