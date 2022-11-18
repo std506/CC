@@ -30,6 +30,7 @@
 		<Item Name="data_in.ctl" Type="VI" URL="../控件/data_in.ctl"/>
 		<Item Name="table.ctl" Type="VI" URL="../控件/table.ctl"/>
 		<Item Name="Type.ctl" Type="VI" URL="../控件/Type.ctl"/>
+		<Item Name="data_type.ctl" Type="VI" URL="../控件/data_type.ctl"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="断电保存全局.vi" Type="VI" URL="../断电保存全局/断电保存全局.vi"/>
