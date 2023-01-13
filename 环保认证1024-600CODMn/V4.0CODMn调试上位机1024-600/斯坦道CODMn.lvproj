@@ -45,6 +45,10 @@
 			<Item Name="查询启动项.vi" Type="VI" URL="../注册表/查询启动项.vi"/>
 			<Item Name="删除启动项.vi" Type="VI" URL="../注册表/删除启动项.vi"/>
 		</Item>
+		<Item Name="SubVI" Type="Folder">
+			<Item Name="配置Bark UI.vi" Type="VI" URL="../Subvi/配置Bark UI.vi"/>
+			<Item Name="配置Bark参数.vi" Type="VI" URL="../Subvi/配置Bark参数.vi"/>
+		</Item>
 		<Item Name="生产调试用上位机.vi" Type="VI" URL="../生产调试用上位机.vi"/>
 		<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/CODMn24H周期设置.xctl"/>
 		<Item Name="斯坦道CODMn新电路板.lvlib" Type="Library" URL="../斯坦道CODMn新电路板.lvlib"/>
@@ -743,15 +747,7 @@
 			<Item Name="database path.vi" Type="VI" URL="../../database/Interface/database path.vi"/>
 			<Item Name="SQLite Upsert.vi" Type="VI" URL="../../database/Interface/SQLite Upsert.vi"/>
 			<Item Name="SingleStepCODMnV2.lvlib" Type="Library" URL="../../共用控件/SingleStepCODMnV2/SingleStepCODMnV2.lvlib"/>
-			<Item Name="全屏按钮.ctl" Type="VI" URL="../../../../集成模板/一体站项目样板（模板）/一体站项目 - V4质控/UI/控件/全屏按钮.ctl"/>
-			<Item Name="Set panel size and  place center.vi" Type="VI" URL="../../../../集成模板/一体站项目样板（模板）/一体站项目 - V4质控/Subvi/Set panel size and  place center.vi"/>
-			<Item Name="AutoHide Windows Taskbar.vi" Type="VI" URL="../../../../集成模板/一体站项目样板（模板）/一体站项目 - V4质控/Subvi/AutoHide Windows Taskbar.vi"/>
-			<Item Name="user32.dll" Type="Document" URL="user32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="全屏按钮.ctl" Type="VI" URL="../控件/全屏按钮.ctl"/>
 			<Item Name="Holding Var.vi" Type="VI" URL="../RND/example/Holding Var.vi"/>
 			<Item Name="配置文件写入.vi" Type="VI" URL="../RND/example/配置文件写入.vi"/>
 			<Item Name="设置窗口.vi" Type="VI" URL="../RND/example/设置窗口.vi"/>
@@ -760,6 +756,16 @@
 			<Item Name="postMSG.vi" Type="VI" URL="../../Alarm interface/WxMessage/vis/postMSG.vi"/>
 			<Item Name="get Columns and data.vi" Type="VI" URL="../../Alarm interface/WxMessage/vis/get Columns and data.vi"/>
 			<Item Name="簇转文本处理.vi" Type="VI" URL="../../Alarm interface/WxMessage/vis/簇转文本处理.vi"/>
+			<Item Name="Set panel size and  place center.vi" Type="VI" URL="../Subvi/Set panel size and  place center.vi"/>
+			<Item Name="AutoHide Windows Taskbar.vi" Type="VI" URL="../Subvi/AutoHide Windows Taskbar.vi"/>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Bark.lvlib" Type="Library" URL="../Bark/Bark.lvlib"/>
+			<Item Name="example.vi" Type="VI" URL="../Bark/example.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="1024-600斯坦道CODMn" Type="EXE">
@@ -778,7 +784,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9C453B90-080D-45EC-8348-8CB860527513}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">斯坦道CODMn.exe</Property>
