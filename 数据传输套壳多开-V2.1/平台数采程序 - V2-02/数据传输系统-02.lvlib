@@ -71,6 +71,7 @@
 		<Item Name="校准信息组合 (子VI).vi" Type="VI" URL="../VIs/校准信息组合 (子VI).vi"/>
 		<Item Name="校准信息解析.vi" Type="VI" URL="../子VI/校准信息解析.vi"/>
 		<Item Name="选择补传参数对话框.vi" Type="VI" URL="../VIs/选择补传参数对话框.vi"/>
+		<Item Name="串口配置.vi" Type="VI" URL="../子VI/串口配置.vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
