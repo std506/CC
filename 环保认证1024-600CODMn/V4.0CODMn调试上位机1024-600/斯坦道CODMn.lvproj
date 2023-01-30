@@ -54,6 +54,7 @@
 		<Item Name="斯坦道CODMn新电路板.lvlib" Type="Library" URL="../斯坦道CODMn新电路板.lvlib"/>
 		<Item Name="random number.lvlib" Type="Library" URL="../RND/random number/random number.lvlib"/>
 		<Item Name="系统全局.vi" Type="VI" URL="../系统全局.vi"/>
+		<Item Name="MB SLAVE.lvlib" Type="Library" URL="../Modbus Slave/MB SLAVE.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -766,6 +767,18 @@
 			</Item>
 			<Item Name="Bark.lvlib" Type="Library" URL="../Bark/Bark.lvlib"/>
 			<Item Name="example.vi" Type="VI" URL="../Bark/example.vi"/>
+			<Item Name="氨氮交互.ctl" Type="VI" URL="../../共用控件/内部交互/氨氮交互.ctl"/>
+			<Item Name="总磷交互.ctl" Type="VI" URL="../../共用控件/内部交互/总磷交互.ctl"/>
+			<Item Name="总氮交互.ctl" Type="VI" URL="../../共用控件/内部交互/总氮交互.ctl"/>
+			<Item Name="CODCr交互.ctl" Type="VI" URL="../../共用控件/内部交互/CODCr交互.ctl"/>
+			<Item Name="超标留样交互.ctl" Type="VI" URL="../../共用控件/内部交互/超标留样交互.ctl"/>
+			<Item Name="多参数交互.ctl" Type="VI" URL="../../共用控件/内部交互/多参数交互.ctl"/>
+			<Item Name="系统交互.ctl" Type="VI" URL="../../共用控件/内部交互/系统交互.ctl"/>
+			<Item Name="启动参数.ctl" Type="VI" URL="../../共用控件/内部交互/启动参数.ctl"/>
+			<Item Name="参数.ctl" Type="VI" URL="../../共用控件/内部交互/参数.ctl"/>
+			<Item Name="国标启动命令.vi" Type="VI" URL="../Modbus Slave/启动命令/国标启动命令.vi"/>
+			<Item Name="测试子流程.ctl" Type="VI" URL="../../共用控件/内部交互/测试子流程.ctl"/>
+			<Item Name="质控slave id.ctl" Type="VI" URL="../../共用控件/内部交互/质控slave id.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="1024-600斯坦道CODMn" Type="EXE">
@@ -784,7 +797,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9C453B90-080D-45EC-8348-8CB860527513}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">斯坦道CODMn.exe</Property>
