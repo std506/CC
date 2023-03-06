@@ -18,7 +18,6 @@
 	<Item Name="get update log.vi" Type="VI" URL="../get update log.vi"/>
 	<Item Name="update log.vi" Type="VI" URL="../update log.vi"/>
 	<Item Name="Update.vi" Type="VI" URL="../Update.vi"/>
-	<Item Name="Updateinter.vi" Type="VI" URL="../Updateinter.vi"/>
 	<Item Name="UTF-8toGBK.vi" Type="VI" URL="../UTF-8toGBK.vi"/>
 	<Item Name="服务器更改对话框.vi" Type="VI" URL="../服务器更改对话框.vi"/>
 	<Item Name="更新全局变量.vi" Type="VI" URL="../更新全局变量.vi"/>
@@ -46,4 +45,5 @@
 	<Item Name="open消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/open消息/open消息.lvclass"/>
 	<Item Name="pull消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/pull消息/pull消息.lvclass"/>
 	<Item Name="读取Request Events消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/读取Request Events消息/读取Request Events消息.lvclass"/>
+	<Item Name="Updateinter.vi" Type="VI" URL="../Updateinter.vi"/>
 </Library>

@@ -33,7 +33,7 @@
 			<Item Name="写入input.vi" Type="VI" URL="../data accessors/写入input.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;*!=!!?!!!X%ML^PNWUK]LET\8.MSZM&gt;GRJ9ARV='2B&gt;'5O&lt;(:M;7)66W6C2%&amp;7)'.M;76O&gt;#ZM&gt;G.M98.T!"&amp;8:7*%169A9WRJ:7ZUSO3T^A!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!R!-0````]$66*-!!Z!-0````]%66.&amp;5A!!%E!Q`````QB116.46U^32!!!%E"1!!-!"Q!)!!E&amp;;7ZQ&gt;81!5E"Q!"Y!!$=3SPW_X&lt;3LSO40N=WT,GRW&lt;'FC$(6Q:'&amp;U:3ZM&gt;GRJ9B68:7*%169A9WRJ:7ZU,GRW9WRB=X-!%6&gt;F9E2"6C"D&lt;'FF&lt;H4+Z-DL!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!#A!,!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#3!!!!!!%!$!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
