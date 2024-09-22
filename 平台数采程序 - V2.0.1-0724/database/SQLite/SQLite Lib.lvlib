@@ -9,7 +9,7 @@
 		<Item Name="SQLite insert values.vi" Type="VI" URL="../Interface/SQLite insert values.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
-		<Item Name="add columns.vi" Type="VI" URL="../../../../../交接材料_范永文/传输软件迭代最新版本/database/SQLite/subvi/add columns.vi"/>
+		<Item Name="add columns.vi" Type="VI" URL="../subvi/add columns.vi"/>
 		<Item Name="get columns.vi" Type="VI" URL="../subvi/get columns.vi"/>
 		<Item Name="SQLite DB Path.vi" Type="VI" URL="../subvi/SQLite DB Path.vi"/>
 		<Item Name="SQLite Platform DB Path.vi" Type="VI" URL="../subvi/SQLite Platform DB Path.vi"/>
