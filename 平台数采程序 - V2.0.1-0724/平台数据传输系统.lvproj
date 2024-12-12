@@ -107,7 +107,6 @@
 				<Item Name="subvi" Type="Folder"/>
 				<Item Name="SQLite Lib.lvlib" Type="Library" URL="../database/SQLite/SQLite Lib.lvlib"/>
 			</Item>
-			<Item Name="SQLite.aliases" Type="Document" URL="../database/SQLite.aliases"/>
 			<Item Name="SQLite.lvlps" Type="Document" URL="../database/SQLite.lvlps"/>
 			<Item Name="SQLite.lvproj" Type="Document" URL="../database/SQLite.lvproj"/>
 			<Item Name="Access example.vi" Type="VI" URL="../database/Access example.vi"/>
@@ -134,7 +133,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="NotifyIcon.lvlib" Type="Library" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/NotifyIcon.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -253,6 +251,16 @@
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="BalloonIcon.ctl" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/BalloonIcon.ctl"/>
+				<Item Name="Constructor.vi" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/Constructor.vi"/>
+				<Item Name="InsertMenuItem.vi" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/InsertMenuItem.vi"/>
+				<Item Name="GetSelectedItemEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/GetSelectedItemEvent.vi"/>
+				<Item Name="SetVisible.vi" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/SetVisible.vi"/>
+				<Item Name="SetMenuDefaultItem.vi" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/SetMenuDefaultItem.vi"/>
+				<Item Name="SetTipText.vi" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/SetTipText.vi"/>
+				<Item Name="ShowBalloonTip.vi" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/ShowBalloonTip.vi"/>
+				<Item Name="Destructor.vi" Type="VI" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/Destructor.vi"/>
+				<Item Name="NotifyIcon.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/NotifyIcon.lvclass"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
@@ -552,15 +560,6 @@
 				<Item Name="SQLite_Upsert.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Insert/SQLite_Upsert.vi"/>
 				<Item Name="Clear Error.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Examples/Applications/Error Logger/Clear Error.vi"/>
 				<Item Name="DB_Man Dlg Password.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Examples/Applications/SQLite DB Manager/_Core/DB_Man Dlg Password.vi"/>
-			</Item>
-			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1170,7 +1169,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-01</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9CCC53CB-AB5D-4797-B839-301D89EB918D}</Property>
-				<Property Name="Bld_version.build" Type="Int">190</Property>
+				<Property Name="Bld_version.build" Type="Int">191</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-01</Property>
@@ -1216,7 +1215,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-02</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A4EF0C34-1BAF-4D4D-A8E8-28D726E47217}</Property>
-				<Property Name="Bld_version.build" Type="Int">180</Property>
+				<Property Name="Bld_version.build" Type="Int">181</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-02</Property>
@@ -1261,7 +1260,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-03</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{81187416-7AB3-4115-B7B8-63A9A9E087A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">163</Property>
+				<Property Name="Bld_version.build" Type="Int">164</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-03</Property>
@@ -1306,7 +1305,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-04</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B42CDCC-A529-455B-87D1-F01D3AC116AA}</Property>
-				<Property Name="Bld_version.build" Type="Int">163</Property>
+				<Property Name="Bld_version.build" Type="Int">164</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-04</Property>
@@ -1351,7 +1350,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-05</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E594E86-7BE5-459A-8EE5-FCF490B5B422}</Property>
-				<Property Name="Bld_version.build" Type="Int">162</Property>
+				<Property Name="Bld_version.build" Type="Int">163</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-05</Property>
@@ -1396,7 +1395,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-06</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0045B0FF-0034-4655-BF1F-CF45765D89B2}</Property>
-				<Property Name="Bld_version.build" Type="Int">164</Property>
+				<Property Name="Bld_version.build" Type="Int">165</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-06</Property>
