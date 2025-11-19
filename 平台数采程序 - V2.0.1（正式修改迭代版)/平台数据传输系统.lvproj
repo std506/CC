@@ -109,7 +109,6 @@
 			<Item Name="Access example.vi" Type="VI" URL="../../database/Access example.vi"/>
 			<Item Name="alter database password.vi" Type="VI" URL="../../database/alter database password.vi"/>
 			<Item Name="SQLite example.vi" Type="VI" URL="../../database/SQLite example.vi"/>
-			<Item Name="SQLite.aliases" Type="Document" URL="../../database/SQLite.aliases"/>
 			<Item Name="SQLite.lvlps" Type="Document" URL="../../database/SQLite.lvlps"/>
 			<Item Name="SQLite.lvproj" Type="Document" URL="../../database/SQLite.lvproj"/>
 		</Item>
@@ -253,6 +252,17 @@
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Serializable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serializable/Serializable.lvclass"/>
+				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serializer/Serializer.lvclass"/>
+				<Item Name="Formatter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Formatter/Formatter.lvclass"/>
+				<Item Name="Serialization Common.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serialization Common/Serialization Common.lvlib"/>
+				<Item Name="Class Retrieval.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Class Retrieval/Name to Path Conversion/Class Retrieval.lvlib"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Deserializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Deserializer/Deserializer.lvclass"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
+				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
@@ -1176,7 +1186,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-01</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9CCC53CB-AB5D-4797-B839-301D89EB918D}</Property>
-				<Property Name="Bld_version.build" Type="Int">135</Property>
+				<Property Name="Bld_version.build" Type="Int">136</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-01</Property>
@@ -1220,7 +1230,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-02</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A4EF0C34-1BAF-4D4D-A8E8-28D726E47217}</Property>
-				<Property Name="Bld_version.build" Type="Int">130</Property>
+				<Property Name="Bld_version.build" Type="Int">131</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-02</Property>
@@ -1265,7 +1275,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-03</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{81187416-7AB3-4115-B7B8-63A9A9E087A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">131</Property>
+				<Property Name="Bld_version.build" Type="Int">132</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-03</Property>
@@ -1310,7 +1320,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-04</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B42CDCC-A529-455B-87D1-F01D3AC116AA}</Property>
-				<Property Name="Bld_version.build" Type="Int">131</Property>
+				<Property Name="Bld_version.build" Type="Int">132</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-04</Property>
@@ -1355,7 +1365,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-05</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E594E86-7BE5-459A-8EE5-FCF490B5B422}</Property>
-				<Property Name="Bld_version.build" Type="Int">131</Property>
+				<Property Name="Bld_version.build" Type="Int">132</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-05</Property>
@@ -1400,7 +1410,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-06</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0045B0FF-0034-4655-BF1F-CF45765D89B2}</Property>
-				<Property Name="Bld_version.build" Type="Int">131</Property>
+				<Property Name="Bld_version.build" Type="Int">132</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-06</Property>
