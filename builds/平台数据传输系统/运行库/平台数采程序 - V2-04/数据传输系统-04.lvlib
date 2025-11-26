@@ -31,7 +31,21 @@
 			<Item Name="FloatToHex.vi" Type="VI" URL="../VIs/DataToHex/FloatToHex.vi"/>
 			<Item Name="WordToHex.vi" Type="VI" URL="../VIs/DataToHex/WordToHex.vi"/>
 		</Item>
-		<Item Name="数据主动和反控发送.vi" Type="VI" URL="../VIs/数据主动和反控发送.vi"/>
+		<Item Name="AES" Type="Folder">
+			<Item Name="Add Round Key2.vi" Type="VI" URL="../VIs/AES/Add Round Key2.vi"/>
+			<Item Name="Base64 to String2.vi" Type="VI" URL="../VIs/AES/Base64 to String2.vi"/>
+			<Item Name="Expand Key2.vi" Type="VI" URL="../VIs/AES/Expand Key2.vi"/>
+			<Item Name="f(a).vi" Type="VI" URL="../VIs/AES/f(a).vi"/>
+			<Item Name="Mix Columns4.vi" Type="VI" URL="../VIs/AES/Mix Columns4.vi"/>
+			<Item Name="Shift Rows3.vi" Type="VI" URL="../VIs/AES/Shift Rows3.vi"/>
+			<Item Name="String to Base642.vi" Type="VI" URL="../VIs/AES/String to Base642.vi"/>
+			<Item Name="Sub Bytes2.vi" Type="VI" URL="../VIs/AES/Sub Bytes2.vi"/>
+			<Item Name="Sub Bytes3.vi" Type="VI" URL="../VIs/AES/Sub Bytes3.vi"/>
+			<Item Name="Mix Columns5.vi" Type="VI" URL="../VIs/AES/Mix Columns5.vi"/>
+			<Item Name="CBC加密.vi" Type="VI" URL="../VIs/AES/CBC加密.vi"/>
+			<Item Name="CBC解密.vi" Type="VI" URL="../VIs/AES/CBC解密.vi"/>
+		</Item>
+		<Item Name="数据主动和反控发送2.vi" Type="VI" URL="../VIs/数据主动和反控发送2.vi"/>
 		<Item Name="自定义单按钮对话框.vi" Type="VI" URL="../VIs/自定义单按钮对话框.vi"/>
 		<Item Name="自定义双按钮对话框.vi" Type="VI" URL="../VIs/自定义双按钮对话框.vi"/>
 		<Item Name="ANSI CRC16.vi" Type="VI" URL="../VIs/ANSI CRC16.vi"/>
@@ -52,7 +66,7 @@
 		<Item Name="最小窗口后台运行(子VI).vi" Type="VI" URL="../VIs/最小窗口后台运行(子VI).vi"/>
 		<Item Name="日志信息入发送队列 (子VI).vi" Type="VI" URL="../VIs/日志信息入发送队列 (子VI).vi"/>
 		<Item Name="日志信息出发送队列 (子VI).vi" Type="VI" URL="../VIs/日志信息出发送队列 (子VI).vi"/>
-		<Item Name="实时小时数据单参数上传.vi" Type="VI" URL="../VIs/实时小时数据单参数上传.vi"/>
+		<Item Name="实时小时数据单参数上传2.vi" Type="VI" URL="../VIs/实时小时数据单参数上传2.vi"/>
 		<Item Name="通信状态入队列.vi" Type="VI" URL="../VIs/通信状态入队列.vi"/>
 		<Item Name="读取反控数据解析(子VI).vi" Type="VI" URL="../VIs/读取反控数据解析(子VI).vi"/>
 		<Item Name="反控数据上传(子VI).vi" Type="VI" URL="../VIs/反控数据上传(子VI).vi"/>
@@ -61,6 +75,8 @@
 		<Item Name="2084上传各参数测量周期.vi" Type="VI" URL="../VIs/2084上传各参数测量周期.vi"/>
 		<Item Name="2084远程反控参数运行间隔解析.vi" Type="VI" URL="../VIs/2084远程反控参数运行间隔解析.vi"/>
 		<Item Name="initialization.vi" Type="VI" URL="../VIs/initialization.vi"/>
+		<Item Name="2086查询单参数.vi" Type="VI" URL="../通用VI/2086查询单参数.vi"/>
+		<Item Name="2086发送2.vi" Type="VI" URL="../通用VI/2086发送2.vi"/>
 		<Item Name="每周自动更新循环.vi" Type="VI" URL="../VIs/每周自动更新循环.vi"/>
 		<Item Name="TCPtaskhandle.vi" Type="VI" URL="../VIs/TCPtaskhandle.vi"/>
 		<Item Name="关键参数解析.vi" Type="VI" URL="../子VI/关键参数解析.vi"/>
@@ -68,10 +84,18 @@
 		<Item Name="仪器参数改变发送 (子VI).vi" Type="VI" URL="../VIs/仪器参数改变发送 (子VI).vi"/>
 		<Item Name="校准信息改变发送 (子VI).vi" Type="VI" URL="../VIs/校准信息改变发送 (子VI).vi"/>
 		<Item Name="校准参数转data(子VI).vi" Type="VI" URL="../VIs/校准参数转data(子VI).vi"/>
+		<Item Name="保存配置表格.vi" Type="VI" URL="../子VI/保存配置表格.vi"/>
 		<Item Name="校准信息组合 (子VI).vi" Type="VI" URL="../VIs/校准信息组合 (子VI).vi"/>
 		<Item Name="校准信息解析.vi" Type="VI" URL="../子VI/校准信息解析.vi"/>
 		<Item Name="选择补传参数对话框.vi" Type="VI" URL="../VIs/选择补传参数对话框.vi"/>
+		<Item Name="2086发送波浪仪.vi" Type="VI" URL="../通用VI/2086发送波浪仪.vi"/>
+		<Item Name="2086查询波浪仪参数.vi" Type="VI" URL="../通用VI/2086查询波浪仪参数.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../子VI/串口配置.vi"/>
+		<Item Name="2086组合发送波浪仪.vi" Type="VI" URL="../通用VI/2086组合发送波浪仪.vi"/>
+		<Item Name="数据主动和反控发送.vi" Type="VI" URL="../VIs/数据主动和反控发送.vi"/>
+		<Item Name="2086发送.vi" Type="VI" URL="../通用VI/2086发送.vi"/>
+		<Item Name="实时小时数据单参数上传.vi" Type="VI" URL="../VIs/实时小时数据单参数上传.vi"/>
+		<Item Name="SQL查询(database).vi" Type="VI" URL="../VIs/SQL/SQL查询(database).vi"/>
 	</Item>
 	<Item Name="编解码插件" Type="Folder">
 		<Item Name="encode.vi" Type="VI" URL="../VIs/encode.vi"/>
@@ -122,6 +146,7 @@
 		<Item Name="AESC#vi.vi" Type="VI" URL="../通用VI/AESC#vi.vi"/>
 		<Item Name="变量初始化.vi" Type="VI" URL="../通用VI/变量初始化.vi"/>
 		<Item Name="Force Quit LabVIEW.vi" Type="VI" URL="../通用VI/Force Quit LabVIEW.vi"/>
+		<Item Name="更新因子配置.vi" Type="VI" URL="../通用VI/更新因子配置.vi"/>
 	</Item>
 	<Item Name="注册表" Type="Folder">
 		<Item Name="查询启动项.vi" Type="VI" URL="../注册表/查询启动项.vi"/>
@@ -208,6 +233,16 @@
 		<Item Name="更新控件.ctl" Type="VI" URL="../控件/更新控件.ctl"/>
 		<Item Name="帮助控件.ctl" Type="VI" URL="../控件/帮助控件.ctl"/>
 		<Item Name="应用环境.ctl" Type="VI" URL="../控件/应用环境.ctl"/>
+	</Item>
+	<Item Name="海流计" Type="Folder">
+		<Item Name="海流计数据组合.vi" Type="VI" URL="../VIs/海流计/海流计数据组合.vi"/>
+		<Item Name="海流计数据上传.vi" Type="VI" URL="../VIs/海流计/海流计数据上传.vi"/>
+		<Item Name="海流计数据拆分.vi" Type="VI" URL="../VIs/海流计/海流计数据拆分.vi"/>
+		<Item Name="海流计数据编码.vi" Type="VI" URL="../VIs/海流计/海流计数据编码.vi"/>
+	</Item>
+	<Item Name="5001上传" Type="Folder">
+		<Item Name="ADCP过程数据编码.vi" Type="VI" URL="../VIs/5001上传/ADCP过程数据编码.vi"/>
+		<Item Name="5001.vi" Type="VI" URL="../VIs/5001上传/5001.vi"/>
 	</Item>
 	<Item Name="告警信息解析.vi" Type="VI" URL="../子VI/告警信息解析.vi"/>
 	<Item Name="3201告警信息改变发送 (子VI).vi" Type="VI" URL="../VIs/3201告警信息改变发送 (子VI).vi"/>

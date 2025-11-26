@@ -523,6 +523,18 @@
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-04/data/AESTOOL.dll"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-05/data/AESTOOL.dll"/>
 			<Item Name="AESTOOL.dll" Type="Document" URL="../平台数采程序 - V2-06/data/AESTOOL.dll"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../平台数采程序 - V2-01/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="Shift Rows2.vi" Type="VI" URL="../平台数采程序 - V2-01/VIs/AES/Shift Rows2.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../平台数采程序 - V2-02/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="Shift Rows2.vi" Type="VI" URL="../平台数采程序 - V2-02/VIs/AES/Shift Rows2.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../平台数采程序 - V2-03/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="Shift Rows2.vi" Type="VI" URL="../平台数采程序 - V2-03/VIs/AES/Shift Rows2.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../平台数采程序 - V2-04/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="Shift Rows2.vi" Type="VI" URL="../平台数采程序 - V2-04/VIs/AES/Shift Rows2.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../平台数采程序 - V2-05/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="Shift Rows2.vi" Type="VI" URL="../平台数采程序 - V2-05/VIs/AES/Shift Rows2.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../平台数采程序 - V2-06/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="Shift Rows2.vi" Type="VI" URL="../平台数采程序 - V2-06/VIs/AES/Shift Rows2.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="数据传输系统" Type="EXE">
@@ -539,7 +551,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/数据传输系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD6A7C27-52A0-4E2F-BF39-943A8E095564}</Property>
-				<Property Name="Bld_version.build" Type="Int">66</Property>
+				<Property Name="Bld_version.build" Type="Int">67</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">2</Property>
