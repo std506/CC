@@ -26,92 +26,6 @@
 		<Item Name="data" Type="Folder" URL="../data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="database" Type="Folder">
-			<Item Name="Access" Type="Folder">
-				<Item Name="control" Type="Folder"/>
-				<Item Name="Interface" Type="Folder"/>
-				<Item Name="subvi" Type="Folder"/>
-				<Item Name="Access Lib.lvlib" Type="Library" URL="../database/Access/Access Lib.lvlib"/>
-			</Item>
-			<Item Name="config" Type="Folder">
-				<Item Name="load config.vi" Type="VI" URL="../database/config/load config.vi"/>
-				<Item Name="save config.vi" Type="VI" URL="../database/config/save config.vi"/>
-			</Item>
-			<Item Name="control" Type="Folder">
-				<Item Name="NMAE气象仪字段定义.ctl" Type="VI" URL="../database/control/NMAE气象仪字段定义.ctl"/>
-				<Item Name="PLC版 CODMn字段定义.ctl" Type="VI" URL="../database/control/PLC版 CODMn字段定义.ctl"/>
-				<Item Name="WXA100气象仪字段定义.ctl" Type="VI" URL="../database/control/WXA100气象仪字段定义.ctl"/>
-				<Item Name="报警信息字段定义.ctl" Type="VI" URL="../database/control/报警信息字段定义.ctl"/>
-				<Item Name="操作日志字段定义.ctl" Type="VI" URL="../database/control/操作日志字段定义.ctl"/>
-				<Item Name="单片机版 CODMn字段定义.ctl" Type="VI" URL="../database/control/单片机版 CODMn字段定义.ctl"/>
-				<Item Name="集成多参数单参数字段定义.ctl" Type="VI" URL="../database/control/集成多参数单参数字段定义.ctl"/>
-				<Item Name="集成多参数全参数字段定义.ctl" Type="VI" URL="../database/control/集成多参数全参数字段定义.ctl"/>
-				<Item Name="集成干预字段定义.ctl" Type="VI" URL="../database/control/集成干预字段定义.ctl"/>
-				<Item Name="加标回收字段定义.ctl" Type="VI" URL="../database/control/加标回收字段定义.ctl"/>
-				<Item Name="流量计字段定义.ctl" Type="VI" URL="../database/control/流量计字段定义.ctl"/>
-				<Item Name="平行样测试数据字段定义.ctl" Type="VI" URL="../database/control/平行样测试数据字段定义.ctl"/>
-				<Item Name="剖面数据_bbe_NAQDO.ctl" Type="VI" URL="../database/control/剖面数据_bbe_NAQDO.ctl"/>
-				<Item Name="剖面数据_EXO2.ctl" Type="VI" URL="../database/control/剖面数据_EXO2.ctl"/>
-				<Item Name="剖面数据字段定义.ctl" Type="VI" URL="../database/control/剖面数据字段定义.ctl"/>
-				<Item Name="校准日志字段定义.ctl" Type="VI" URL="../database/control/校准日志字段定义.ctl"/>
-				<Item Name="营养盐字段定义.ctl" Type="VI" URL="../database/control/营养盐字段定义.ctl"/>
-				<Item Name="原位多参数单参数字段定义.ctl" Type="VI" URL="../database/control/原位多参数单参数字段定义.ctl"/>
-				<Item Name="原位多参数全参数字段定义.ctl" Type="VI" URL="../database/control/原位多参数全参数字段定义.ctl"/>
-				<Item Name="数据库类型.ctl" Type="VI" URL="../database/control/数据库类型.ctl"/>
-			</Item>
-			<Item Name="Interface" Type="Folder">
-				<Item Name="外部调用接口" Type="Folder"/>
-				<Item Name="copy database to platform.vi" Type="VI" URL="../database/Interface/copy database to platform.vi"/>
-				<Item Name="NMEA气象仪数据插入.vi" Type="VI" URL="../database/Interface/NMEA气象仪数据插入.vi"/>
-				<Item Name="原位多参数单参数数据插入.vi" Type="VI" URL="../database/Interface/原位多参数单参数数据插入.vi"/>
-				<Item Name="原位多参数全参数数据插入.vi" Type="VI" URL="../database/Interface/原位多参数全参数数据插入.vi"/>
-				<Item Name="Generate_random_password.vi" Type="VI" URL="../database/Interface/Generate_random_password.vi"/>
-				<Item Name="添加秘钥.vi" Type="VI" URL="../database/Interface/添加秘钥.vi"/>
-				<Item Name="database path.vi" Type="VI" URL="../database/Interface/database path.vi"/>
-				<Item Name="database platform path.vi" Type="VI" URL="../database/Interface/database platform path.vi"/>
-				<Item Name="drop db3 alarm.vi" Type="VI" URL="../database/Interface/drop db3 alarm.vi"/>
-				<Item Name="insert values.vi" Type="VI" URL="../database/Interface/insert values.vi"/>
-				<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../database/Interface/PLC版CODMn数据插入.vi"/>
-				<Item Name="Select Str.vi" Type="VI" URL="../database/Interface/Select Str.vi"/>
-				<Item Name="Sqlite Query.vi" Type="VI" URL="../database/Interface/Sqlite Query.vi"/>
-				<Item Name="SQLite Upsert.vi" Type="VI" URL="../database/Interface/SQLite Upsert.vi"/>
-				<Item Name="WXA100气象仪数据插入.vi" Type="VI" URL="../database/Interface/WXA100气象仪数据插入.vi"/>
-				<Item Name="报警信息数据插入.vi" Type="VI" URL="../database/Interface/报警信息数据插入.vi"/>
-				<Item Name="操作日志数据插入.vi" Type="VI" URL="../database/Interface/操作日志数据插入.vi"/>
-				<Item Name="超标留样数据插入.vi" Type="VI" URL="../database/Interface/超标留样数据插入.vi"/>
-				<Item Name="单片机版CODMn数据插入.vi" Type="VI" URL="../database/Interface/单片机版CODMn数据插入.vi"/>
-				<Item Name="点创CODCr数据插入.vi" Type="VI" URL="../database/Interface/点创CODCr数据插入.vi"/>
-				<Item Name="读取秘钥.vi" Type="VI" URL="../database/Interface/读取秘钥.vi"/>
-				<Item Name="环境参数数据插入.vi" Type="VI" URL="../database/Interface/环境参数数据插入.vi"/>
-				<Item Name="挥发酚数据插入.vi" Type="VI" URL="../database/Interface/挥发酚数据插入.vi"/>
-				<Item Name="获取最新一笔数据.vi" Type="VI" URL="../database/Interface/获取最新一笔数据.vi"/>
-				<Item Name="集成多参数单参数数据插入.vi" Type="VI" URL="../database/Interface/集成多参数单参数数据插入.vi"/>
-				<Item Name="集成多参数全参数数据插入.vi" Type="VI" URL="../database/Interface/集成多参数全参数数据插入.vi"/>
-				<Item Name="集成干预数据插入.vi" Type="VI" URL="../database/Interface/集成干预数据插入.vi"/>
-				<Item Name="加标回收数据插入.vi" Type="VI" URL="../database/Interface/加标回收数据插入.vi"/>
-				<Item Name="流量计数据插入.vi" Type="VI" URL="../database/Interface/流量计数据插入.vi"/>
-				<Item Name="剖面数据_bbe_NAQDO.vi" Type="VI" URL="../database/Interface/剖面数据_bbe_NAQDO.vi"/>
-				<Item Name="剖面数据_exo2.vi" Type="VI" URL="../database/Interface/剖面数据_exo2.vi"/>
-				<Item Name="剖面数据插入.vi" Type="VI" URL="../database/Interface/剖面数据插入.vi"/>
-				<Item Name="剖面数据模拟器.vi" Type="VI" URL="../database/Interface/剖面数据模拟器.vi"/>
-				<Item Name="校准日志数据插入.vi" Type="VI" URL="../database/Interface/校准日志数据插入.vi"/>
-				<Item Name="性能模式.vi" Type="VI" URL="../database/Interface/性能模式.vi"/>
-				<Item Name="营养盐数据插入.vi" Type="VI" URL="../database/Interface/营养盐数据插入.vi"/>
-			</Item>
-			<Item Name="数据导入工具" Type="Folder">
-				<Item Name="access table insert sqlite.vi" Type="VI" URL="../database/数据导入工具/access table insert sqlite.vi"/>
-				<Item Name="数据导入工具-main.vi" Type="VI" URL="../database/数据导入工具/数据导入工具-main.vi"/>
-			</Item>
-			<Item Name="SQLite" Type="Folder">
-				<Item Name="Interface" Type="Folder"/>
-				<Item Name="subvi" Type="Folder"/>
-				<Item Name="SQLite Lib.lvlib" Type="Library" URL="../database/SQLite/SQLite Lib.lvlib"/>
-			</Item>
-			<Item Name="SQLite.lvlps" Type="Document" URL="../database/SQLite.lvlps"/>
-			<Item Name="SQLite.lvproj" Type="Document" URL="../database/SQLite.lvproj"/>
-			<Item Name="Access example.vi" Type="VI" URL="../database/Access example.vi"/>
-			<Item Name="alter database password.vi" Type="VI" URL="../database/alter database password.vi"/>
-		</Item>
 		<Item Name="数据传输系统.lvlib" Type="Library" URL="../数据传输系统.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -250,7 +164,6 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="NotifyIcon.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/NotifyIcon.lvclass"/>
 				<Item Name="Serializable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serializable/Serializable.lvclass"/>
 				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serializer/Serializer.lvclass"/>
@@ -263,6 +176,17 @@
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
@@ -560,8 +484,6 @@
 				<Item Name="SQLite_Prepared Execute-Int64.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Low Level/SQLite Execute/SQLite_Prepared Execute-Int64.vi"/>
 				<Item Name="SQLite_Implode Prepared.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Utils/Implode/SQLite_Implode Prepared.vi"/>
 				<Item Name="SQLite_Upsert.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Insert/SQLite_Upsert.vi"/>
-				<Item Name="Clear Error.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Examples/Applications/Error Logger/Clear Error.vi"/>
-				<Item Name="DB_Man Dlg Password.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Examples/Applications/SQLite DB Manager/_Core/DB_Man Dlg Password.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -587,6 +509,17 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Access Lib.lvlib" Type="Library" URL="../database/Access/Access Lib.lvlib"/>
+			<Item Name="数据库类型.ctl" Type="VI" URL="../database/control/数据库类型.ctl"/>
+			<Item Name="database path.vi" Type="VI" URL="../database/Interface/database path.vi"/>
+			<Item Name="database platform path.vi" Type="VI" URL="../database/Interface/database platform path.vi"/>
+			<Item Name="Sqlite Query.vi" Type="VI" URL="../database/Interface/Sqlite Query.vi"/>
+			<Item Name="读取秘钥.vi" Type="VI" URL="../database/Interface/读取秘钥.vi"/>
+			<Item Name="SQLite Lib.lvlib" Type="Library" URL="../database/SQLite/SQLite Lib.lvlib"/>
+			<Item Name="操作日志数据插入.vi" Type="VI" URL="../database/Interface/操作日志数据插入.vi"/>
+			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../database/control/操作日志字段定义.ctl"/>
+			<Item Name="insert values.vi" Type="VI" URL="../database/Interface/insert values.vi"/>
+			<Item Name="性能模式.vi" Type="VI" URL="../database/Interface/性能模式.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="NEW平台数据传输系统" Type="EXE">
@@ -1180,7 +1113,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-01</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9CCC53CB-AB5D-4797-B839-301D89EB918D}</Property>
-				<Property Name="Bld_version.build" Type="Int">198</Property>
+				<Property Name="Bld_version.build" Type="Int">199</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-01</Property>
@@ -1202,7 +1135,7 @@
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -1226,7 +1159,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-02</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A4EF0C34-1BAF-4D4D-A8E8-28D726E47217}</Property>
-				<Property Name="Bld_version.build" Type="Int">188</Property>
+				<Property Name="Bld_version.build" Type="Int">189</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-02</Property>
@@ -1248,7 +1181,7 @@
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
@@ -1271,7 +1204,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-03</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{81187416-7AB3-4115-B7B8-63A9A9E087A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">171</Property>
+				<Property Name="Bld_version.build" Type="Int">172</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-03</Property>
@@ -1293,7 +1226,7 @@
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
@@ -1316,7 +1249,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-04</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B42CDCC-A529-455B-87D1-F01D3AC116AA}</Property>
-				<Property Name="Bld_version.build" Type="Int">171</Property>
+				<Property Name="Bld_version.build" Type="Int">172</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-04</Property>
@@ -1338,7 +1271,7 @@
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
@@ -1361,7 +1294,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-05</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E594E86-7BE5-459A-8EE5-FCF490B5B422}</Property>
-				<Property Name="Bld_version.build" Type="Int">170</Property>
+				<Property Name="Bld_version.build" Type="Int">171</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-05</Property>
@@ -1383,7 +1316,7 @@
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
@@ -1406,7 +1339,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-06</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0045B0FF-0034-4655-BF1F-CF45765D89B2}</Property>
-				<Property Name="Bld_version.build" Type="Int">172</Property>
+				<Property Name="Bld_version.build" Type="Int">173</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">目标目录</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/运行库/平台数采程序 - V2-06</Property>
@@ -1428,7 +1361,7 @@
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/database</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
